@@ -1,14 +1,13 @@
 {
-  "name": "AnotherLogBook",
+  "name": "The Converge Review",
   "private": true,
   "description": "Writing",
   "version": "0.1.0",
   "author": "Andrew Lovett-Barron <alb@andrewlb.com>",
   "bugs": {
-    "url": "https://github.com/readywater/2020.andrewlb.com/issues"
+    "url": "https://github.com/readywater/converge/issues"
   },
   "dependencies": {
-    "@deckdeckgo/highlight-code": "^1.0.0-rc.2-1",
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.34",
@@ -23,6 +22,7 @@
     "gatsby-plugin-styled-components": "^3.1.16",
     "gatsby-plugin-typography": "^2.3.18",
     "gatsby-remark-copy-linked-files": "^2.1.31",
+    "gatsby-remark-custom-blocks": "^2.1.25",
     "gatsby-remark-highlight-code": "^1.0.0",
     "gatsby-remark-images": "^3.1.39",
     "gatsby-remark-prismjs": "^3.3.25",

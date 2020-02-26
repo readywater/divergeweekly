@@ -77,23 +77,48 @@ export const Minutes = styled.div`
 `
 
 const Article = styled.article`
-  .deckgo-highlight-code-carbon {
-    max-width: 800px;
-    overflow-x: scroll;
+  .custom-block {
+    margin: 10px;
+    & > div {
+      padding: 10px;
+      border: 1px solid #000;
+    }
+    .custom-block-heading {
+      margin-bottom: 5px;
+    }
+    .custom-block-body {
+    }
+    &.quote {
+      font-style: italic;
+      background: grey;
+    }
+    &.region {
+      & > div {
+        background: plum;
+        a {
+          display: block;
+          font-size: 20px;
+          font-weight: 800;
+        }
+      }
+    }
+    &.security {
+      & > div {
+        background: greenyellow;
+      }
+    }
+    &.ad {
+      & > div {
+        background: yellow;
+      }
+      img {
+        float: left;
+      }
+    }
   }
 `
 
 class BlogPostTemplate extends React.Component {
-  componentDidMount = async () => {
-    try {
-      const deckdeckgoHighlightCodeLoader = require("@deckdeckgo/highlight-code/dist/loader")
-
-      await deckdeckgoHighlightCodeLoader.defineCustomElements(window)
-    } catch (err) {
-      console.error(err)
-    }
-  }
-
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title

@@ -36,7 +36,33 @@ module.exports = {
         plugins: [
           `gatsby-remark-reading-time`,
           {
-            resolve: `gatsby-remark-highlight-code`,
+            resolve: "gatsby-remark-custom-blocks",
+            options: {
+              blocks: {
+                sponsor: {
+                  classes: "sponsor",
+                },
+                region: {
+                  classes: "region",
+                  title: "optional",
+                },
+                tweet: {
+                  classes: "tweet",
+                },
+                job: {
+                  classes: "job",
+                },
+                ad: {
+                  classes: "ad",
+                },
+                designer: {
+                  classes: "designer",
+                },
+                security: {
+                  classes: "security",
+                },
+              },
+            },
           },
           {
             resolve: `gatsby-remark-images`,
