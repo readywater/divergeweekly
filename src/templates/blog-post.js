@@ -76,12 +76,22 @@ export const Minutes = styled.div`
   }
 `
 
-const Article = styled.article`
+export const Article = styled.article`
+  header {
+    h1 {
+      margin-top: 0;
+    }
+  }
   .custom-block {
     margin: 10px;
     & > div {
       padding: 10px;
       border: 1px solid #000;
+      a {
+        display: block;
+        font-size: 20px;
+        font-weight: 800;
+      }
     }
     .custom-block-heading {
       margin-bottom: 5px;
@@ -95,11 +105,6 @@ const Article = styled.article`
     &.region {
       & > div {
         background: plum;
-        a {
-          display: block;
-          font-size: 20px;
-          font-weight: 800;
-        }
       }
     }
     &.security {
@@ -118,6 +123,113 @@ const Article = styled.article`
   }
 `
 
+export const BlogPost = ({ post, nav }) => {
+  const n = nav || false
+  return (
+    <Article>
+      <header>
+        {n ? (
+          <h1
+            style={{
+              marginTop: rhythm(1),
+              marginBottom: 0,
+            }}
+          >
+            {post.frontmatter.title}
+          </h1>
+        ) : (
+          <h1
+            style={{
+              marginTop: 0,
+              marginBottom: 0,
+            }}
+          >
+            {post.frontmatter.title}
+          </h1>
+        )}
+        <p
+          style={{
+            ...scale(-1 / 5),
+            display: `block`,
+            marginBottom: rhythm(1),
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "flex-start",
+            }}
+          >
+            <Minutes className="left">
+              <div className="sizer">
+                {Math.floor(post.fields.readingTime.words / 100) * 100} words to
+                read
+              </div>
+              <div className="min">
+                {Math.floor(post.fields.readingTime.minutes * 0.8)} minutes to
+                read
+              </div>
+              <div className="word">
+                {Math.floor(post.fields.readingTime.words / 100) * 100} words to
+                read
+              </div>
+            </Minutes>{" "}
+            <div style={{ display: "inline", margin: `0 ${rhythm(0.25)}` }}>
+              {" "}
+              —{" "}
+            </div>
+            <div style={{ display: "inline" }}>
+              Written on {post.frontmatter.date}
+            </div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "flex-start",
+              marginBottom: rhythm(1 / 4),
+            }}
+          >
+            <div>
+              <span>
+                Published under{" "}
+                <Link to={`/${post.frontmatter.category}`}>
+                  {post.frontmatter.category.charAt(0).toUpperCase() +
+                    post.frontmatter.category.slice(1)}
+                </Link>
+              </span>{" "}
+              {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
+                <div style={{ display: "inline" }}>
+                  with tags
+                  {post.frontmatter.tags.map(t => {
+                    return (
+                      <Link to={`/tag/${t}`}>
+                        {" "}
+                        {t.charAt(0).toUpperCase() + t.slice(1)}
+                      </Link>
+                    )
+                  })}
+                </div>
+              )}
+            </div>
+          </div>
+        </p>
+      </header>
+      {n && (
+        <Nav>
+          <li>
+            <AnchorLink href="#newsletter">Follow Newsletter</AnchorLink>
+          </li>
+          <li>
+            <AnchorLink href="#comment">Leave Comments</AnchorLink>
+          </li>
+        </Nav>
+      )}
+
+      <section dangerouslySetInnerHTML={{ __html: post.html }} />
+    </Article>
+  )
+}
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
@@ -130,98 +242,12 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <Article>
-          <header>
-            <h1
-              style={{
-                marginTop: rhythm(1),
-                marginBottom: 0,
-              }}
-            >
-              {post.frontmatter.title}
-            </h1>
-            <p
-              style={{
-                ...scale(-1 / 5),
-                display: `block`,
-                marginBottom: rhythm(1),
-              }}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "flex-start",
-                }}
-              >
-                <Minutes className="left">
-                  <div className="sizer">
-                    {Math.floor(post.fields.readingTime.words / 100) * 100}{" "}
-                    words to read
-                  </div>
-                  <div className="min">
-                    {Math.floor(post.fields.readingTime.minutes * 0.8)} minutes
-                    to read
-                  </div>
-                  <div className="word">
-                    {Math.floor(post.fields.readingTime.words / 100) * 100}{" "}
-                    words to read
-                  </div>
-                </Minutes>{" "}
-                <div style={{ display: "inline", margin: `0 ${rhythm(0.25)}` }}>
-                  {" "}
-                  —{" "}
-                </div>
-                <div style={{ display: "inline" }}>
-                  Written on {post.frontmatter.date}
-                </div>
-              </div>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "flex-start",
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <div>
-                  <span>
-                    Published under{" "}
-                    <Link to={`/${post.frontmatter.category}`}>
-                      {post.frontmatter.category.charAt(0).toUpperCase() +
-                        post.frontmatter.category.slice(1)}
-                    </Link>
-                  </span>{" "}
-                  {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
-                    <div style={{ display: "inline" }}>
-                      with tags
-                      {post.frontmatter.tags.map(t => {
-                        return (
-                          <Link to={`/tag/${t}`}>
-                            {" "}
-                            {t.charAt(0).toUpperCase() + t.slice(1)}
-                          </Link>
-                        )
-                      })}
-                    </div>
-                  )}
-                </div>
-              </div>
-            </p>
-          </header>
-          <Nav>
-            <li>
-              <AnchorLink href="#newsletter">Follow Newsletter</AnchorLink>
-            </li>
-            <li>
-              <AnchorLink href="#comment">Leave Comments</AnchorLink>
-            </li>
-          </Nav>
-          <section dangerouslySetInnerHTML={{ __html: post.html }} />
-          <hr
-            style={{
-              marginBottom: rhythm(1),
-            }}
-          />
-        </Article>
+        <BlogPost post={post} nav={true} />
+        <hr
+          style={{
+            marginBottom: rhythm(1),
+          }}
+        />
         <footer>
           <Bio />
         </footer>
@@ -266,7 +292,6 @@ class BlogPostTemplate extends React.Component {
 }
 
 export default BlogPostTemplate
-
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     site {

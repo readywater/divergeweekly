@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 import EmailSignup from "../components/mailsignup"
 import { rhythm } from "../utils/typography"
 import Image from "gatsby-image"
-import { Nav, Minutes } from "../templates/blog-post"
+import { BlogPost, Nav, Minutes, Article } from "../templates/blog-post"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import PostSummary from "../components/postSummary"
 
@@ -45,23 +45,6 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={siteTitle} />
-        <RespNav>
-          <li>
-            <AnchorLink offset="100" href="#newsletter">
-              Newsletter
-            </AnchorLink>
-          </li>
-          <li>
-            <AnchorLink offset="100" href="#background">
-              About
-            </AnchorLink>
-          </li>
-          <li>
-            <AnchorLink offset="100" href="#posts">
-              Posts
-            </AnchorLink>
-          </li>
-        </RespNav>
         <RespLayout>
           <div className="left" style={{ marginRight: rhythm(1) }}>
             {/* <Bio /> */}
@@ -74,6 +57,7 @@ class BlogIndex extends React.Component {
             </div>
           </div>
           <div className="right" id="posts">
+            <BlogPost post={posts[0].node} />
             {posts.map(({ node }) => {
               const title = node.frontmatter.title || node.fields.slug
               return <PostSummary node={node} />
@@ -101,6 +85,7 @@ export const pageQuery = graphql`
       edges {
         node {
           excerpt
+          html
           fields {
             slug
             readingTime {

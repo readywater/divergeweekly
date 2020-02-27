@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Andrew Lovett-Barron`,
-    subtitle: `Writing on Product, Politics, and Design`,
+    title: `The Converge Review`,
+    subtitle: `A weekly newsletter on design in a global context`,
     author: `Andrew Lovett-Barron`,
     description: `Some writing by Andrew.`,
     siteUrl: `https://log.andrewlb.com/`,
@@ -52,6 +52,9 @@ module.exports = {
                 job: {
                   classes: "job",
                 },
+                quote: {
+                  classes: "quote",
+                },
                 ad: {
                   classes: "ad",
                 },
@@ -87,7 +90,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-11256323-1`,
+        trackingId: `UA-145942876-2`,
       },
     },
     `gatsby-plugin-feed`,
@@ -98,7 +101,7 @@ module.exports = {
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#000000`,
         display: `minimal-ui`,
         icon: `content/assets/profile-pic.jpg`,
       },

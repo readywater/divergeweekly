@@ -60,11 +60,7 @@ class EmailSignup extends Component {
       return (
         <div id="newsletter">
           <h3>Thank you!</h3>
-          <p className="center">
-            Thanks for signing up! I'll do my best to keep your interest.
-            Otherwise, you can unsubscribe at any time. Just look for the
-            unsubscribe link in your email.
-          </p>
+          <p className="center">Thanks for signing up!</p>
         </div>
       )
     }
@@ -77,11 +73,10 @@ class EmailSignup extends Component {
             marginBottom: rhythm(0.25),
           }}
         >
-          Subscribe to my Newsletter
+          Subscribe to World Design News
         </h3>
         <p style={{ fontSize: rhythm(0.5), lineHeight: rhythm(0.75) }}>
-          Once or twice a month. I write about software products, design,
-          politics (with a focus on security), and reflections.
+          Every wednesday, we take a global lens to design and politics.
         </p>
         <form
           style={{
@@ -139,8 +134,8 @@ class EmailSignup extends Component {
               </button>
             </Button>
             <p>
-              By subscribing, I consent to andrewlb.com emailing me about blog
-              and product updates.
+              By subscribing, I consent to recieving a weekly newsletter from
+              the Converge Review.
             </p>
           </ButtonBlock>
         </form>

@@ -1,13 +1,4 @@
-/**
- * Bio component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
 
@@ -90,105 +81,6 @@ const List = styled.ul`
 `
 
 const Background = () => {
-  const data = useStaticQuery(graphql`
-    query BGQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-        childImageSharp {
-          fixed(width: 50, height: 50) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      knowsi: file(absolutePath: { regex: "/knowsi.png/" }) {
-        childImageSharp {
-          fixed(width: 150, height: 75) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      fitfaj: file(absolutePath: { regex: "/fitfaj.png/" }) {
-        childImageSharp {
-          fixed(width: 150, height: 75) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      grantcalc: file(absolutePath: { regex: "/grantcalc.png/" }) {
-        childImageSharp {
-          fixed(width: 150, height: 75) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      pedalpedal: file(absolutePath: { regex: "/pedalpedal.png/" }) {
-        childImageSharp {
-          fixed(width: 150, height: 75) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      stoke: file(absolutePath: { regex: "/stoke.png/" }) {
-        childImageSharp {
-          fixed(width: 150, height: 75) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      ideo: file(absolutePath: { regex: "/ideo.png/" }) {
-        childImageSharp {
-          fixed(width: 150, height: 75) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      dds: file(absolutePath: { regex: "/dds.png/" }) {
-        childImageSharp {
-          fixed(width: 150, height: 75) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      newamerica: file(absolutePath: { regex: "/newamerica.png/" }) {
-        childImageSharp {
-          fixed(width: 150, height: 75) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      ciid: file(absolutePath: { regex: "/ciid.png/" }) {
-        childImageSharp {
-          fixed(width: 150, height: 75) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      innofounder: file(absolutePath: { regex: "/innofounder.png/" }) {
-        childImageSharp {
-          fixed(width: 150, height: 75) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      ikea: file(absolutePath: { regex: "/ikea.png/" }) {
-        childImageSharp {
-          fixed(width: 150, height: 75) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-
-      site {
-        siteMetadata {
-          author
-          social {
-            twitter
-          }
-        }
-      }
-    }
-  `)
-
-  const { author } = data.site.siteMetadata
   return (
     <div
       style={{
@@ -200,181 +92,26 @@ const Background = () => {
     >
       <div>
         <p>
-          For the past decade, I've contributed to awesome software by{" "}
-          <b>leading field research at IDEO</b>, getting into the weeds with{" "}
-          <b>agile teams at the Department of Defense</b> to improve delivery
-          and quality, <b>teaching design workshops to Innofounder startups</b>{" "}
-          in Denmark, and <b>building my own products</b> as an indie dev.
+          The Converge Review is your weekly look at design in a global context.
+          Design practice has a profound capacity to reveal the unseen and to
+          affect our behaviour, the systems we rely on, and the outcomes we
+          collectively experience. The Converge Review aims to take a critical
+          global perspective in how design emerges from different localities,
+          and how our design decisions converge to impact and influence the
+          lives of those around the world.
         </p>
         <p>Interested in a collaboration?</p>
         <Button href="mailto:alb@andrewlb.com" class="btn">
           Let's chat
         </Button>
 
-        <h2>Recent Work</h2>
-        <List>
-          <li>
-            <a
-              href="https://knowsi.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                fixed={data.knowsi.childImageSharp.fixed}
-                alt={author}
-                style={{
-                  marginRight: rhythm(1 / 2),
-                  marginBottom: 0,
-                  minWidth: 50,
-                }}
-              />
-
-              <p>Consent Management for Researchers</p>
-            </a>
-          </li>
-          <li>
-            <a
-              href="http://netgrant.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                fixed={data.grantcalc.childImageSharp.fixed}
-                alt={author}
-                style={{
-                  marginRight: rhythm(1 / 2),
-                  marginBottom: 0,
-                  minWidth: 50,
-                }}
-              />
-
-              <p>Grant Analytics, collab with Dahna Goldstein</p>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.pedalpedal.club/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                fixed={data.pedalpedal.childImageSharp.fixed}
-                alt={author}
-                style={{
-                  marginRight: rhythm(1 / 2),
-                  marginBottom: 0,
-                  minWidth: 50,
-                }}
-              />
-
-              <p>Reward yourself as a new cyclist</p>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://vimeo.com/80308354"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                fixed={data.stoke.childImageSharp.fixed}
-                alt={author}
-                style={{
-                  marginRight: rhythm(1 / 2),
-                  marginBottom: 0,
-                  minWidth: 50,
-                }}
-              />
-
-              <p>Large scale interactive installation for Nuit Blanche 2013</p>
-            </a>
-          </li>
-        </List>
-
-        <h2>Recent Roles</h2>
-        <List>
-          <li>
-            <Image
-              fixed={data.ideo.childImageSharp.fixed}
-              alt={author}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-              }}
-            />
-
-            <p>
-              Principal Designer and Project Lead <small>(2013-2016)</small>
-            </p>
-          </li>
-          <li>
-            <Image
-              fixed={data.dds.childImageSharp.fixed}
-              alt={author}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-              }}
-            />
-
-            <p>
-              Digital Service Expert <small>(2016-2017)</small>
-            </p>
-          </li>
-          <li>
-            <Image
-              fixed={data.newamerica.childImageSharp.fixed}
-              alt={author}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-              }}
-            />
-
-            <p>
-              Public Interest Tech Fellow <small>(2017-2018)</small>
-            </p>
-          </li>
-
-          <li>
-            <Image
-              fixed={data.innofounder.childImageSharp.fixed}
-              alt={author}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-              }}
-            />
-            <p>
-              Lead Design Mentor <small>(2018-2020)</small>
-            </p>
-          </li>
-          <li>
-            <Image
-              fixed={data.ikea.childImageSharp.fixed}
-              alt={author}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-              }}
-            />
-            <p>
-              Product Manager, CoCreate Platform <small>(2019-Now)</small>
-            </p>
-          </li>
-        </List>
         <small>
           <a
-            href="http://www.linkedin.com/in/andrewlb"
+            href="https://andrewlb.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Full CV on Linkedin
+            andrewlb.com
           </a>
         </small>
       </div>

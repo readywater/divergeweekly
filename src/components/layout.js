@@ -45,22 +45,19 @@ class Layout extends React.Component {
                 }}
                 to={`/`}
               >
-                {title}
+                The Converge Review
               </Link>
             </h1>
             <h3 style={{ marginTop: "0", marginBottom: rhythm(1.5) }}>
-              Writing on Product, Politics, and Design
+              Your weekly briefing on design in a global context.
             </h3>
           </div>
           <RightLink>
-            <Link style={{ boxShadow: `none` }} to={`/writing`}>
-              Writing
+            <Link style={{ boxShadow: `none` }} to={`/sponsor`}>
+              Sponsor Us
             </Link>
-            <Link style={{ boxShadow: `none` }} to={`/security`}>
-              Security
-            </Link>
-            <Link style={{ boxShadow: `none` }} to={`/short`}>
-              Shorts
+            <Link style={{ boxShadow: `none` }} to={`/about`}>
+              About the Review
             </Link>
           </RightLink>
         </Header>
@@ -82,9 +79,9 @@ class Layout extends React.Component {
               }}
               to={`/`}
             >
-              {title}{" "}
+              The Converge Review{" "}
               <span style={{ fontSize: ".8rem" }}>
-                Writing on Product, Politics, and Design
+                Your weekly briefing on design in a global context.
               </span>
             </Link>
           </h3>

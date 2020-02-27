@@ -29,6 +29,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const mailPost = path.resolve(`./src/templates/mail-post.js`)
   const tagTemplate = path.resolve("./src/templates/tags.js")
   const catTemplate = path.resolve("./src/templates/category-list.js")
   const TagListTemplate = path.resolve("./src/templates/tag-list.js")
@@ -74,9 +75,21 @@ exports.createPages = async ({ graphql, actions }) => {
     const previous = index === posts.length - 1 ? null : posts[index + 1].node
     const next = index === 0 ? null : posts[index - 1].node
 
+    // Generate the web html
     createPage({
       path: `/${post.node.frontmatter.category}${post.node.fields.slug}`,
       component: blogPost,
+      context: {
+        slug: post.node.fields.slug,
+        previous,
+        next,
+      },
+    })
+
+    // Generate the Mail html
+    createPage({
+      path: `/mail/${post.node.frontmatter.category}${post.node.fields.slug}`,
+      component: mailPost,
       context: {
         slug: post.node.fields.slug,
         previous,
@@ -87,7 +100,6 @@ exports.createPages = async ({ graphql, actions }) => {
 
   // Generate Category Pages
   // Note, this assumes a SINGLE category, not arrays
-
   const dedupedCategories = dedupeCategories(result.data.allMarkdownRemark)
   dedupedCategories.forEach(category => {
     createPage({
@@ -151,6 +163,7 @@ exports.createPages = async ({ graphql, actions }) => {
   })
 }
 
+// Renders out pages
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 

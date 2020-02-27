@@ -3,7 +3,7 @@ title: Issue 1
 date: "2020-03-01T09:00:00.000Z"
 description: "Four big things happened in 2019. My son was born, Knowsi was launched, I started a grad program, and I learned a bit about how these different things came together."
 image: "./img/topimg.jpg"
-category: writing
+category: newsletter
 published: true
 tags:
   - newsletter
@@ -11,8 +11,8 @@ tags:
 ---
 
 [[quote]]
-|/A human being becomes human not through the casual convergence of certain biological conditions, but through an act of will and love on the part of other people./
-|/— Italo Calvino/
+|_A human being becomes human not through the casual convergence of certain biological conditions, but through an act of will and love on the part of other people._
+|— Italo Calvino
 
 Hi Everyone,
 As always, we’ve seen a chaotic week around the world.
@@ -46,8 +46,9 @@ In the United States, the democratic presidential primaries are in full swing, w
 |[Creating the Defence Digital Service (DDS) in MOD - Defence Digital](https://defencedigital.blog.gov.uk/2019/12/16/creating-the-defence-digital-service/)
 |A friend from my DDS days worked with the UK Ministry of Defence to spin up their own version of the Defence Digital Service (with a C).
 
-[[security]][how to train your ai soldier robots (and the humans who command them) - war on the rocks](https://warontherocks.com/2020/02/how-to-train-your-ai-soldier-robots-and-the-humans-who-command-them/)
-WOTR has been publishing weekly articles on artificial intelligence and defence. These articles have proven to be an interesting lens into the American defence establishment and the way that academics, officers, and acquisitions professionals are thinking about an emergent technology and the people who operate them.
+[[security]]
+|[how to train your ai soldier robots (and the humans who command them) - war on the rocks](https://warontherocks.com/2020/02/how-to-train-your-ai-soldier-robots-and-the-humans-who-command-them/)
+|WOTR has been publishing weekly articles on artificial intelligence and defence. These articles have proven to be an interesting lens into the American defence establishment and the way that academics, officers, and acquisitions professionals are thinking about an emergent technology and the people who operate them.
 
 [[job]]
 |[Knowsi - Product Marketing Lead](https://knowsi.com)
