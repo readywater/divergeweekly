@@ -176,3 +176,35 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
+
+exports.onPostBuild = () => {
+  console.log("Build Complete")
+  // return fetch("https://mail.stupidsystems.com/api/campaigns/create.php", {
+  //   method: "POST",
+  //   mode: "no-cors",
+  //   credentials: "same-origin",
+  //   headers: {
+  //     "Content-Type": "application/x-www-form-urlencoded",
+  //   },
+  //   body: new URLSearchParams({
+  //     ...this.state,
+  //     list: "w11veSoyUbYWx8PANkEe6w",
+  //     boolean: true,
+  //     subform: true,
+  //   }),
+  // })
+}
+
+// exports.onCreateWebpackConfig = ({
+//   stage,
+//   rules,
+//   loaders,
+//   plugins,
+//   actions,
+// }) => {
+//   actions.setWebpackConfig({
+//     module: {},
+//     // node: { fs: "empty" },
+//     plugins: [],
+//   })
+// }

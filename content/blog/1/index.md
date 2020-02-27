@@ -1,8 +1,8 @@
 ---
-title: Issue 1
+title: The Inaugural
+issue: 0
 date: "2020-03-01T09:00:00.000Z"
-description: "Four big things happened in 2019. My son was born, Knowsi was launched, I started a grad program, and I learned a bit about how these different things came together."
-image: "./img/topimg.jpg"
+description: "The first issue of a new initiative"
 category: newsletter
 published: true
 tags:

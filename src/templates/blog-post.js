@@ -135,7 +135,7 @@ export const BlogPost = ({ post, nav }) => {
               marginBottom: 0,
             }}
           >
-            {post.frontmatter.title}
+            Issue #{post.frontmatter.issue}: {post.frontmatter.title}
           </h1>
         ) : (
           <h1
@@ -144,7 +144,7 @@ export const BlogPost = ({ post, nav }) => {
               marginBottom: 0,
             }}
           >
-            {post.frontmatter.title}
+            Issue #{post.frontmatter.issue}: {post.frontmatter.title}
           </h1>
         )}
         <p
@@ -158,40 +158,12 @@ export const BlogPost = ({ post, nav }) => {
             style={{
               display: "flex",
               justifyContent: "flex-start",
-            }}
-          >
-            <Minutes className="left">
-              <div className="sizer">
-                {Math.floor(post.fields.readingTime.words / 100) * 100} words to
-                read
-              </div>
-              <div className="min">
-                {Math.floor(post.fields.readingTime.minutes * 0.8)} minutes to
-                read
-              </div>
-              <div className="word">
-                {Math.floor(post.fields.readingTime.words / 100) * 100} words to
-                read
-              </div>
-            </Minutes>{" "}
-            <div style={{ display: "inline", margin: `0 ${rhythm(0.25)}` }}>
-              {" "}
-              —{" "}
-            </div>
-            <div style={{ display: "inline" }}>
-              Written on {post.frontmatter.date}
-            </div>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "flex-start",
               marginBottom: rhythm(1 / 4),
             }}
           >
             <div>
               <span>
-                Published under{" "}
+                Published on {post.frontmatter.date} under{" "}
                 <Link to={`/${post.frontmatter.category}`}>
                   {post.frontmatter.category.charAt(0).toUpperCase() +
                     post.frontmatter.category.slice(1)}

@@ -100,20 +100,6 @@ const Background = () => {
           and how our design decisions converge to impact and influence the
           lives of those around the world.
         </p>
-        <p>Interested in a collaboration?</p>
-        <Button href="mailto:alb@andrewlb.com" class="btn">
-          Let's chat
-        </Button>
-
-        <small>
-          <a
-            href="https://andrewlb.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            andrewlb.com
-          </a>
-        </small>
       </div>
     </div>
   )

@@ -7,7 +7,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import EmailSignup from "../components/mailsignup"
 import { rhythm } from "../utils/typography"
-import Image from "gatsby-image"
 import { BlogPost, Nav, Minutes, Article } from "../templates/blog-post"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import PostSummary from "../components/postSummary"
@@ -16,16 +15,34 @@ export const RespLayout = styled.div`
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse column-reverse;
-  .left {
-    width: 40%;
-    @media (max-width: 700px) {
-      width: 100%;
+
+  .top {
+    background: #ffcdc4;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    > div {
+      width: 45%;
     }
   }
-  .right {
-    width: 55%;
-    @media (max-width: 700px) {
-      width: 100%;
+  #posts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse column-reverse;
+    position: relative;
+    .left {
+      width: 80%;
+      @media (max-width: 700px) {
+        width: 100%;
+      }
+    }
+    .right {
+      width: 20%;
+      height: 100%;
+      display: sticky;
+      @media (max-width: 700px) {
+        width: 100%;
+      }
     }
   }
 `
@@ -46,22 +63,25 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={siteTitle} />
         <RespLayout>
-          <div className="left" style={{ marginRight: rhythm(1) }}>
+          <div className="top" style={{ marginRight: rhythm(1) }}>
             {/* <Bio /> */}
             <div id="newsletter">
               <EmailSignup />
             </div>
-            <hr />
             <div id="background">
               <Background />
             </div>
           </div>
-          <div className="right" id="posts">
-            <BlogPost post={posts[0].node} />
-            {posts.map(({ node }) => {
-              const title = node.frontmatter.title || node.fields.slug
-              return <PostSummary node={node} />
-            })}
+          <div id="posts">
+            <div className="left" id="current">
+              <BlogPost post={posts[0].node} />
+            </div>
+            <div className="right" id="archive">
+              {posts.map(({ node }) => {
+                const title = node.frontmatter.title || node.fields.slug
+                return <PostSummary node={node} />
+              })}
+            </div>
           </div>
         </RespLayout>
       </Layout>
@@ -96,17 +116,11 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            issue
             published
             description
             category
             tags
-            image {
-              childImageSharp {
-                fluid(maxWidth: 300, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
         }
       }

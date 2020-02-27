@@ -87,13 +87,6 @@ export const query = graphql`
             description
             category
             tags
-            image {
-              childImageSharp {
-                fluid(maxWidth: 300, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
         }
       }

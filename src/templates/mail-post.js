@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import styled from "styled-components"
 
 import Bio from "../components/bio"
-import Layout from "../components/layout"
+import MailLayout from "../components/mail-layout"
 import SEO from "../components/seo"
 import JustComments from "gatsby-plugin-just-comments"
 import { rhythm, scale } from "../utils/typography"
@@ -19,7 +19,7 @@ class MailPostTemplate extends React.Component {
     const web = String(this.props.location.href).replace("/mail", "")
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <MailLayout location={this.props.location} title={siteTitle}>
         <a href={web}>View on the Web</a>
         <BlogPost post={post} nav={false} />
         <hr
@@ -30,7 +30,7 @@ class MailPostTemplate extends React.Component {
         <footer>
           <Bio />
         </footer>
-      </Layout>
+      </MailLayout>
     )
   }
 }
