@@ -21,7 +21,6 @@ const ButtonBlock = styled.div`
 
 class EmailSignup extends Component {
   state = {
-    name: this.props.name,
     email: this.props.email,
     hp: "",
     gdpr: true,
@@ -91,17 +90,6 @@ class EmailSignup extends Component {
             this.setState({ success: true })
           }}
         >
-          <label htmlFor="name">
-            <FloatingLabelInput
-              type="text"
-              name="name"
-              label="Name"
-              id="name"
-              onChange={this.handleChange}
-              value={this.state.name || ""}
-            />
-          </label>
-          <br />
           <label htmlFor="email">
             <FloatingLabelInput
               type="email"

@@ -29,42 +29,9 @@ class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
-    const header = (
-      <>
-        <h3
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            The Converge Review{" "}
-            <span style={{ fontSize: ".8rem" }}>
-              Your weekly briefing on design in a global context.
-            </span>
-          </Link>
-        </h3>
-      </>
-    )
 
     return (
-      <Body
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          position: "relative",
-          maxWidth: location.pathname === rootPath ? rhythm(36) : rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
-        <header>{header}</header>
+      <Body>
         <main style={{ display: `flex`, flexWrap: `wrap` }}>{children}</main>
         <footer>
           © {new Date().getFullYear()},{" "}

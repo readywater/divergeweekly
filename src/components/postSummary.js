@@ -43,19 +43,13 @@ export default class PostSummary extends React.Component {
           </h3>
         </header>
 
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 3fr" }}>
+        <div>
           <section>
             <Link
               style={{ boxShadow: `none`, color: "#000" }}
               to={`/${node.frontmatter.category}${node.fields.slug}`}
             >
               <small>{node.frontmatter.date}</small>
-              <p
-                style={{ marginBottom: rhythm(0.25) }}
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
             </Link>
           </section>
         </div>
