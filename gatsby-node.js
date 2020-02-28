@@ -177,6 +177,22 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 }
 
+exports.onCreatePage = ({ page, actions }) => {
+  const { createPage, deletePage } = actions
+  console.log("OnCreatePage", page)
+  if (page.path.includes("/mail")) {
+    deletePage(page)
+    // You can access the variable "house" in your page queries now
+    createPage({
+      ...page,
+      context: {
+        ...page.context,
+        house: `Gryffindor`,
+      },
+    })
+  }
+}
+
 exports.onPostBuild = () => {
   console.log("Build Complete")
   // return fetch("https://mail.stupidsystems.com/api/campaigns/create.php", {

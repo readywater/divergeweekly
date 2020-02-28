@@ -1,17 +1,29 @@
 const { renderToString } = require("react-dom/server")
-const inlineCss = require("inline-css")
+// const inlineCss = require("inline-css")
+const { Helmet } = require("react-helmet")
+const { render } = require("mjml-react")
 
-// Renders inline html
-// exports.replaceRenderer = ({
-//   bodyComponent,
-//   replaceBodyHTMLString,
-//   pathname,
-// }) => {
-//   console.log("Rendering inline")
-//   console.log(pathname)
-//   if (pathname.includes("/mail")) {
-//     const bodyHTML = renderToString(bodyComponent)
-//     const inlinedHTML = inlineCss(bodyHTML)
-//     replaceBodyHTMLString(inlinedHTML)
-//   }
-// }
+exports.onRenderBody = (
+  { pathname, setHeadComponents, setHtmlAttributes, setBodyAttributes },
+  pluginOptions
+) => {
+  if (pathname.includes("/mail")) {
+    const helmet = Helmet.renderStatic()
+    setHtmlAttributes(helmet.htmlAttributes.toComponent())
+    setBodyAttributes(helmet.bodyAttributes.toComponent())
+    setHeadComponents([
+      helmet.title.toComponent(),
+      helmet.link.toComponent(),
+      helmet.meta.toComponent(),
+      helmet.noscript.toComponent(),
+      helmet.script.toComponent(),
+      helmet.style.toComponent(),
+    ])
+  }
+}
+
+exports.wrapPageElement = ({ element, props }) => {
+  if (pathname.includes("/mail")) {
+    return render({ element })
+  }
+}

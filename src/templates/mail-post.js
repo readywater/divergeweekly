@@ -9,7 +9,7 @@ import JustComments from "gatsby-plugin-just-comments"
 import { rhythm, scale } from "../utils/typography"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import { BlogPost, Nav, Minutes, Article } from "./blog-post"
-import MailTemplate from "./mail-template"
+
 class MailPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
