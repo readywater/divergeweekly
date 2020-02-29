@@ -2,6 +2,17 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 import { rhythm, scale } from "../utils/typography"
+import {
+  Mjml,
+  MjmlHead,
+  MjmlTitle,
+  MjmlPreview,
+  MjmlBody,
+  MjmlSection,
+  MjmlColumn,
+  MjmlButton,
+  MjmlImage,
+} from "mjml-react"
 
 const Body = styled.div`
 @font-face {
@@ -31,14 +42,16 @@ class Layout extends React.Component {
     const rootPath = `${__PATH_PREFIX__}/`
 
     return (
-      <Body>
-        <main style={{ display: `flex`, flexWrap: `wrap` }}>{children}</main>
-        <footer>
+      <>
+        <MjmlSection style={{ display: `flex`, flexWrap: `wrap` }}>
+          {children}
+        </MjmlSection>
+        <MjmlSection>
           © {new Date().getFullYear()},{" "}
           <a href="https://www.andrewlb.com">andrewlb.com</a> and{" "}
           <a href="https://www.stupidsystems.com">Stupid Systems LLC</a>
-        </footer>
-      </Body>
+        </MjmlSection>
+      </>
     )
   }
 }

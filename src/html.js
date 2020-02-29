@@ -25,7 +25,7 @@ export default function HTML(props) {
         <MjmlBody width={600} {...props.bodyAttributes}>
           {props.preBodyComponents}
           {props.location && <h1>Props!</h1>}
-          <div
+          <MjmlSection
             key={`body`}
             id="___gatsby"
             dangerouslySetInnerHTML={{ __html: props.body }}

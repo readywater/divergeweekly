@@ -23,15 +23,14 @@ export const onRenderBody = (
 }
 
 export const wrapPageElement = ({ element, props }) => {
-  if (pathname.includes("/mail")) {
-    return render(
-      { element },
-      {
-        keepComments: false,
-        beautify: false,
-        minify: false,
-        validationLevel: "strict",
-      }
-    )
+  //   console.log(props.)
+  if (props.location && props.location.pathname.includes("/mail")) {
+    console.log("Rendering", element.props.markdownRemark)
+    return render(element.props.markdownRemark, {
+      keepComments: false,
+      beautify: false,
+      minify: false,
+      validationLevel: "soft",
+    })
   }
 }

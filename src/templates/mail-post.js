@@ -22,9 +22,6 @@ class MailPostTemplate extends React.Component {
       <MailLayout location={this.props.location} title={siteTitle}>
         <a href={web}>View on the Web</a>
         <BlogPost post={post} nav={false} />
-        <footer>
-          <Bio />
-        </footer>
       </MailLayout>
     )
   }

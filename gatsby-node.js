@@ -219,6 +219,7 @@ exports.onCreateWebpackConfig = ({
   actions,
 }) => {
   actions.setWebpackConfig({
+    externals: { fs: "commonjs fs" },
     module: {
       rules: [
         {
