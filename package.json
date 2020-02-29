@@ -66,6 +66,11 @@
     "type": "git",
     "url": "git+https://github.com/readywater/2020.andrewlb.com.git"
   },
+  "babel": {
+    "presets": [
+      "babel-preset-gatsby"
+    ]
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",

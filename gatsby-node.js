@@ -211,16 +211,21 @@ exports.onPostBuild = () => {
   // })
 }
 
-// exports.onCreateWebpackConfig = ({
-//   stage,
-//   rules,
-//   loaders,
-//   plugins,
-//   actions,
-// }) => {
-//   actions.setWebpackConfig({
-//     module: {},
-//     // node: { fs: "empty" },
-//     plugins: [],
-//   })
-// }
+exports.onCreateWebpackConfig = ({
+  stage,
+  rules,
+  loaders,
+  plugins,
+  actions,
+}) => {
+  actions.setWebpackConfig({
+    module: {
+      rules: [
+        {
+          test: path.resolve(__dirname, "node_modules/uglify-js/tools/node.js"),
+          loader: "null-loader",
+        },
+      ],
+    },
+  })
+}

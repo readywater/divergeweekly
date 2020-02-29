@@ -3,7 +3,7 @@ const { renderToString } = require("react-dom/server")
 const { Helmet } = require("react-helmet")
 const { render } = require("mjml-react")
 
-exports.onRenderBody = (
+export const onRenderBody = (
   { pathname, setHeadComponents, setHtmlAttributes, setBodyAttributes },
   pluginOptions
 ) => {
@@ -22,8 +22,16 @@ exports.onRenderBody = (
   }
 }
 
-exports.wrapPageElement = ({ element, props }) => {
+export const wrapPageElement = ({ element, props }) => {
   if (pathname.includes("/mail")) {
-    return render({ element })
+    return render(
+      { element },
+      {
+        keepComments: false,
+        beautify: false,
+        minify: false,
+        validationLevel: "strict",
+      }
+    )
   }
 }

@@ -17,12 +17,14 @@ import {
 export default function HTML(props) {
   if (true) {
     return (
-      <Mjml>
+      <Mjml {...props.htmlAttributes}>
         <MjmlHead>
           <MjmlTitle>Last Minute Offer</MjmlTitle>
           <MjmlPreview>Last Minute Offer...</MjmlPreview>
         </MjmlHead>
-        <MjmlBody width={500}>
+        <MjmlBody width={600} {...props.bodyAttributes}>
+          {props.preBodyComponents}
+          {props.location && <h1>Props!</h1>}
           <div
             key={`body`}
             id="___gatsby"
