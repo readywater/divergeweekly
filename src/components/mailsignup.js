@@ -75,7 +75,7 @@ class EmailSignup extends Component {
           Subscribe to World Design News
         </h3>
         <p style={{ fontSize: rhythm(0.5), lineHeight: rhythm(0.75) }}>
-          Every wednesday, we take a global lens to design and politics.
+          A global lens to design and politics every Wednesday.
         </p>
         <form
           style={{

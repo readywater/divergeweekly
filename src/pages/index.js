@@ -17,15 +17,25 @@ export const RespLayout = styled.div`
   > div {
     margin: 20px;
   }
-
-  .top {
+  #newsletter {
     background: #ffcdc4;
+  }
+  .top {
     display: flex;
     width: 100%;
     padding: 20px;
     justify-content: space-between;
+    flex-wrap: wrap;
     > div {
       width: 45%;
+      @media (max-width: 700px) {
+        width: 100% !important;
+        display: block;
+        margin: 10px;
+        padding: 10px;
+      }
+      margin: 20px;
+      padding: 20px;
     }
   }
   #posts {

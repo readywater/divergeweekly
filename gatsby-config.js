@@ -3,7 +3,7 @@ module.exports = {
     title: `The Diverge Weekly`,
     subtitle: `A weekly newsletter on design in a global context`,
     author: `Andrew Lovett-Barron`,
-    description: `Some writing by Andrew.`,
+    description: `A weekly newsletter on design in a global context`,
     siteUrl: `https://divergeweekly.com/`,
     social: {
       twitter: `readywater`,

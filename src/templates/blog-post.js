@@ -93,10 +93,8 @@ export const Minutes = styled.div`
 export const Header = styled.tr``
 
 export const Article = styled.table`
-  header {
-    h1 {
-      margin-top: 0;
-    }
+  h1 {
+    margin-top: 0;
   }
 
   .custom-block {

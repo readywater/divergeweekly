@@ -28,6 +28,10 @@ const Table = styled.table`
   }
   td {
     max-width: 50%;
+    @media (max-width: 700px) {
+      display: inline;
+      width: 100%;
+    }
   }
 `
 export default class Classified extends Component {

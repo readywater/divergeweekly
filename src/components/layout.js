@@ -7,6 +7,15 @@ const Header = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  background: #ffcdc4;
+  h1 {
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  & > div {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
 `
 
 const RightLink = styled.div`

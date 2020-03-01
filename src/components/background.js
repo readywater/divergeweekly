@@ -4,6 +4,10 @@ import { rhythm } from "../utils/typography"
 
 import styled from "styled-components"
 
+const Bg = styled.div`
+  font-size: 14px;
+`
+
 export const Button = styled.a`
   border-radius: 5px;
   background: #eee;
@@ -25,83 +29,21 @@ export const Button = styled.a`
   }
 `
 
-const List = styled.ul`
-  list-style: none;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 340px;
-  li {
-    margin-bottom: ${rhythm(0.5)};
-    margin-right: ${rhythm(0.5)};
-    margin-left: 0;
-    max-width: 150px;
-    position: relative;
-    @media (max-width: 700px) {
-      * > {
-        max-width: 150px;
-      }
-    }
-    @media (min-width: 700px) {
-      a,
-      p {
-        transition: opacity 0.6s;
-      }
-      .gatsby-image-wrapper {
-        text-decoration: none;
-        border: 0;
-        box-shadow: 0;
-      }
-      p {
-        position: absolute;
-        top: 0;
-        left: 0;
-        max-width: 150px;
-        opacity: 0;
-        z-index: 0;
-        font-size: ${rhythm(0.5)};
-      }
-      .gatsby-image-wrapper {
-        position: absolute;
-        top: 0;
-        left: 0;
-        opacity: 1;
-        z-index: 1;
-      }
-      &:hover {
-        .gatsby-image-wrapper {
-          opacity: 0;
-        }
-        p {
-          opacity: 1;
-        }
-      }
-    }
-  }
-`
-
 const Background = props => {
   return (
-    <div
-      style={{
-        // maxWidth: "150px",
-        display: `flex`,
-        flexWrap: `wrap`,
-        marginBottom: rhythm(2.5),
-      }}
-    >
-      <div>
-        <p>
-          {props.title} is your weekly look at design in a global context.
-          Design practice has a deep capacity to reveal the unseen and to affect
-          our behaviour, the systems we rely on, and the outcomes we
-          collectively experience. {props.title} takes a critical global
-          perspective in how design emerges from different localities, and how
-          our design decisions converge to impact and influence the lives of
-          those around the world.
-        </p>
-      </div>
-    </div>
+    <Bg>
+      <p>
+        Design practice has a deep capacity to reveal the unseen and to affect
+        our behaviour, the systems we rely on, and the outcomes we collectively
+        experience.{" "}
+      </p>
+      <p>
+        <strong>{props.title}</strong> takes a critical global perspective in
+        how design emerges from different localities, and how our design
+        decisions converge to impact and influence the lives of those around the
+        world.
+      </p>
+    </Bg>
   )
 }
 

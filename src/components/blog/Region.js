@@ -12,6 +12,13 @@ const Table = styled.table`
   a {
     color: black;
   }
+  td {
+    max-width: 50%;
+    @media (max-width: 700px) {
+      display: inline;
+      width: 100%;
+    }
+  }
 `
 
 export default class Region extends Component {
