@@ -47,7 +47,7 @@ export default class select extends Component {
           tabSelectsValue={false}
           onChange={value => {
             console.log("Changing!", value)
-            if (window) window.location.href = value[0].link
+            if (window) window.location.href = value.link
           }}
         />
       </Dropdown>
@@ -88,7 +88,6 @@ const Dropdown = ({ children, isOpen, target, onClose }) => (
   <div css={{ position: "relative" }}>
     {target}
     {isOpen ? <Menu>{children}</Menu> : null}
-    {isOpen ? <Blanket onClick={onClose} /> : null}
   </div>
 )
 const Svg = p => (
