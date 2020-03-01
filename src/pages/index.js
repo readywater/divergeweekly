@@ -120,7 +120,7 @@ export const pageQuery = graphql`
       edges {
         node {
           excerpt
-          html
+          htmlAst
           fields {
             slug
             readingTime {

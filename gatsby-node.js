@@ -31,17 +31,6 @@ function dedupeTags(allMarkdownRemark) {
   return Array.from(uniqueTags)
 }
 
-function stripScripts(s) {
-  var div = document.createElement("div")
-  div.innerHTML = s
-  var scripts = div.getElementsByTagName("script")
-  var i = scripts.length
-  while (i--) {
-    scripts[i].parentNode.removeChild(scripts[i])
-  }
-  return div.innerHTML
-}
-
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
@@ -239,7 +228,6 @@ exports.onPostBuild = async () => {
       inline = inline.replace(/<script[^>]*>.*?<\/script>/gi, "")
       // Remove comments
       inline = inline.replace(/<!-.*?\/->/gi, "")
-      inline = stripScripts(inline)
 
       fs.writeFile(file, inline, err => {
         if (err) {

@@ -1,16 +1,11 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-import styled from "styled-components"
+import { graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import EmailSignup from "../components/mailsignup"
-import { rhythm } from "../utils/typography"
-import Image from "gatsby-image"
-import { Nav, Minutes } from "../templates/blog-post"
 import AnchorLink from "react-anchor-link-smooth-scroll"
-import { RespLayout, RespNav } from "../pages/index"
+import { RespNav } from "../pages/index"
 import PostSummary from "../components/postSummary"
 
 class CategoryList extends React.Component {
