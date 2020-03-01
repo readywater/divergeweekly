@@ -1,15 +1,12 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import styled from "styled-components"
 
 import Background from "../components/background"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import EmailSignup from "../components/mailsignup"
-import { rhythm } from "../utils/typography"
 import { BlogPost, Nav, Minutes, Article } from "../templates/blog-post"
-import AnchorLink from "react-anchor-link-smooth-scroll"
-import PostSummary from "../components/postSummary"
 import Select from "../components/select"
 
 export const RespLayout = styled.div`
@@ -85,7 +82,7 @@ class BlogIndex extends React.Component {
               <EmailSignup />
             </div>
             <div id="background">
-              <Background />
+              <Background title={siteTitle} />
             </div>
           </div>
           <div id="search">

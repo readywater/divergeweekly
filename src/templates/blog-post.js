@@ -9,10 +9,18 @@ import { rhythm } from "../utils/typography"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import rehypeReact from "rehype-react"
 import Region from "../components/blog/Region"
+import Classified from "../components/blog/Classified"
+import FeatureAd from "../components/blog/FeatureAd"
+import Jobs from "../components/blog/Jobs"
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
-  components: { region: Region },
+  components: {
+    region: Region,
+    sponsor: FeatureAd,
+    classified: Classified,
+    jobs: Jobs,
+  },
 }).Compiler
 
 export const Nav = styled.ul`
@@ -93,28 +101,48 @@ export const Article = styled.table`
 
   .custom-block {
     margin: 10px;
+    .custom-block-heading {
+      font-size: 32px;
+      font-weight: 800;
+    }
     & > div {
       padding: 10px;
-      border: 1px solid #000;
+
       a {
         display: block;
         font-size: 20px;
         font-weight: 800;
       }
     }
-    .custom-block-heading {
-      margin-bottom: 5px;
-    }
+
     .custom-block-body {
     }
     &.quote {
       font-style: italic;
-      background: grey;
+      background: #eee;
+      max-width: 30%;
+      padding: 10px;
+      float: right;
+      font-size: 10px;
     }
     &.region {
-      width: 50%;
+      .custom-block-heading {
+        margin-bottom: 5px;
+        position: relative;
+        z-index: 100;
+        &::after {
+          content: "";
+          display: block;
+          height: 30%;
+          position: absolute;
+          top: 40%;
+          left: 0;
+          width: 50%;
+          background: plum;
+          z-index: -1 !important;
+        }
+      }
       & > div {
-        background: plum;
       }
     }
     &.security {
@@ -123,8 +151,9 @@ export const Article = styled.table`
       }
     }
     &.ad {
-      & > div {
+      a {
         background: yellow;
+        display: inline;
       }
       img {
         float: left;

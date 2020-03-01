@@ -1,11 +1,11 @@
 {
-  "name": "TheConvergeReview",
+  "name": "DivergeWeekly",
   "private": true,
   "description": "Writing",
   "version": "0.1.0",
   "author": "Andrew Lovett-Barron <alb@andrewlb.com>",
   "bugs": {
-    "url": "https://github.com/readywater/converge/issues"
+    "url": "https://github.com/readywater/divergeweekly/issues"
   },
   "dependencies": {
     "@atlaskit/button": "^13.3.7",

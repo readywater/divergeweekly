@@ -80,7 +80,7 @@ const List = styled.ul`
   }
 `
 
-const Background = () => {
+const Background = props => {
   return (
     <div
       style={{
@@ -92,13 +92,13 @@ const Background = () => {
     >
       <div>
         <p>
-          The Converge Review is your weekly look at design in a global context.
-          Design practice has a profound capacity to reveal the unseen and to
-          affect our behaviour, the systems we rely on, and the outcomes we
-          collectively experience. The Converge Review aims to take a critical
-          global perspective in how design emerges from different localities,
-          and how our design decisions converge to impact and influence the
-          lives of those around the world.
+          {props.title} is your weekly look at design in a global context.
+          Design practice has a deep capacity to reveal the unseen and to affect
+          our behaviour, the systems we rely on, and the outcomes we
+          collectively experience. {props.title} takes a critical global
+          perspective in how design emerges from different localities, and how
+          our design decisions converge to impact and influence the lives of
+          those around the world.
         </p>
       </div>
     </div>

@@ -4,7 +4,14 @@ export default class Region extends Component {
   render() {
     const columns = this.props.columns || 2
     return (
-      <table id="regions">
+      <table
+        id="regions"
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        style={{ margin: 0, padding: 0 }}
+        width="100%"
+      >
         {this.props.children.map((child, i, arr) => {
           if (i % columns === 0) {
             const slice = [

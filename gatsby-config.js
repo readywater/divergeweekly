@@ -40,30 +40,37 @@ module.exports = {
             resolve: "gatsby-remark-custom-blocks",
             options: {
               blocks: {
-                sponsor: {
-                  classes: "sponsor",
-                },
-                region: {
-                  classes: "region",
-                  title: "optional",
-                },
-                tweet: {
-                  classes: "tweet",
-                },
-                job: {
-                  classes: "job",
-                },
-                quote: {
-                  classes: "quote",
-                },
-                ad: {
-                  classes: "ad",
-                },
                 designer: {
                   classes: "designer",
+                  title: "required",
                 },
                 security: {
                   classes: "security",
+                  title: "optional",
+                },
+                region: {
+                  classes: "region",
+                  title: "required",
+                },
+                tweet: {
+                  classes: "tweet",
+                  title: "required",
+                },
+                jobad: {
+                  classes: "jobad",
+                  title: "required",
+                },
+                featurejob: {
+                  classes: "featurejob",
+                  title: "optional",
+                },
+                classified: {
+                  classes: "ad",
+                  title: "optional",
+                },
+                quote: {
+                  classes: "quote",
+                  title: "optional",
                 },
               },
             },

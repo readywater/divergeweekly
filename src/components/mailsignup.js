@@ -47,7 +47,7 @@ class EmailSignup extends Component {
       },
       body: new URLSearchParams({
         ...this.state,
-        list: "w11veSoyUbYWx8PANkEe6w",
+        list: "0NehvTbaYNg26b1rs5Hikw	",
         boolean: true,
         subform: true,
       }),
@@ -122,8 +122,8 @@ class EmailSignup extends Component {
               </button>
             </Button>
             <p>
-              By subscribing, I consent to recieving a weekly newsletter from
-              the Converge Review.
+              I consent to recieve <br />
+              the Diverge Weekly newsletter.
             </p>
           </ButtonBlock>
         </form>
