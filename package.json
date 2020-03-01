@@ -8,6 +8,7 @@
     "url": "https://github.com/readywater/converge/issues"
   },
   "dependencies": {
+    "@atlaskit/button": "^13.3.7",
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.19.23",
     "gatsby-image": "^2.2.34",
@@ -41,12 +42,12 @@
     "react": "^16.13.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.13.0",
-    "react-dropdown-select": "^4.1.1",
     "react-floating-label-input": "^4.2.1",
     "react-helmet": "^5.2.1",
     "react-html-email": "^3.0.0",
     "react-modal": "^3.11.1",
     "react-scroll-to-component-ssr": "^1.0.0",
+    "react-select": "^3.0.8",
     "react-typography": "^0.16.19",
     "recursive-readdir": "^2.2.2",
     "strip-js": "^1.2.0",

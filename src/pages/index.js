@@ -10,7 +10,7 @@ import { rhythm } from "../utils/typography"
 import { BlogPost, Nav, Minutes, Article } from "../templates/blog-post"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import PostSummary from "../components/postSummary"
-import Select from "react-dropdown-select"
+import Select from "../components/select"
 
 export const RespLayout = styled.div`
   display: flex;
@@ -52,60 +52,6 @@ export const RespLayout = styled.div`
   }
 `
 
-const StyledSelect = styled(Select)`
-  background: #333;
-  border: #333 !important;
-  color: #fff;
-  .react-dropdown-select-clear,
-  .react-dropdown-select-dropdown-handle {
-    color: #fff;
-  }
-  .react-dropdown-select-option {
-    border: 1px solid #fff;
-  }
-  .react-dropdown-select-item {
-    color: #333;
-  }
-  .react-dropdown-select-input {
-    color: #fff;
-  }
-  .react-dropdown-select-dropdown {
-    position: absolute;
-    left: 0;
-    border: none;
-    width: 500px;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    border-radius: 2px;
-    max-height: 300px;
-    overflow: auto;
-    z-index: 9;
-    background: #333;
-    box-shadow: none;
-    color: #fff !important;
-  }
-  .react-dropdown-select-item {
-    color: #f2f2f2;
-    border-bottom: 1px solid #333;
-
-    :hover {
-      color: #ffffff80;
-    }
-  }
-  .react-dropdown-select-item.react-dropdown-select-item-selected,
-  .react-dropdown-select-item.react-dropdown-select-item-active {
-    //background: #111;
-    border-bottom: 1px solid #333;
-    color: #fff;
-    font-weight: bold;
-  }
-  .react-dropdown-select-item.react-dropdown-select-item-disabled {
-    background: #777;
-    color: #ccc;
-  }
-`
-
 export const RespNav = styled(Nav)`
   @media (min-width: 700px) {
     display: none;
@@ -118,6 +64,16 @@ class BlogIndex extends React.Component {
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
     const window = window || null
+    const options = posts.map(({ node }) => {
+      const ret = {
+        id: node.frontmatter.issue,
+        key: node.frontmatter.issue,
+        label: `Issue #${node.frontmatter.issue}: ${node.frontmatter.title}`,
+        link: `/${node.frontmatter.category}${node.fields.slug}`,
+      }
+      console.log(ret)
+      return ret
+    })
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={siteTitle} />
@@ -132,25 +88,7 @@ class BlogIndex extends React.Component {
             </div>
           </div>
           <div id="search">
-            <StyledSelect
-              options={posts.map(({ node }) => {
-                const ret = {
-                  id: node.frontmatter.issue,
-                  key: node.fields.slug,
-                  name: node.frontmatter.title || node.fields.slug,
-                  link: `/${node.frontmatter.category}${node.fields.slug}`,
-                }
-                console.log(ret)
-                return ret
-              })}
-              placeholder="Select an issue"
-              values={[options[0]]}
-              dropdownPosition="auto"
-              onChange={value => {
-                console.log("Changing!", value)
-                if (window) window.location.href = value[0].link
-              }}
-            />
+            <Select options={options} value={options[0]} />
           </div>
           <div id="posts">
             <div className="left" id="current">
