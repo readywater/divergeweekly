@@ -123,7 +123,11 @@ export const Article = styled.table`
       max-width: 30%;
       padding: 10px;
       float: right;
-      font-size: 10px;
+      font-size: 12px;
+      line-height: 16px;
+      p {
+        margin: 0;
+      }
     }
     &.region {
       .custom-block-heading {
@@ -146,8 +150,26 @@ export const Article = styled.table`
       }
     }
     &.security {
+      .custom-block-heading {
+        margin-bottom: 5px;
+        position: relative;
+        z-index: 100;
+        &::after {
+          content: "";
+          display: block;
+          height: 30%;
+          position: absolute;
+          top: 40%;
+          left: 0;
+          width: 50%;
+          background: green;
+          z-index: -1 !important;
+        }
+      }
       & > div {
-        background: greenyellow;
+      }
+      a {
+        color: black;
       }
     }
     &.ad {

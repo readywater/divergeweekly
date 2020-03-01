@@ -62,7 +62,7 @@ Knowsi manages consent for user research. Send and track participant consent wit
 
 </region>
 
-[[security]]
+[[security | Security Blanket]]
 |[how to train your ai soldier robots (and the humans who command them) - war on the rocks](https://warontherocks.com/2020/02/how-to-train-your-ai-soldier-robots-and-the-humans-who-command-them/)
 |WOTR has been publishing weekly articles on artificial intelligence and defence. These articles have proven to be an interesting lens into the American defence establishment and the way that academics, officers, and acquisitions professionals are thinking about an emergent technology and the people who operate them.
 

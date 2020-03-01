@@ -1,5 +1,23 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
+import styled from "styled-components"
+
+const Table = styled.table`
+  background: #d4eee6;
+  border: none;
+  div {
+    border: 0;
+  }
+  h2 {
+    margin: 0;
+  }
+  a {
+    margin: 0px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+  }
+`
 
 export default class FeatureAd extends Component {
   static propTypes = {
@@ -7,9 +25,8 @@ export default class FeatureAd extends Component {
   }
 
   render() {
-    console.log(this.props.children)
     return (
-      <table
+      <Table
         id="feature"
         border="0"
         cellpadding="0"
@@ -18,24 +35,24 @@ export default class FeatureAd extends Component {
         width="100%"
       >
         <tbody>
-          <tr>
-            <td rowspan="2">
+          <tr cellspacing="0" cellpadding="0">
+            <td rowspan="2" valign="top">
               <img src={this.props.image} />
             </td>
-            <td colspan="2">
+            <td colspan="2" valign="top">
               {this.props.children.find(c => c.type === "h2")}
               {this.props.children.find(c => c.type === "p")}
             </td>
           </tr>
-          <tr>
-            <td colspan="2">
+          <tr cellspacing="0" cellpadding="0">
+            <td colspan="2" valign="bottom">
               {this.props.children.find(
                 c => c.type === "a" || c.props.children[0].type === "a"
               )}
             </td>
           </tr>
         </tbody>
-      </table>
+      </Table>
     )
   }
 }

@@ -1,12 +1,42 @@
 import React, { Component } from "react"
+import styled from "styled-components"
 
+const Header = styled.h2`
+  margin: 0;
+  position: relative;
+  z-index: 100;
+  &::after {
+    content: "";
+    display: block;
+    height: 30%;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 50%;
+    background: yellow;
+    z-index: -1 !important;
+  }
+`
+
+const Table = styled.table`
+  border: none;
+  div {
+    border: 0;
+  }
+  a {
+    color: black;
+  }
+  td {
+    max-width: 50%;
+  }
+`
 export default class Classified extends Component {
   render() {
     const columns = this.props.columns || 2
     return (
       <>
-        <h3>Classified</h3>
-        <table
+        <Header>Classified</Header>
+        <Table
           id="classified"
           border="0"
           cellpadding="0"
@@ -24,7 +54,9 @@ export default class Classified extends Component {
               return (
                 <tr>
                   {trunc.map(t => (
-                    <td>{t}</td>
+                    <td valign="top" width={`${100 / columns}%`}>
+                      {t}
+                    </td>
                   ))}
                 </tr>
               )
@@ -32,7 +64,7 @@ export default class Classified extends Component {
               return null
             }
           })}
-        </table>
+        </Table>
       </>
     )
   }

@@ -1,10 +1,24 @@
 import React, { Component } from "react"
+import styled from "styled-components"
+
+const Table = styled.table`
+  border: none;
+  div {
+    border: 0;
+  }
+  h2 {
+    margin: 0;
+  }
+  a {
+    color: black;
+  }
+`
 
 export default class Region extends Component {
   render() {
     const columns = this.props.columns || 2
     return (
-      <table
+      <Table
         id="regions"
         border="0"
         cellpadding="0"
@@ -22,7 +36,9 @@ export default class Region extends Component {
             return (
               <tr>
                 {trunc.map(c => (
-                  <td>{c}</td>
+                  <td valign="top" width={`${100 / columns}%`}>
+                    {c}
+                  </td>
                 ))}
               </tr>
             )
@@ -30,7 +46,7 @@ export default class Region extends Component {
             return null
           }
         })}
-      </table>
+      </Table>
     )
   }
 }
