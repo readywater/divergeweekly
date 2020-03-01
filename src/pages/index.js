@@ -25,6 +25,7 @@ export const RespLayout = styled.div`
     background: #ffcdc4;
     display: flex;
     width: 100%;
+    padding: 20px;
     justify-content: space-between;
     > div {
       width: 45%;
@@ -112,7 +113,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___issue], order: DESC }
       filter: { frontmatter: { published: { eq: true } } }
     ) {
       edges {

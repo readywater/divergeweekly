@@ -1,9 +1,8 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
-import Select from "react-select"
+import Select, { defaultTheme } from "react-select"
 import Button from "@atlaskit/button"
-import { defaultTheme } from "react-select"
 const { colors } = defaultTheme
 
 export default class select extends Component {
@@ -14,7 +13,7 @@ export default class select extends Component {
   state = { isOpen: false }
 
   toggleOpen = () => {
-    this.setState(state => ({ open: !state.isOpen }))
+    this.setState(state => ({ isOpen: !state.isOpen }))
   }
 
   render() {
@@ -30,7 +29,7 @@ export default class select extends Component {
             onClick={this.toggleOpen}
             isSelected={isOpen}
           >
-            {value ? `State: ${value.label}` : "Select an issue"}
+            {value ? `${value.label}` : "Select an issue"}
           </Button>
         }
       >

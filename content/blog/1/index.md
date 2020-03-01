@@ -1,6 +1,6 @@
 ---
 title: The Inaugural
-issue: 0
+issue: 1
 date: "2020-03-01T09:00:00.000Z"
 description: "The first issue of a new initiative"
 category: newsletter
