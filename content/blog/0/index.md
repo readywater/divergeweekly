@@ -58,11 +58,11 @@ In the United States, the democratic presidential primaries are in full swing, w
 |[Knowsi - Product Marketing Lead](https://knowsi.com)
 |Knowsi manages the consent relationship between researchers and participants. Help us make design research more private and more inclusive to participants by spreading the word and building our product marketing strategy.
 
-1. User Experience Lead, UN OPS
-   UN OPS is located in Copenhagen, and serves the entire United Nations community from UNICEF to UNHCR.
-2. Design Consultant, Palmwood
-   One line about the job
-   One line about Palmwood
+- User Experience Lead, UN OPS
+  UN OPS is located in Copenhagen, and serves the entire United Nations community from UNICEF to UNHCR.
+- Design Consultant, Palmwood
+  One line about the job
+  One line about Palmwood
 
 [[tweet]]
 Tweet Link
@@ -74,10 +74,10 @@ Explained
 | [The Inclusive Co-design Toolkit | Bridgeable](https://www.bridgeable.com/ideas/introducing-the-inclusive-co-design-toolkit/)
 
 [[ad]]
-|1. Classified ad ($50)
+| Classified ad ($50)
 [[ad]]
-|2. Classified ad ($50)
+| Classified ad ($50)
 [[ad]]
-|3. Classified ad ($50)
+| Classified ad ($50)
 [[ad]]
-|4. Classified ad ($50)
+| Classified ad ($50)

@@ -37,8 +37,6 @@
     "gatsby-transformer-sharp": "^2.3.7",
     "glob": "^7.1.6",
     "inline-css": "^2.6.3",
-    "mjml": "^4.5.1",
-    "mjml-react": "^1.0.57",
     "prismjs": "^1.17.1",
     "react": "^16.13.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",

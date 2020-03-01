@@ -106,7 +106,7 @@ exports.createPages = async ({ graphql, actions }) => {
     // Generate the Mail html
     createPage({
       path: `/mail/${post.node.frontmatter.category}${post.node.fields.slug}`,
-      component: mailPost,
+      component: blogPost, //mailPost,
       context: {
         slug: post.node.fields.slug,
         previous,
@@ -239,6 +239,7 @@ exports.onPostBuild = async () => {
       inline = inline.replace(/<script[^>]*>.*?<\/script>/gi, "")
       // Remove comments
       inline = inline.replace(/<!-.*?\/->/gi, "")
+      inline = stripScripts(inline)
 
       fs.writeFile(file, inline, err => {
         if (err) {
