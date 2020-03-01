@@ -7,6 +7,13 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 import AnchorLink from "react-anchor-link-smooth-scroll"
+import rehypeReact from "rehype-react"
+import Region from "../components/blog/Region"
+
+const renderAst = new rehypeReact({
+  createElement: React.createElement,
+  components: { region: Region },
+}).Compiler
 
 export const Nav = styled.ul`
   position: sticky;
@@ -75,12 +82,15 @@ export const Minutes = styled.div`
   }
 `
 
-export const Article = styled.article`
+export const Header = styled.tr``
+
+export const Article = styled.table`
   header {
     h1 {
       margin-top: 0;
     }
   }
+
   .custom-block {
     margin: 10px;
     & > div {
@@ -102,6 +112,7 @@ export const Article = styled.article`
       background: grey;
     }
     &.region {
+      width: 50%;
       & > div {
         background: plum;
       }
@@ -125,44 +136,45 @@ export const Article = styled.article`
 export const BlogPost = ({ post, nav }) => {
   const n = nav || false
   return (
-    <Article>
-      <header>
-        {n ? (
+    <Article
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      style={{ margin: 0, padding: 0 }}
+      width="100%"
+    >
+      <Header>
+        <td>
           <h1>
             Issue #{post.frontmatter.issue}: {post.frontmatter.title}
           </h1>
-        ) : (
-          <h1>
-            Issue #{post.frontmatter.issue}: {post.frontmatter.title}
-          </h1>
-        )}
-        <p>
-          <div>
+          <p>
             <div>
-              <span>
-                Published on {post.frontmatter.date} under{" "}
-                <Link to={`/${post.frontmatter.category}`}>
-                  {post.frontmatter.category.charAt(0).toUpperCase() +
-                    post.frontmatter.category.slice(1)}
-                </Link>
-              </span>{" "}
-              {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
-                <div style={{ display: "inline" }}>
-                  with tags
-                  {post.frontmatter.tags.map(t => {
-                    return (
-                      <Link to={`/tag/${t}`}>
-                        {" "}
-                        {t.charAt(0).toUpperCase() + t.slice(1)}
-                      </Link>
-                    )
-                  })}
-                </div>
-              )}
+              <div>
+                <span>
+                  Published on {post.frontmatter.date} under{" "}
+                  <Link to={`/${post.frontmatter.category}`}>
+                    {post.frontmatter.category.charAt(0).toUpperCase() +
+                      post.frontmatter.category.slice(1)}
+                  </Link>
+                </span>{" "}
+                {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
+                  <div style={{ display: "inline" }}>
+                    with tags
+                    {post.frontmatter.tags.map(t => {
+                      return (
+                        <Link to={`/tag/${t}`}>
+                          {t.charAt(0).toUpperCase() + t.slice(1)}
+                        </Link>
+                      )
+                    })}
+                  </div>
+                )}
+              </div>
             </div>
-          </div>
-        </p>
-      </header>
+          </p>
+        </td>
+      </Header>
       {n && (
         <Nav>
           <li>
@@ -173,11 +185,11 @@ export const BlogPost = ({ post, nav }) => {
           </li>
         </Nav>
       )}
-
-      <section dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div>{renderAst(post.htmlAst)}</div>
     </Article>
   )
 }
+//// <section dangerouslySetInnerHTML={{ __html: post.html }} />
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -232,7 +244,7 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
-      html
+      htmlAst
       fields {
         slug
         readingTime {

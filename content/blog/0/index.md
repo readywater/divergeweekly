@@ -26,6 +26,8 @@ In the United States, the democratic presidential primaries are in full swing, w
 [[sponsor]]
 |`|[IMAGE] |*Knowsi* |Knowsi manages consent for user research. Send and track participant consent with custom forms and GDPR-focused tools. Join Knowsi today for free! |`
 
+<region>
+
 [[region | Americas]]
 |[How do we stop another Iowa tech nightmare? The answers are hiding in plain sight.](https://medium.com/alloydotus/how-do-we-stop-another-iowa-tech-nightmare-the-answers-are-hiding-in-plain-sight-3cad991231df)
 |My old boss from the US Digital Service, Mikey Dickerson, weighs in on what happened in Iowa and the illusion of simplicity in software.
@@ -45,6 +47,8 @@ In the United States, the democratic presidential primaries are in full swing, w
 [[region | Europe]]
 |[Creating the Defence Digital Service (DDS) in MOD - Defence Digital](https://defencedigital.blog.gov.uk/2019/12/16/creating-the-defence-digital-service/)
 |A friend from my DDS days worked with the UK Ministry of Defence to spin up their own version of the Defence Digital Service (with a C).
+
+</region>
 
 [[security]]
 |[how to train your ai soldier robots (and the humans who command them) - war on the rocks](https://warontherocks.com/2020/02/how-to-train-your-ai-soldier-robots-and-the-humans-who-command-them/)

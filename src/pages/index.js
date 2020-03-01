@@ -89,6 +89,7 @@ class BlogIndex extends React.Component {
             </div>
           </div>
           <div id="search">
+            Read Previous Issues:{" "}
             <Select options={options} value={options[0]} />
           </div>
           <div id="posts">
