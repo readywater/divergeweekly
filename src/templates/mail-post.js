@@ -14,7 +14,6 @@ class MailPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
     console.log(this.props.location)
     const web = String(this.props.location.href).replace("/mail", "")
 

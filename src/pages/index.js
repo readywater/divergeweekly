@@ -10,6 +10,7 @@ import { rhythm } from "../utils/typography"
 import { BlogPost, Nav, Minutes, Article } from "../templates/blog-post"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import PostSummary from "../components/postSummary"
+import Select from "react-dropdown-select"
 
 export const RespLayout = styled.div`
   display: flex;
@@ -58,7 +59,7 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-
+    const window = window || null
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={siteTitle} />
@@ -72,15 +73,25 @@ class BlogIndex extends React.Component {
               <Background />
             </div>
           </div>
+          <div id="search">
+            <Select
+              options={posts.map(({ node }) => {
+                return {
+                  id: node.frontmatter.issue,
+                  name: node.frontmatter.title || node.fields.slug,
+                  link: `/${node.frontmatter.category}${node.fields.slug}`,
+                }
+              })}
+              values={[]}
+              dropdownPosition="auto"
+              onChange={value => {
+                if (window) window.location.href = value.link
+              }}
+            />
+          </div>
           <div id="posts">
             <div className="left" id="current">
               <BlogPost post={posts[0].node} />
-            </div>
-            <div className="right" id="archive">
-              {posts.map(({ node }) => {
-                const title = node.frontmatter.title || node.fields.slug
-                return <PostSummary node={node} />
-              })}
             </div>
           </div>
         </RespLayout>
@@ -96,6 +107,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        subtitle
       }
     }
     allMarkdownRemark(

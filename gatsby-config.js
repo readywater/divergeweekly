@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `The Converge Review`,
+    title: `The Diverge Weekly`,
     subtitle: `A weekly newsletter on design in a global context`,
     author: `Andrew Lovett-Barron`,
     description: `Some writing by Andrew.`,
-    siteUrl: `https://log.andrewlb.com/`,
+    siteUrl: `https://divergeweekly.com/`,
     social: {
       twitter: `readywater`,
     },

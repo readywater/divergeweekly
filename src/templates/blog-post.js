@@ -5,7 +5,6 @@ import styled from "styled-components"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import JustComments from "gatsby-plugin-just-comments"
 import { rhythm, scale } from "../utils/typography"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 
@@ -129,38 +128,16 @@ export const BlogPost = ({ post, nav }) => {
     <Article>
       <header>
         {n ? (
-          <h1
-            style={{
-              marginTop: rhythm(1),
-              marginBottom: 0,
-            }}
-          >
+          <h1>
             Issue #{post.frontmatter.issue}: {post.frontmatter.title}
           </h1>
         ) : (
-          <h1
-            style={{
-              marginTop: 0,
-              marginBottom: 0,
-            }}
-          >
+          <h1>
             Issue #{post.frontmatter.issue}: {post.frontmatter.title}
           </h1>
         )}
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            marginBottom: rhythm(1),
-          }}
-        >
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "flex-start",
-              marginBottom: rhythm(1 / 4),
-            }}
-          >
+        <p>
+          <div>
             <div>
               <span>
                 Published on {post.frontmatter.date} under{" "}
@@ -215,25 +192,13 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <BlogPost post={post} nav={true} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
+        <hr />
         <footer>
           <Bio />
         </footer>
 
         <nav>
-          <ul
-            style={{
-              display: `flex`,
-              flexWrap: `wrap`,
-              justifyContent: `space-between`,
-              listStyle: `none`,
-              padding: 0,
-            }}
-          >
+          <ul>
             <li>
               {previous && (
                 <Link to={previous.fields.slug} rel="prev">
@@ -251,13 +216,6 @@ class BlogPostTemplate extends React.Component {
           </ul>
         </nav>
         <mailsignup />
-        <div id="comment">
-          <JustComments
-            apikey="adbf3de4-0508-4600-9524-a2425165e346"
-            disablesociallogin="true"
-            hideattribution="true"
-          />
-        </div>
       </Layout>
     )
   }

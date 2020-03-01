@@ -1,5 +1,11 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const util = require("util")
+const fs = require("fs")
+const glob = require("glob")
+const globAsync = util.promisify(glob)
+const readFileAsync = util.promisify(fs.readFile)
+const inlineCss = require("inline-css")
 
 function dedupeCategories(allMarkdownRemark) {
   const uniqueCategories = new Set()
@@ -23,6 +29,17 @@ function dedupeTags(allMarkdownRemark) {
   })
   // Create new array with duplicates removed
   return Array.from(uniqueTags)
+}
+
+function stripScripts(s) {
+  var div = document.createElement("div")
+  div.innerHTML = s
+  var scripts = div.getElementsByTagName("script")
+  var i = scripts.length
+  while (i--) {
+    scripts[i].parentNode.removeChild(scripts[i])
+  }
+  return div.innerHTML
 }
 
 exports.createPages = async ({ graphql, actions }) => {
@@ -193,8 +210,47 @@ exports.onCreatePage = ({ page, actions }) => {
   }
 }
 
-exports.onPostBuild = () => {
-  console.log("Build Complete")
+exports.onPostBuild = async () => {
+  console.log(
+    "Build Complete for Post Build",
+    path.resolve(__dirname, "public/mail/")
+  )
+
+  const pattern = "public/mail/**/*.html"
+  const files = await globAsync(pattern, { nodir: true })
+
+  const inlined = files.map(async file => {
+    const data = await readFileAsync(file, "utf8")
+    return new Promise(async (resolve, reject) => {
+      let inline
+      try {
+        inline = await inlineCss(String(data), {
+          url: " ",
+          preserveMediaQueries: true,
+          applyTableAttributes: true,
+        })
+        console.log("YEEE", inline)
+      } catch (err) {
+        console.warn(
+          `Error during run a html-minifier at file ${file}:\n\n${err}`
+        )
+      }
+      // Remove Script
+      inline = inline.replace(/<script[^>]*>.*?<\/script>/gi, "")
+      // Remove comments
+      inline = inline.replace(/<!-.*?\/->/gi, "")
+
+      fs.writeFile(file, inline, err => {
+        if (err) {
+          reject()
+          console.error(`Inline CSS error on write file:\n\n${err}`)
+        }
+        resolve()
+      })
+    })
+  })
+  await Promise.all(inlined)
+
   // return fetch("https://mail.stupidsystems.com/api/campaigns/create.php", {
   //   method: "POST",
   //   mode: "no-cors",

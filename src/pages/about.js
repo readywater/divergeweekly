@@ -44,21 +44,24 @@ const Level = styled.div`
 
 class Sponsor extends React.Component {
   render() {
+    const { data } = this.props
+    const title = data.site.siteMetadata.title
+
     return (
-      <Layout location={this.props.location}>
-        <SEO title="About the Converge Review" />
-        <h1>About the review</h1>
+      <Layout location={this.props.location} title={title}>
+        <SEO title="About {title}" />
+        <h1>About this Newsletter</h1>
         <p>
-          The Converge Review is your weekly look at design in a global context.
-          Design practice has a profound capacity to reveal the unseen and to
-          affect our behaviour, the systems we rely on, and the outcomes we
-          collectively experience. The Converge Review aims to take a critical
-          global perspective in how design emerges from different localities,
-          and how our design decisions converge to impact and influence the
-          lives of those around the world.
+          {title} is your weekly look at design in a global context. Design
+          practice has a profound capacity to reveal the unseen and to affect
+          our behaviour, the systems we rely on, and the outcomes we
+          collectively experience. {title} aims to take a critical global
+          perspective in how design emerges from different localities, and how
+          our design decisions converge to impact and influence the lives of
+          those around the world.
         </p>
 
-        <h1>Our Principles</h1>
+        <h1>Principles</h1>
         <ul>
           <li>
             A focus on what Richard Buchanan refers to as the fourth order of
@@ -80,16 +83,9 @@ class Sponsor extends React.Component {
             action of a nation, but rather emphasize the actions and creations
             of an administration, a person, or a business.
           </li>
-          <li>
-            The author of this newsletter is a Canadian/American dual citizen
-            currently living in Denmark. He has worked in design for the past
-            decade at IDEO and the US Digital Service, and has worked with the
-            New America foundation and the Copenhagen Institute of Interaction
-            Design.
-          </li>
         </ul>
 
-        <h1>Who writes the Review?</h1>
+        <h1>Who writes this?</h1>
         <p>
           <a href="https://andrewlb.com">Andrew Lovett-Barron</a> is a
           Canadian/American dual citizen currently living in Denmark. He has
@@ -106,3 +102,14 @@ class Sponsor extends React.Component {
 }
 
 export default Sponsor
+
+export const pageQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        subtitle
+      }
+    }
+  }
+`

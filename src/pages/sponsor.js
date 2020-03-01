@@ -44,12 +44,15 @@ const Level = styled.div`
 
 class Sponsor extends React.Component {
   render() {
+    const { data } = this.props
+    const title = data.site.siteMetadata.title
+
     return (
-      <Layout location={this.props.location}>
+      <Layout location={this.props.location} title={title}>
         <SEO title="Sponsor a Newsletter" />
-        <h1>Sponsor the Converge Report</h1>
+        <h1>Sponsor {title}</h1>
         <p>
-          The Converge Review is read by hundrds of designers and foreign policy
+          {title} is read by hundrds of designers and foreign policy
           professionals around the world. Support us and get your message out by
           sponsoring a weekly feature, booking a classified ad, or featuring a
           job posting.
@@ -94,3 +97,14 @@ class Sponsor extends React.Component {
 }
 
 export default Sponsor
+
+export const pageQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        subtitle
+      }
+    }
+  }
+`
