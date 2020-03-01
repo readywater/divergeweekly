@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/2020/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/0/"},"frontmatter":{"title":"The Preview"}}}]}},"pageContext":{"tag":"2020"}}}
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/2020/","result":{"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"fields":{"slug":"/0/"},"frontmatter":{"title":"The Preview"}}},{"node":{"fields":{"slug":"/template/"},"frontmatter":{"title":"The Template"}}}]}},"pageContext":{"tag":"2020"}}}
