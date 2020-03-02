@@ -17,6 +17,22 @@ const Table = styled.table`
     background: white;
     border-radius: 10px;
   }
+  td {
+    @media (max-width: 700px) {
+      display: inline;
+      width: 100%;
+    }
+    text-align: center;
+    padding: 20px;
+  }
+  .image {
+    max-width: 30%;
+    @media (max-width: 700px) {
+      display: inline;
+      padding: 0;
+      width: 100%;
+    }
+  }
 `
 
 export default class FeatureAd extends Component {
@@ -36,7 +52,7 @@ export default class FeatureAd extends Component {
       >
         <tbody>
           <tr cellspacing="0" cellpadding="0">
-            <td rowspan="2" valign="top">
+            <td class="image" rowspan="2" valign="top">
               <img src={this.props.image} />
             </td>
             <td colspan="2" valign="top">

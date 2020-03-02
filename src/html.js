@@ -61,7 +61,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     background: ${props => props.theme.white};
     color: ${props => props.theme.black};
-    max-width: 1024px;
+    // max-width: 1024px;
     margin: 0 auto;
     padding: 0;
     min-height: 100vh;
@@ -108,7 +108,7 @@ const GlobalStyle = createGlobalStyle`
     }
   }
   h1 {
-    font-size: 8rem;
+    font-size: 42px;
     line-height: 10rem;
     text-align: center;
   }
@@ -158,6 +158,10 @@ const GlobalStyle = createGlobalStyle`
     background: ${props => props.theme.white};
   color: ${props => props.theme.black};
   min-height: 100vh;
+  }
+
+  table, td, tr tbody {
+    border: 0; margin: 0; padding: 0;
   }
 `
 

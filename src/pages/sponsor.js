@@ -63,9 +63,9 @@ class Sponsor extends React.Component {
             <p>
               Issue sponsors are posted at the top, right below are
               introduction. They get a highlighted treatment, more text per
-              newsletter, and an image.
+              newsletter, and an image. You make the magic happen!
             </p>
-            <a href="#">Sponsor Ad</a>
+            <a href="#">Sponsor an Issue</a>
           </Level>
           <Level>
             <h1>Share a Job Post</h1>
@@ -74,7 +74,7 @@ class Sponsor extends React.Component {
               great people filling them. A featured job posts are highlighted
               and contain more information.
             </p>
-            <a href="#">Sponsor Ad</a>
+            <a href="#">Post a Job</a>
           </Level>
           <Level>
             <h1>Post an Ad</h1>
@@ -82,14 +82,15 @@ class Sponsor extends React.Component {
               Ads are small posts at the bottom of the newsletter. We feature a
               maximum of 4 of these small ads per newsletter.
             </p>
-            <a href="#">Sponsor Ad</a>
+            <a href="#">Post Ad</a>
           </Level>
         </SponsorGrid>
         <h2>Terms and Conditions</h2>
         <p>
-          We reserve the right to reject ads based on content grounds.
-          Specifically, we choose not to feature any advertising that excludes
-          or marginalizes peoples
+          Basically, we reserve the right to reject ads on content grounds.
+          You'll be refunded minus any processing fees if that's the case.
+          Unless the content is clearly hateful or discriminatory, we'll reach
+          out first to discuss.
         </p>
       </Layout>
     )

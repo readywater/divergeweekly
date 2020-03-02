@@ -13,21 +13,33 @@ export const RespLayout = styled.div`
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse column-reverse;
-
   > div {
     margin: 20px;
   }
   #newsletter {
     background: #ffcdc4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    > div {
+      @media (max-width: 700px) {
+        max-width: 100%;
+      }
+      max-width: 50%;
+    }
   }
   .top {
     display: flex;
     width: 100%;
     padding: 20px;
+    @media (max-width: 700px) {
+      padding: 0;
+    }
     justify-content: space-between;
     flex-wrap: wrap;
     > div {
-      width: 45%;
+      width: 100%;
       @media (max-width: 700px) {
         width: 100% !important;
         display: block;
@@ -43,8 +55,15 @@ export const RespLayout = styled.div`
     flex-wrap: wrap;
     flex-direction: row-reverse column-reverse;
     position: relative;
-    .left {
-      width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    @media (max-width: 700px) {
+      padding: 10px;
+    }
+    .center {
+      max-width: 800px;
+      margin: 0 auto;
       @media (max-width: 700px) {
         width: 100%;
       }
@@ -71,7 +90,6 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-    const window = window || null
     const options = posts.map(({ node }) => {
       const ret = {
         id: node.frontmatter.issue,
@@ -90,17 +108,17 @@ class BlogIndex extends React.Component {
             {/* <Bio /> */}
             <div id="newsletter">
               <EmailSignup />
+              <div id="search">
+                <small>Read Previous Issues:</small>
+                <Select options={options} value={options[0]} />
+              </div>
             </div>
             <div id="background">
               <Background title={siteTitle} />
             </div>
           </div>
-          <div id="search">
-            Read Previous Issues:{" "}
-            <Select options={options} value={options[0]} />
-          </div>
           <div id="posts">
-            <div className="left" id="current">
+            <div className="center" id="current">
               <BlogPost post={posts[0].node} />
             </div>
           </div>

@@ -96,6 +96,9 @@ export const Article = styled.table`
   h1 {
     margin-top: 0;
   }
+  .meta {
+    text-align: center;
+  }
 
   .custom-block {
     margin: 10px;
@@ -123,6 +126,11 @@ export const Article = styled.table`
       float: right;
       font-size: 12px;
       line-height: 16px;
+      @media (max-width: 700px) {
+        float: none;
+        padding: 20px;
+        max-width: 100%;
+      }
       p {
         margin: 0;
       }
@@ -197,31 +205,27 @@ export const BlogPost = ({ post, nav }) => {
           <h1>
             Issue #{post.frontmatter.issue}: {post.frontmatter.title}
           </h1>
-          <p>
-            <div>
-              <div>
-                <span>
-                  Published on {post.frontmatter.date} under{" "}
-                  <Link to={`/${post.frontmatter.category}`}>
-                    {post.frontmatter.category.charAt(0).toUpperCase() +
-                      post.frontmatter.category.slice(1)}
-                  </Link>
-                </span>{" "}
-                {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
-                  <div style={{ display: "inline" }}>
-                    with tags
-                    {post.frontmatter.tags.map(t => {
-                      return (
-                        <Link to={`/tag/${t}`}>
-                          {t.charAt(0).toUpperCase() + t.slice(1)}
-                        </Link>
-                      )
-                    })}
-                  </div>
-                )}
+          <div className="meta">
+            <span>
+              Published on {post.frontmatter.date} under{" "}
+              <Link to={`/${post.frontmatter.category}`}>
+                {post.frontmatter.category.charAt(0).toUpperCase() +
+                  post.frontmatter.category.slice(1)}
+              </Link>
+            </span>{" "}
+            {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
+              <div style={{ display: "inline" }}>
+                with tags{" "}
+                {post.frontmatter.tags.map(t => {
+                  return (
+                    <Link to={`/tag/${t}`}>
+                      {t.charAt(0).toUpperCase() + t.slice(1)}
+                    </Link>
+                  )
+                })}
               </div>
-            </div>
-          </p>
+            )}
+          </div>
         </td>
       </Header>
       {n && (
@@ -244,7 +248,6 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -252,7 +255,7 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <BlogPost post={post} nav={true} />
+        <BlogPost post={post} />
         <hr />
         <Bio />
       </Layout>

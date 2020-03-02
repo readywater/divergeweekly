@@ -57,14 +57,14 @@ class EmailSignup extends Component {
   render() {
     if (this.state.success) {
       return (
-        <div id="newsletter">
+        <div id="signup">
           <h3>Thank you!</h3>
           <p className="center">Thanks for signing up!</p>
         </div>
       )
     }
     return (
-      <div id="newsletter">
+      <div id="signup">
         <h3
           style={{
             margin: "0",

@@ -1,8 +1,7 @@
 import React from "react"
 import styled from "styled-components"
-
 import { Link } from "gatsby"
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 
 const Header = styled.div`
   background: #ffcdc4;
@@ -17,7 +16,7 @@ const Header = styled.div`
   }
 `
 
-const RightLink = styled.div`
+const Links = styled.div`
   display: flex;
   justify-content: center;
   a {
@@ -33,8 +32,8 @@ const BottomLink = styled.div`
   }
 `
 
-const Main = styled.main`
-  max-width: 1024px;
+const Main = styled.div`
+  max-width: 800px;
   margin: 0 auto;
 `
 
@@ -46,26 +45,21 @@ class Layout extends React.Component {
       location.pathname && String(location.pathname).split("/").length <= 3
 
     return (
-      <body>
+      <>
         <Header>
           <div className="top">
             <Link to={`/`}>
               <img src="/logo.png" />
             </Link>
           </div>
-          <RightLink>
+          <Links>
             <Link to={`/`}>Issues</Link>
             <Link to={`/sponsor`}>Sponsor</Link>
             <Link to={`/about`}>About</Link>
-          </RightLink>
+          </Links>
         </Header>
         <Main>{children}</Main>
-        <footer>
-          © {new Date().getFullYear()},{" "}
-          <a href="https://www.andrewlb.com">andrewlb.com</a> and{" "}
-          <a href="https://www.stupidsystems.com">Stupid Systems LLC</a>
-        </footer>
-      </body>
+      </>
     )
   }
 }

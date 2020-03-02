@@ -28,7 +28,7 @@ In the United States, the democratic presidential primaries are in full swing, w
 
 This is the prototype newsletter, so please [let us know what you think](mailto:alb@andrewlb.com) and I'm looking forward to building something you enjoy reading every week!
 
-<sponsor image="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png">
+<sponsor image="https://www.knowsi.com/static/tier1.png">
 
 ## Knowsi
 
