@@ -16,6 +16,9 @@
 <url> <loc>https://divergeweekly.com/tags/newsletter/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://divergeweekly.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://divergeweekly.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://divergeweekly.com/sponsor/ad/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://divergeweekly.com/sponsor/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://divergeweekly.com/sponsor/issue/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://divergeweekly.com/sponsor/job/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://divergeweekly.com/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
