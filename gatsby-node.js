@@ -95,7 +95,7 @@ exports.createPages = async ({ graphql, actions }) => {
     // Generate the Mail html
     createPage({
       path: `/mail/${post.node.frontmatter.category}${post.node.fields.slug}`,
-      component: blogPost, //mailPost,
+      component: blogPost,
       context: {
         slug: post.node.fields.slug,
         previous,

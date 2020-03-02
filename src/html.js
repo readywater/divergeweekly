@@ -166,47 +166,21 @@ const GlobalStyle = createGlobalStyle`
 `
 
 export default function HTML(props) {
-  if (true) {
-    return (
-      <html {...props.htmlAttributes}>
-        <head>
-          <meta charSet="utf-8" />
-          <meta httpEquiv="Content-Type" content="text/html charset=UTF-8" />
-          <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-          />
-          {props.headComponents}
-        </head>
-        <body {...props.bodyAttributes}>
-          <ThemeProvider theme={theme}>
-            <GlobalStyle />
-            {props.preBodyComponents}
-            <div
-              key={`body`}
-              id="___gatsby"
-              dangerouslySetInnerHTML={{ __html: props.body }}
-            />
-            {props.postBodyComponents}
-          </ThemeProvider>
-        </body>
-      </html>
-    )
-  } else {
-    return (
-      <html {...props.htmlAttributes}>
-        <head>
-          <meta charSet="utf-8" />
-          <meta test="True" />
-          <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-          />
-          {props.headComponents}
-        </head>
-        <body {...props.bodyAttributes}>
+  return (
+    <html {...props.htmlAttributes}>
+      <head>
+        <meta charSet="utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html charset=UTF-8" />
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        {props.headComponents}
+      </head>
+      <body {...props.bodyAttributes}>
+        <ThemeProvider theme={theme}>
+          <GlobalStyle />
           {props.preBodyComponents}
           <div
             key={`body`}
@@ -214,10 +188,10 @@ export default function HTML(props) {
             dangerouslySetInnerHTML={{ __html: props.body }}
           />
           {props.postBodyComponents}
-        </body>
-      </html>
-    )
-  }
+        </ThemeProvider>
+      </body>
+    </html>
+  )
 }
 
 HTML.propTypes = {

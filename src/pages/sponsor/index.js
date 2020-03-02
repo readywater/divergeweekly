@@ -1,7 +1,7 @@
 import React from "react"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import { Link } from "gatsby"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
 import styled from "styled-components"
 
 const SponsorGrid = styled.div`
@@ -65,7 +65,7 @@ class Sponsor extends React.Component {
               introduction. They get a highlighted treatment, more text per
               newsletter, and an image. You make the magic happen!
             </p>
-            <a href="#">Sponsor an Issue</a>
+            <Link to={`/sponsor/issue`}>Sponsor an Issue</Link>
           </Level>
           <Level>
             <h1>Share a Job Post</h1>
@@ -74,7 +74,7 @@ class Sponsor extends React.Component {
               great people filling them. A featured job posts are highlighted
               and contain more information.
             </p>
-            <a href="#">Post a Job</a>
+            <Link to={`/sponsor/job`}>Post a Job</Link>
           </Level>
           <Level>
             <h1>Post an Ad</h1>
@@ -82,7 +82,7 @@ class Sponsor extends React.Component {
               Ads are small posts at the bottom of the newsletter. We feature a
               maximum of 4 of these small ads per newsletter.
             </p>
-            <a href="#">Post Ad</a>
+            <Link to={`/sponsor/ad`}>Post Ad</Link>
           </Level>
         </SponsorGrid>
         <h2>Terms and Conditions</h2>

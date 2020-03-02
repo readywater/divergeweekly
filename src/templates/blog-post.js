@@ -190,8 +190,7 @@ export const Article = styled.table`
   }
 `
 
-export const BlogPost = ({ post, nav }) => {
-  const n = nav || false
+export const BlogPost = ({ post, mail }) => {
   return (
     <Article
       border="0"
@@ -202,62 +201,72 @@ export const BlogPost = ({ post, nav }) => {
     >
       <Header>
         <td>
-          <h1>
-            Issue #{post.frontmatter.issue}: {post.frontmatter.title}
-          </h1>
-          <div className="meta">
-            <span>
-              Published on {post.frontmatter.date} under{" "}
-              <Link to={`/${post.frontmatter.category}`}>
-                {post.frontmatter.category.charAt(0).toUpperCase() +
-                  post.frontmatter.category.slice(1)}
-              </Link>
-            </span>{" "}
-            {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
-              <div style={{ display: "inline" }}>
-                with tags{" "}
-                {post.frontmatter.tags.map(t => {
-                  return (
-                    <Link to={`/tag/${t}`}>
-                      {t.charAt(0).toUpperCase() + t.slice(1)}
+          <table className="meta">
+            <tr>
+              <td>
+                <h1>
+                  Issue #{post.frontmatter.issue}: {post.frontmatter.title}
+                </h1>
+              </td>
+            </tr>
+            {(!mail && (
+              <tr>
+                <td>
+                  <span>
+                    Published on {post.frontmatter.date} under{" "}
+                    <Link to={`/${post.frontmatter.category}`}>
+                      {post.frontmatter.category.charAt(0).toUpperCase() +
+                        post.frontmatter.category.slice(1)}
                     </Link>
-                  )
-                })}
-              </div>
+                  </span>{" "}
+                  {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
+                    <span style={{ display: "inline" }}>
+                      with tags{" "}
+                      {post.frontmatter.tags.map(t => {
+                        return (
+                          <Link to={`/tag/${t}`}>
+                            {t.charAt(0).toUpperCase() + t.slice(1)}
+                          </Link>
+                        )
+                      })}
+                    </span>
+                  )}
+                </td>
+              </tr>
+            )) || (
+              <tr>
+                <td>
+                  <Link to={`/${post.frontmatter.category}${post.fields.slug}`}>
+                    Read in your browser
+                  </Link>
+                </td>
+              </tr>
             )}
-          </div>
+          </table>
         </td>
       </Header>
-      {n && (
-        <Nav>
-          <li>
-            <AnchorLink href="#newsletter">Follow Newsletter</AnchorLink>
-          </li>
-          <li>
-            <AnchorLink href="#comment">Leave Comments</AnchorLink>
-          </li>
-        </Nav>
-      )}
-      <div>{renderAst(post.htmlAst)}</div>
+      <tr>
+        <td>{renderAst(post.htmlAst)}</td>
+      </tr>
     </Article>
   )
 }
-//// <section dangerouslySetInnerHTML={{ __html: post.html }} />
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
-
+    console.log(this.props.location)
+    const isMail =
+      this.props.location && this.props.location.pathname.includes("/mail")
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <BlogPost post={post} />
-        <hr />
-        <Bio />
+        <BlogPost post={post} mail={isMail} />
+        <Bio mail={isMail} />
       </Layout>
     )
   }
@@ -286,6 +295,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        issue
         tags
         category
       }
