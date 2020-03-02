@@ -1,29 +1,25 @@
 import React from "react"
 import styled from "styled-components"
+
 import { Link } from "gatsby"
 import { rhythm, scale } from "../utils/typography"
 
 const Header = styled.div`
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   background: #ffcdc4;
-  h1 {
-    margin-top: 20px;
-    font-size: 40px;
-  }
-  & > div {
-    max-width: 1024px;
+  .top {
+    max-width: 400px;
+    padding: 0 20px;
     margin: 0 auto;
+    img {
+      width: 100%;
+      margin: 20px auto 0 auto;
+    }
   }
 `
 
 const RightLink = styled.div`
-  @media (max-width: 700px) {
-    display: none;
-  }
-  align-items: bottom;
   display: flex;
+  justify-content: center;
   a {
     padding: ${rhythm(1)};
   }
@@ -52,16 +48,15 @@ class Layout extends React.Component {
     return (
       <body>
         <Header>
-          <div>
-            <h1>
-              <Link to={`/`}>{title}</Link>
-            </h1>
-            <h3>{subtitle}</h3>
+          <div className="top">
+            <Link to={`/`}>
+              <img src="/logo.png" />
+            </Link>
           </div>
           <RightLink>
-            <Link to={`/`}>Newsletter</Link>
-            <Link to={`/sponsor`}>Sponsor Us</Link>
-            <Link to={`/about`}>About the Review</Link>
+            <Link to={`/`}>Issues</Link>
+            <Link to={`/sponsor`}>Sponsor</Link>
+            <Link to={`/about`}>About</Link>
           </RightLink>
         </Header>
         <Main>{children}</Main>

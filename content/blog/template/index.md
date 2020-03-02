@@ -3,7 +3,7 @@ title: The Template
 issue: 0
 date: "2020-03-01T09:00:00.000Z"
 description: "The first issue of a new initiative"
-category: newsletter
+category: issue
 published: false
 tags:
   - newsletter

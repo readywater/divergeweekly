@@ -3,7 +3,7 @@ title: The Preview
 issue: 0
 date: "2020-03-01T09:00:00.000Z"
 description: "The first issue of a new initiative"
-category: newsletter
+category: issue
 published: true
 tags:
   - newsletter
@@ -80,8 +80,12 @@ Knowsi manages consent for user research. Send and track participant consent wit
 
 </jobs>
 
+### Twitter
+
 [[tweet | ablerism]]
 |Those four principles at the end of James Scott's \_Seeing Like A State \_are, once again, such an elegant 101 formulation for young engineers and designers: take small steps; favor reversibility; plan on surprises; plan on human invention: [sarahendren.com/2018/01/17/see…](https://sarahendren.com/2018/01/17/seeing-like-a-state/)
+
+### Design Voices
 
 [[designer | Hitomi Yokota]]
 |Senior Service Designer, Bridgeable

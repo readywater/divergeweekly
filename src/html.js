@@ -60,6 +60,7 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     background: ${props => props.theme.white};
+    color: ${props => props.theme.black};
     max-width: 1024px;
     margin: 0 auto;
     padding: 0;
@@ -134,6 +135,14 @@ const GlobalStyle = createGlobalStyle`
     &.center {
       text-align: center;
     }
+  }
+
+  .small {
+    font-size: 10px;
+  }
+
+  .gray {
+   color: ${props => props.theme.grey};
   }
 
   .loading {

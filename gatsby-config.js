@@ -6,7 +6,7 @@ module.exports = {
     description: `A weekly newsletter on design in a global context`,
     siteUrl: `https://divergeweekly.com/`,
     social: {
-      twitter: `readywater`,
+      twitter: `divergeweekly`,
     },
   },
   plugins: [
