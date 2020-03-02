@@ -4,10 +4,10 @@
 <url> <loc>https://divergeweekly.com/mail/issue/template/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://divergeweekly.com/issue/0/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://divergeweekly.com/mail/issue/0/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://divergeweekly.com/transactional/intro/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://divergeweekly.com/mail/transactional/intro/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://divergeweekly.com/system/intro/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://divergeweekly.com/mail/system/intro/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://divergeweekly.com/issue</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://divergeweekly.com/transactional</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://divergeweekly.com/system</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://divergeweekly.com/tag/newsletter</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://divergeweekly.com/tag/2020</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://divergeweekly.com/tag/intro</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
