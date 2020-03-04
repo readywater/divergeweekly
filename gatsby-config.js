@@ -18,6 +18,15 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-transformer-cloudinary",
+      options: {
+        cloudName: "stupidsystems",
+        apiKey: "476513234338388",
+        apiSecret: "6ygQYOl6TmG8I2nxVL9mX6mmijs",
+        uploadFolder: "divergeweekly",
+      },
+    },
+    {
       resolve: `gatsby-plugin-styled-components`,
       options: {
         pure: true,
@@ -81,6 +90,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
+              linkImagesToOriginal: false,
             },
           },
           {

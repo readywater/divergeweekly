@@ -80,8 +80,10 @@ WOTR has been publishing weekly articles on artificial intelligence and defence.
 |[Sales Lead @ Knowsi](mailto:andrew@knowsi.com?subject=sales%lead)
 |Knowsi manages the consent relationship between researchers and participants. Help us make design research more private and more inclusive to participants by spreading the word and building our product marketing strategy.
 
-[[jobad | Graphic and Data Viz Expert @ UN Food and Agriculture Organization]]
-|Located in Azerbaijan, and serves the entire United Nations community from UNICEF to UNHCR.
+[[jobad | Urban Innovation]]
+|[Digital Innovation (Cities) Lead, FutureGov](https://careers.wearefuturegov.com/digital-innovation-city-lead/)
+|Located in London
+|Working with the FutureGov team, this looks like a pretty awesome job working with cities across Europe. It'd be a great role for someone with a strong service design background and a taste for complexity.
 
 [[jobad | Design Consultant]]
 |[Designer, International Rescue Committee](https://rescue.csod.com/ats/careersite/JobDetails.aspx?site=1&id=8368)
