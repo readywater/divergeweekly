@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
-
+import Bio from "../components/bio"
 import Background from "../components/background"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -10,14 +10,17 @@ import { BlogPost, Nav, Minutes, Article } from "../templates/blog-post"
 import Select from "../components/select"
 
 export const RespLayout = styled.div`
+  z-index: 1;
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse column-reverse;
   > div {
-    margin: 20px;
+    margin: 0;
   }
   #newsletter {
-    background: #ffcdc4;
+    background: white;
+    border: 10px solid #ffcdc4;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -105,7 +108,6 @@ class BlogIndex extends React.Component {
         <SEO title={siteTitle} />
         <RespLayout>
           <div className="top">
-            {/* <Bio /> */}
             <div id="newsletter">
               <EmailSignup />
               <div id="search">
@@ -120,6 +122,7 @@ class BlogIndex extends React.Component {
           <div id="posts">
             <div className="center" id="current">
               <BlogPost post={posts[0].node} />
+              <Bio mail={false} />
             </div>
           </div>
         </RespLayout>

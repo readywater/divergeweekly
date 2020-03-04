@@ -23,10 +23,10 @@ export const theme = {
 }
 
 export const Head = styled.h2`
-  margin: 0;
+  margin: 20px 0 0 0;
   position: relative;
   z-index: 100;
-  &::after {
+  /* &::after {
     content: "";
     display: block;
     height: 30%;
@@ -36,7 +36,7 @@ export const Head = styled.h2`
     width: 50%;
     background: yellow;
     z-index: -1 !important;
-  }
+  } */
 `
 
 export const Header = props => <Head>{props.children}</Head>

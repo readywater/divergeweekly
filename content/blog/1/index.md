@@ -1,18 +1,18 @@
 ---
-title: The Preview
-issue: 0
+title: The Blank
+issue: 1
 date: "2020-03-04T09:00:00.000Z"
 description: "The first issue of a new initiative"
 category: issue
-published: true
+published: false
 tags:
   - newsletter
   - "2020"
 ---
 
-<main credit="Tishk Barzanji" creditlink="https://www.tishkbarzanji.co.uk/shop" quote="A human being becomes human not through the casual convergence of certain biological conditions, but through an act of will and love on the part of other people. \ — Italo Calvino">
+<main credit="Thierry Chehab" quote="A human being becomes human not through the casual convergence of certain biological conditions, but through an act of will and love on the part of other people. - — Italo Calvino">
 
-![Tishk Barzanji](./img/tishkvarzanij.jpg)
+![Thierry Chehab](img/ThierryChehab.jpg)
 
 Hi Everyone,
 

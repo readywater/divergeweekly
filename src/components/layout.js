@@ -14,6 +14,26 @@ const Header = styled.div`
       margin: 20px auto 0 auto;
     }
   }
+
+  /* overflow: hidden; */
+  position: relative;
+  z-index: 0;
+  min-height: 200px;
+
+  &::before {
+    background: #ffcdc4;
+    bottom: 100%;
+    content: "";
+    display: block;
+    height: 200%;
+    position: absolute;
+    top: -100%;
+    right: 0;
+    transform-origin: 100% 100%;
+    transform: rotate(-15deg);
+    width: 150%;
+    z-index: -100;
+  }
 `
 
 const Links = styled.div`
@@ -23,22 +43,11 @@ const Links = styled.div`
     padding: ${rhythm(1)};
   }
 `
-const BottomLink = styled.div`
-  width: 100%;
-  align-items: bottom;
-  display: flex;
-  a {
-    padding: ${rhythm(1)};
-  }
-  p {
-    @media (max-width: 700px) {
-      padding: 0 10px;
-    }
-  }
-`
 
 const Main = styled.div`
   max-width: 800px;
+  z-index: 0;
+  position: relative;
   margin: 0 auto;
   @media (max-width: 700px) {
     padding: 0 10px;

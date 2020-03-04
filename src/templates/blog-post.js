@@ -102,6 +102,8 @@ export const Minutes = styled.div`
 export const Header = styled.tr``
 
 export const Article = styled.table`
+  z-index: 10;
+  position: relative;
   h1 {
     margin-top: 0;
   }
@@ -163,7 +165,7 @@ export const Article = styled.table`
           top: 40%;
           left: 0;
           width: 50%;
-          background: plum;
+          /* background: yellow; */
           z-index: -1 !important;
         }
       }

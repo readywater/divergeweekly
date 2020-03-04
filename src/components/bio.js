@@ -2,8 +2,14 @@ import React from "react"
 import { Link } from "gatsby"
 import Background from "./background"
 import styled from "styled-components"
+import { theme } from "../utils/typography"
 
 const Table = styled.table`
+  background: #ffcdc4;
+  position: relative;
+  z-index: 0;
+  min-height: 200px;
+
   td {
     @media (max-width: 700px) {
       width: 100%;
@@ -19,8 +25,10 @@ const Table = styled.table`
       margin: 0;
     }
     a {
-      margin: 0;
-      display: block;
+      border-radius: 5px;
+      background: ${theme.white};
+      padding: 0 5px;
+      overflow: hidden;
     }
   }
   .small {
@@ -57,7 +65,7 @@ const Bio = props => {
     >
       <tbody>
         <tr>
-          <td valign="top" width="60%">
+          <td valign="top" width="60%" style={{ padding: "20px" }}>
             <Background />
             {props.mail && (
               <div
@@ -67,7 +75,7 @@ const Bio = props => {
               />
             )}
           </td>
-          <td width="40%" valign="top">
+          <td width="40%" valign="top" style={{ padding: "20px" }}>
             <table
               border="0"
               width="100%"

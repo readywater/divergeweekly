@@ -5,6 +5,8 @@ import { theme, Header } from "../../utils/typography"
 
 const Table = styled.table`
   border: none;
+  position: relative;
+  z-index: 10;
   @media (max-width: 700px) {
     width: 90%;
     margin: 0 auto !important;
@@ -27,11 +29,12 @@ const Table = styled.table`
       width: 100%;
     }
     text-align: center;
-    padding: 20px;
+    padding: 0;
   }
   .image {
     width: 50%;
     float: right;
+    margin: 20px;
     @media (max-width: 700px) {
       display: inline;
       padding: 0;
@@ -51,6 +54,8 @@ const Table = styled.table`
   }
   .footer {
     td {
+      margin: 0;
+      padding: 20px;
       width: 50%;
       text-align: left;
     }
@@ -66,6 +71,7 @@ const Table = styled.table`
   }
   .main {
     text-align: left;
+    padding: 0;
   }
 `
 
@@ -92,7 +98,12 @@ export default class Main extends Component {
               <td valign="top" className="main">
                 <div className="image">
                   {this.props.children[0]}
-                  <small>Image credit: {this.props.credit}</small>
+                  <small>
+                    Image credit:{" "}
+                    <a href={this.props.creditlink} target="_blank">
+                      {this.props.credit}
+                    </a>
+                  </small>
                 </div>
                 {this.props.children.slice(1)}
                 <table className="sig">
