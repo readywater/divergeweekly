@@ -1,7 +1,7 @@
 ---
 title: The Preview
 issue: 0
-date: "2020-03-01T09:00:00.000Z"
+date: "2020-03-04T09:00:00.000Z"
 description: "The first issue of a new initiative"
 category: issue
 published: true
@@ -9,10 +9,9 @@ tags:
   - newsletter
   - "2020"
 ---
+<main credit="Thierry Chehab" quote="A human being becomes human not through the casual convergence of certain biological conditions, but through an act of will and love on the part of other people. - — Italo Calvino">
 
-[[quote]]
-|_A human being becomes human not through the casual convergence of certain biological conditions, but through an act of will and love on the part of other people._
-|— Italo Calvino
+![Thierry Chehab](img/ThierryChehab.jpg)
 
 Hi Everyone,
 
@@ -22,11 +21,13 @@ To start, this newsletter is an investigation and roundup of the role that desig
 
 This week, we're seeing the global spread of COVID-19, or Corona virus, to the Middle East and beyond.New cases popping up in Lebanon, Iraq, Iran, Oman, Quatar, and around the world, cases in the Americas and Europe are causing alarm. Pandemics make visible much of what we believe and how we behave arounds systemic uncertainty, and often these behaviours manifest through artifacts tied to sickness. Face masks and hand sanitizer clipped to bags are two artifacts I’ve seen here in Copenhagen, [though the former is perhaps more a totem than something with real utility](https://www.vox.com/the-goods/2020/2/6/21124979/wuhan-coronavirus-face-masks-hoarding). The real question is whether our focus on totems might [serve to exacerbate the crisis if we hit a certain tipping point](https://www.nytimes.com/2020/02/29/health/coronavirus-n95-face-masks.html): yet another object designed for one catalyzing negative outcomes for many.
 
-In the United States, the democratic presidential primaries are in full swing, with Senator Bernie Sanders emerging as the frontrunner with message focused around [Medicare for All](https://www.nytimes.com/2020/02/25/upshot/medicare-for-all-basics-bernie-sanders.html). For many of us who have experienced universal healthcare systems (in my case, Canada and Denmark), the discussion around a need for continued healthcare reform in the US is exciting and overdue. Good design and good experiences should not only be for the wealthy, and neither should good health care.
+In the United States, the democratic presidential primaries are in full swing, with Senator Bernie Sanders emerging as a frontrunner with message focused around [Medicare for All](https://www.nytimes.com/2020/02/25/upshot/medicare-for-all-basics-bernie-sanders.html). For many of us who have experienced universal healthcare systems (in my case, Canada and Denmark), the discussion around a need for continued healthcare reform in the US is exciting and overdue. Good design and good experiences should not only be for the wealthy, and neither should good health care.
 
 [The ongoing battle for Idlib](https://www.aljazeera.com/topics/events/idlib-battle-syria.html) in Syria presents a less hopeful lens. Already a humanitarian disaster with countless refugees having fled to Idlib, the convergence of Russian-backed Pro-Assad forces and Turkish forces (both militia and actual military) has exacerbated their plight. From a design perspective, the ubiquitous UNHCR tent has been used [as cover by pro-ASSAD forces](https://twitter.com/TitusMichaeleus/status/1184867339331919872) to disguise their forces against the [onslaught of Turkish airstrikes](https://www.middleeastmonitor.com/20200301-turkey-destroys-scores-of-syrian-army-targets-incl-airport-air-defences-and-tanks/). The subversion of humanitarian objects for military maneuvers is nothing new, but given the humanitarian catastrophe using the symbols of the oppressed as cover is horrifying.
 
 This is the prototype newsletter, so please [let us know what you think](mailto:alb@andrewlb.com) and I'm looking forward to building something you enjoy reading every week!
+
+</main>
 
 <sponsor image="https://www.knowsi.com/static/tier1.png">
 
@@ -62,40 +63,55 @@ Knowsi manages consent for user research. Send and track participant consent wit
 
 </region>
 
-[[security | Security Blanket]]
-|[how to train your ai soldier robots (and the humans who command them) - war on the rocks](https://warontherocks.com/2020/02/how-to-train-your-ai-soldier-robots-and-the-humans-who-command-them/)
-|WOTR has been publishing weekly articles on artificial intelligence and defence. These articles have proven to be an interesting lens into the American defence establishment and the way that academics, officers, and acquisitions professionals are thinking about an emergent technology and the people who operate them.
+<security credit="Kevin L. Moses Sr.">
+
+![Kevin L. Moses Sr.](img/wotrrobot.jpg)
+
+[How to train your ai soldier robots (and the humans who command them) - war on the rocks](./img/wotrrobot.jpg)
+
+WOTR has been publishing weekly articles on artificial intelligence and defence. These articles have proven to be an interesting lens into the American defence establishment and the way that academics, officers, and acquisitions professionals are thinking about an emergent technology and the people who operate them.
+
+</security>
 
 <jobs>
 
 [[featurejob]]
-|[Product Marketing Lead @ Knowsi](https://knowsi.com)
+|[Sales Lead @ Knowsi](mailto:andrew@knowsi.com?subject=sales%lead)
 |Knowsi manages the consent relationship between researchers and participants. Help us make design research more private and more inclusive to participants by spreading the word and building our product marketing strategy.
 
-[[jobad | UX Lead]]
-|UN OPS is located in Copenhagen, and serves the entire United Nations community from UNICEF to UNHCR.
+[[jobad | Graphic and Data Viz Expert @ UN Food and Agriculture Organization]]
+|Located in Azerbaijan, and serves the entire United Nations community from UNICEF to UNHCR.
 
 [[jobad | Design Consultant]]
-|One line about the job
+|[Designer, International Rescue Committee](https://rescue.csod.com/ats/careersite/JobDetails.aspx?site=1&id=8368)
+|Located in Bangladesh
+|The IRC is looking for an experienced designer to lead these early prototyping activities with an education focus. The Designer will work collaborate closely with the IRC's education team. This looks like an awesome opportunity for someone trying to get some international design experience.
 
 </jobs>
 
-### Twitter
+<image credit="Karina Puente Frantzen" link="http://karinapuente.com">
 
-[[tweet | ablerism]]
-|Those four principles at the end of James Scott's \_Seeing Like A State \_are, once again, such an elegant 101 formulation for young engineers and designers: take small steps; favor reversibility; plan on surprises; plan on human invention: [sarahendren.com/2018/01/17/see…](https://sarahendren.com/2018/01/17/seeing-like-a-state/)
+![Karina](./img/KarinaPuenteFrantzen.png)
 
-### Design Voices
+</image>
 
-[[designer | Hitomi Yokota]]
-|Senior Service Designer, Bridgeable
-|“How might we make co-design processes inclusive of people with language barriers?” As part of her masters thesis, Hitomi created the Inclusive Co-Design Toolkit with her team at Bridgeable, focusing on the extension of design research techniques into language needs.
-|[The Inclusive Co-design Toolkit | Bridgeable](https://www.bridgeable.com/ideas/introducing-the-inclusive-co-design-toolkit/)
+<voices who="Hitomi Yokata" role="Senior Service Designer, Bridgeable">
+“How might we make co-design processes inclusive of people with language barriers?” As part of her masters thesis, Hitomi created the Inclusive Co-Design Toolkit with her team at Bridgeable, focusing on the extension of design research techniques into language needs.
+
+[The Inclusive Co-design Toolkit | Bridgeable](https://www.bridgeable.com/ideas/introducing-the-inclusive-co-design-toolkit/)
+
+</voices>
+
+<twitter who="ablerism">
+
+Those four principles at the end of James Scott's \_Seeing Like A State \_are, once again, such an elegant 101 formulation for young engineers and designers: take small steps; favor reversibility; plan on surprises; plan on human invention: [sarahendren.com/2018/01/17/see…](https://sarahendren.com/2018/01/17/seeing-like-a-state/)
+
+</twitter>
 
 <classified>
 
 [[classified]]
-|[Join CIID](http://ciid.dk/education/summer-school/) for dedicated master classes in design and prototyping skills hosted yearly around the world.
+|[Join CIID around the world](http://ciid.dk/education/summer-school/) for dedicated master classes in design and prototyping skills hosted yearly in different cities around the globe.
 
 [[classified]]
 |Expecting a new family member? FitFaj prepares you for the challenge of parenthood with a customized workout plan that finishes right before your baby arrives. [Signup Today!](https://fitfaj.com)

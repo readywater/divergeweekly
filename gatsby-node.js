@@ -94,7 +94,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     // Generate the Mail html
     createPage({
-      path: `/mail/${post.node.frontmatter.category}${post.node.fields.slug}`,
+      path: `/mail_${post.node.frontmatter.category}${post.node.fields.slug}`,
       component: blogPost,
       context: {
         slug: post.node.fields.slug,
@@ -205,20 +205,23 @@ exports.onPostBuild = async () => {
     path.resolve(__dirname, "public/mail/")
   )
 
-  const pattern = "public/mail/**/*.html"
+  const pattern = "public/mail_*/**/*.html"
   const files = await globAsync(pattern, { nodir: true })
 
   const inlined = files.map(async file => {
     const data = await readFileAsync(file, "utf8")
     return new Promise(async (resolve, reject) => {
-      let inline
+      let inline = String(data)
       try {
-        inline = await inlineCss(String(data), {
-          url: " ",
-          preserveMediaQueries: true,
-          applyTableAttributes: true,
-        })
-        console.log("YEEE", inline)
+        // inline = await inlineCss(inline, {
+        //   url: "https://divergeweekly.com",
+        //   preserveMediaQueries: true,
+        //   applyTableAttributes: false,
+        //   applyStyleTags: true,
+        //   applyLinkTags: true,
+        //   applyWidthAttributes: true,
+        // })
+        console.log("CSS inlined")
       } catch (err) {
         console.warn(
           `Error during run a html-minifier at file ${file}:\n\n${err}`

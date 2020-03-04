@@ -1,22 +1,19 @@
-/**
- * Bio component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import { Link } from "gatsby"
 import Background from "./background"
 import styled from "styled-components"
 
 const Table = styled.table`
-  & > * {
-    border: 0;
+  td {
+    @media (max-width: 700px) {
+      width: 100%;
+      display: inline;
+      padding: 20px;
+    }
   }
   .block {
     padding: 20px;
-    background: #d4eee6;
+    background: ${props => props.theme.lightgreen};
     border-radius: 5px;
     h4 {
       margin: 0;
@@ -31,12 +28,20 @@ const Table = styled.table`
     font-size: 14px;
     line-height: 18px;
   }
-  td {
-    width: 60%;
-    @media (max-width: 700px) {
-      width: 100%;
-      display: inline;
-      padding: 20px;
+
+  td,
+  tr,
+  table {
+    border: 0;
+  }
+  .footer {
+    td {
+      width: 60%;
+      @media (max-width: 700px) {
+        width: 100%;
+        display: inline !important;
+        padding: 5px 20px;
+      }
     }
   }
 `
@@ -48,7 +53,7 @@ const Bio = props => {
       width="100%"
       cellpadding="0"
       cellspacing="0"
-      class="footer"
+      className="footer"
     >
       <tbody>
         <tr>
@@ -62,11 +67,17 @@ const Bio = props => {
               />
             )}
           </td>
-          <td width="40%" className="block" valign="top">
-            <table border="0" width="100%" cellpadding="0" cellspacing="0">
+          <td width="40%" valign="top">
+            <table
+              border="0"
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              className="block"
+            >
               <tr>
                 <td>
-                  <h4>Sponsor an issue</h4>
+                  <h4 style={{ marginTop: 0 }}>Sponsor an issue</h4>
                 </td>
               </tr>
               <tr>
@@ -86,7 +97,7 @@ const Bio = props => {
               </tr>
               <tr>
                 <td>
-                  <p class="small grey">
+                  <p className="small grey">
                     Published by{" "}
                     <a href="https://andrewlb.com">Andrew Lovett-Barron</a> at
                     Stupid Systems LLC

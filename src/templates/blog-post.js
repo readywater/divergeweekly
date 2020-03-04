@@ -1,23 +1,32 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import styled from "styled-components"
-
+import { theme } from "../utils/typography"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
-import AnchorLink from "react-anchor-link-smooth-scroll"
 import rehypeReact from "rehype-react"
 import Region from "../components/blog/Region"
 import Classified from "../components/blog/Classified"
 import FeatureAd from "../components/blog/FeatureAd"
 import Jobs from "../components/blog/Jobs"
+import Security from "../components/blog/Security"
+import Voices from "../components/blog/Voices"
+import Twitter from "../components/blog/Twitter"
+import Image from "../components/blog/Image"
+import Main from "../components/blog/Main"
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
     region: Region,
     sponsor: FeatureAd,
+    security: Security,
+    voices: Voices,
+    main: Main,
+    twitter: Twitter,
+    image: Image,
     classified: Classified,
     jobs: Jobs,
   },
@@ -100,6 +109,12 @@ export const Article = styled.table`
     text-align: center;
   }
 
+  p {
+    a {
+      background: ${theme.lightgreen};
+    }
+  }
+
   .custom-block {
     margin: 10px;
     .custom-block-heading {
@@ -168,7 +183,7 @@ export const Article = styled.table`
           top: 40%;
           left: 0;
           width: 50%;
-          background: green;
+          background: ${theme.green};
           z-index: -1 !important;
         }
       }
@@ -236,7 +251,9 @@ export const BlogPost = ({ post, mail }) => {
             )) || (
               <tr>
                 <td>
-                  <Link to={`/${post.frontmatter.category}${post.fields.slug}`}>
+                  <Link
+                    to={`https://divergeweekly.com/${post.frontmatter.category}${post.fields.slug}`}
+                  >
                     Read in your browser
                   </Link>
                 </td>

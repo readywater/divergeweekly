@@ -1,10 +1,13 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
+import { theme } from "../../utils/typography"
 
 const Table = styled.table`
-  background: #d4eee6;
+  background: ${theme.white};
   border: none;
+  margin: 20px auto;
+  max-width: 70%;
   @media (max-width: 700px) {
     width: 90%;
     margin: 0 auto !important;
@@ -17,9 +20,9 @@ const Table = styled.table`
   }
   a {
     margin: 0px;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
+    padding: 0 5px;
+    background: ${theme.white};
+    border-radius: 5px;
   }
   td {
     @media (max-width: 700px) {
@@ -29,8 +32,8 @@ const Table = styled.table`
     text-align: center;
     padding: 20px;
   }
-  .image {
-    max-width: 30%;
+  .tweet {
+    text-align: left;
     @media (max-width: 700px) {
       display: inline;
       padding: 0;
@@ -39,9 +42,9 @@ const Table = styled.table`
   }
 `
 
-export default class FeatureAd extends Component {
+export default class Twitter extends Component {
   static propTypes = {
-    prop: PropTypes,
+    who: PropTypes.string.isRequired,
   }
 
   render() {
@@ -51,24 +54,17 @@ export default class FeatureAd extends Component {
         border="0"
         cellpadding="0"
         cellspacing="0"
-        style={{ margin: 0, padding: 0 }}
         width="100%"
       >
         <tbody>
           <tr cellspacing="0" cellpadding="0">
-            <td className="image" rowspan="2" valign="top">
-              <img src={this.props.image} />
-            </td>
-            <td colspan="2" valign="top">
-              {this.props.children.find(c => c.type === "h2")}
+            <td className="tweet" valign="top">
               {this.props.children.find(c => c.type === "p")}
             </td>
-          </tr>
-          <tr cellspacing="0" cellpadding="0">
-            <td colspan="2" valign="bottom">
-              {this.props.children.find(
-                c => c.type === "a" || c.props.children[0].type === "a"
-              )}
+            <td valign="center">
+              <a href={`https://twitter.com/${this.props.who}`}>
+                @{this.props.who}
+              </a>
             </td>
           </tr>
         </tbody>

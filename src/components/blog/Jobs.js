@@ -1,30 +1,23 @@
 import React, { Component } from "react"
 import styled from "styled-components"
-
-const Header = styled.h2`
-  margin: 0;
-  position: relative;
-  z-index: 100;
-  &::after {
-    content: "";
-    display: block;
-    height: 30%;
-    position: absolute;
-    top: 40%;
-    left: 0;
-    width: 50%;
-    background: yellow;
-    z-index: -1 !important;
-  }
-`
+import { theme, Header } from "../../utils/typography"
 
 const Table = styled.table`
   border: none;
+  .center {
+    text-align: center;
+  }
+  .small {
+    font-size: 12px;
+  }
   div {
     border: 0;
   }
   a {
     color: black;
+  }
+  .custom-block-heading {
+    font-size: 18px;
   }
   td {
     max-width: 50%;
@@ -50,9 +43,7 @@ export default class Jobs extends Component {
           width="100%"
         >
           <tr>
-            <td colspan="2" valign="top">
-              {this.props.children[0]}
-            </td>
+            <td valign="top">{this.props.children[0]}</td>
           </tr>
           {this.props.children.slice(1).map((child, i, arr) => {
             if (i % columns === 0) {
@@ -62,18 +53,33 @@ export default class Jobs extends Component {
               ]
               const trunc = [...arr.slice(...slice)]
               return (
-                <tr>
-                  {trunc.map(c => (
-                    <td valign="top" width={`${100 / columns}%`}>
-                      {c}
-                    </td>
-                  ))}
-                </tr>
+                <table>
+                  <tr>
+                    {trunc.map(c => (
+                      <td valign="top" width={`${100 / columns}%`}>
+                        {c}
+                      </td>
+                    ))}
+                  </tr>
+                </table>
               )
             } else {
               return null
             }
           })}
+          <tr>
+            <td className="center small">
+              We find a lot of our postings on the incredible{" "}
+              <a
+                href="https://groups.google.com/forum/#!forum/design-gigs-for-good"
+                target="_blank"
+              >
+                Design Gigs for Good
+              </a>{" "}
+              board. <br />
+              Give it a look!
+            </td>
+          </tr>
         </Table>
       </>
     )

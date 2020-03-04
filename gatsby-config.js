@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `The Diverge Weekly`,
+    title: `Diverge Weekly`,
     subtitle: `A weekly newsletter on design in a global context`,
     author: `Andrew Lovett-Barron`,
     description: `A weekly newsletter on design in a global context`,
@@ -20,7 +20,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
-        // Add any options here
+        pure: true,
+        minify: false,
+        transpileTemplateLiterals: false,
       },
     },
     {
@@ -105,13 +107,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Diverge Weekly`,
+        short_name: `divergeweekly`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#000000`,
         display: `minimal-ui`,
-        icon: `content/assets/profile-pic.jpg`,
+        icon: `content/assets/icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
