@@ -4,6 +4,13 @@ import { theme, Header } from "../../utils/typography"
 
 const Table = styled.table`
   border: none;
+  .featurejob {
+    background: white;
+    border: 10px solid ${theme.lightgreen};
+    a {
+      background: transparent;
+    }
+  }
   .center {
     text-align: center;
   }

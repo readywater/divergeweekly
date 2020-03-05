@@ -14,7 +14,7 @@ import Jobs from "../components/blog/Jobs"
 import Security from "../components/blog/Security"
 import Voices from "../components/blog/Voices"
 import Twitter from "../components/blog/Twitter"
-import Image from "../components/blog/Image"
+import ImageBlock from "../components/blog/Image"
 import Main from "../components/blog/Main"
 
 const renderAst = new rehypeReact({
@@ -26,7 +26,7 @@ const renderAst = new rehypeReact({
     voices: Voices,
     main: Main,
     twitter: Twitter,
-    image: Image,
+    imageblock: ImageBlock,
     classified: Classified,
     jobs: Jobs,
   },
@@ -252,10 +252,8 @@ export const BlogPost = ({ post, mail }) => {
               </tr>
             )) || (
               <tr>
-                <td>
-                  <Link
-                    to={`https://divergeweekly.com/${post.frontmatter.category}${post.fields.slug}`}
-                  >
+                <td style={{ textAlign: "right" }}>
+                  <Link to={`${post.frontmatter.category}${post.fields.slug}`}>
                     Read in your browser
                   </Link>
                 </td>

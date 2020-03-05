@@ -3,12 +3,14 @@ import styled from "styled-components"
 import { rhythm } from "../utils/typography"
 import FloatingLabelInput from "react-floating-label-input"
 import { Button } from "./background"
+import { theme } from "../utils/typography"
 
+const FormSetup = styled.div``
 const ButtonBlock = styled.div`
   display: flex;
   flex-wrap: none;
   width: 100%;
-  margin-top: ${rhythm(0.5)};
+  margin-top: 0;
   align-items: flex-start;
   p {
     flex: 1 1 0;
@@ -17,6 +19,11 @@ const ButtonBlock = styled.div`
     font-size: ${rhythm(0.5)};
     line-height: ${rhythm(0.75)};
   }
+`
+
+const BButton = styled(Button)`
+  background: ${theme.pink};
+  border: 1px solid ${theme.black};
 `
 
 class EmailSignup extends Component {
@@ -64,19 +71,7 @@ class EmailSignup extends Component {
       )
     }
     return (
-      <div id="signup">
-        <h3
-          style={{
-            margin: "0",
-            marginTop: 0,
-            marginBottom: rhythm(0.25),
-          }}
-        >
-          Subscribe to World Design News
-        </h3>
-        <p style={{ fontSize: rhythm(0.5), lineHeight: rhythm(0.75) }}>
-          A global lens to design and politics every Wednesday.
-        </p>
+      <FormSetup>
         <form
           style={{
             marginTop: rhythm(1),
@@ -90,10 +85,10 @@ class EmailSignup extends Component {
             this.setState({ success: true })
           }}
         >
-          <label htmlFor="email">
+          <label htmlFor="email" style={{ fontSize: "24px", fontWeight: 800 }}>
             <FloatingLabelInput
               type="email"
-              label="Email"
+              label="Enter your Email"
               name="email"
               id="email"
               onChange={this.handleChange}
@@ -111,7 +106,7 @@ class EmailSignup extends Component {
             />
           </div>
           <ButtonBlock>
-            <Button style={{}}>
+            <BButton style={{}}>
               <button
                 type="submit"
                 name="submit"
@@ -120,14 +115,14 @@ class EmailSignup extends Component {
               >
                 Subscribe
               </button>
-            </Button>
+            </BButton>
             <p>
               I consent to recieve <br />
-              the Diverge Weekly newsletter.
+              Diverge Weekly's newsletter.
             </p>
           </ButtonBlock>
         </form>
-      </div>
+      </FormSetup>
     )
   }
 }

@@ -38,8 +38,8 @@ const Background = props => {
         experience.{" "}
       </p>
       <p>
-        <strong>The Diverge Weekly</strong> takes a critical global perspective
-        in how design emerges from different localities, and how our design
+        <strong>Diverge Weekly</strong> takes a critical global perspective in
+        how design emerges from different localities, and how our design
         decisions converge to impact and influence the lives of those around the
         world.
       </p>

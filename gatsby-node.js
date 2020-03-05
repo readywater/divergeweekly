@@ -129,15 +129,6 @@ exports.createPages = async ({ graphql, actions }) => {
   const dedupedTags = dedupeTags(result.data.allMarkdownRemark)
   // Iterate over categories and create page for each
   dedupedTags.forEach(tag => {
-    // console.log(
-    //   "For Tags",
-    //   result.data.allMarkdownRemark.edges
-    //     .filter(({ node }) => {
-    //       console.log("Finding node for tag", tag, node)
-    //       return node.frontmatter.tags.includes(tag)
-    //     })
-    //     .map(({ node }) => node.id)
-    // )
     createPage({
       path: `tag/${tag}`,
       component: TagListTemplate,
@@ -210,6 +201,7 @@ exports.onPostBuild = async () => {
 
   const inlined = files.map(async file => {
     const data = await readFileAsync(file, "utf8")
+
     return new Promise(async (resolve, reject) => {
       let inline = String(data)
       try {
@@ -231,6 +223,11 @@ exports.onPostBuild = async () => {
       inline = inline.replace(/<script[^>]*>.*?<\/script>/gi, "")
       // Remove comments
       inline = inline.replace(/<!-.*?\/->/gi, "")
+      // Add url to image tags
+      inline = inline.replace(
+        /(<img *src=")(?!https:\/\/)(.*?)"/,
+        "$1" + "https://divergeweekly.com" + '$2"'
+      )
 
       fs.writeFile(file, inline, err => {
         if (err) {

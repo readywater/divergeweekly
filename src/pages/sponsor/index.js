@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import styled from "styled-components"
@@ -8,10 +8,14 @@ const SponsorGrid = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-around;
+  flex-wrap: wrap;
 `
 
 const Level = styled.div`
   width: 30%;
+  @media (max-width: 700px) {
+    width: 100%;
+  }
   padding: 10px 10px 50px 10px;
   border-radius: 5px;
   border: 1px solid #eee;

@@ -25,6 +25,7 @@ const Table = styled.table`
   }
   a {
     color: black;
+    background: yellow;
   }
   td {
     max-width: 50%;

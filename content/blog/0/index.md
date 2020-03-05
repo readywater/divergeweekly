@@ -12,11 +12,11 @@ tags:
 
 <main credit="Tishk Barzanji" creditlink="https://www.tishkbarzanji.co.uk/shop" quote="A human being becomes human not through the casual convergence of certain biological conditions, but through an act of will and love on the part of other people. \ — Italo Calvino">
 
-![Tishk Barzanji](./img/tishkvarzanij.jpg)
+![Tishk Barzanji](img/tishkvarzanij.jpg)
 
 Hi Everyone,
 
-Welcome to the "preview" issue of the Diverge Weekly, a weekly look at systemic design around the world. This is the first issue, the preview that was used for prototyping and testing the idea. You may not have gotten this in your inbox, but if you did, thank you for helping make this happen!
+Welcome to the "preview" issue of Diverge Weekly, a weekly look at systemic design around the world. This is the first issue, the preview that was used for prototyping and testing the idea. You may not have gotten this in your inbox, but if you did, thank you for helping make this happen!
 
 To start, this newsletter is an investigation and roundup of the role that design might play in international affairs.
 
@@ -68,7 +68,7 @@ Knowsi manages consent for user research. Send and track participant consent wit
 
 ![Kevin L. Moses Sr.](img/wotrrobot.jpg)
 
-[How to train your ai soldier robots (and the humans who command them) - war on the rocks](./img/wotrrobot.jpg)
+[How to train your ai soldier robots (and the humans who command them) - war on the rocks](https://warontherocks.com/2020/02/how-to-train-your-ai-soldier-robots-and-the-humans-who-command-them/)
 
 WOTR has been publishing weekly articles on artificial intelligence and defence. These articles have proven to be an interesting lens into the American defence establishment and the way that academics, officers, and acquisitions professionals are thinking about an emergent technology and the people who operate them.
 
@@ -77,7 +77,7 @@ WOTR has been publishing weekly articles on artificial intelligence and defence.
 <jobs>
 
 [[featurejob]]
-|[Sales Lead @ Knowsi](mailto:andrew@knowsi.com?subject=sales%lead)
+|[Product Marketing Lead @ Knowsi](mailto:andrew@knowsi.com?subject=product%marketing%lead)
 |Knowsi manages the consent relationship between researchers and participants. Help us make design research more private and more inclusive to participants by spreading the word and building our product marketing strategy.
 
 [[jobad | Urban Innovation]]
@@ -92,11 +92,11 @@ WOTR has been publishing weekly articles on artificial intelligence and defence.
 
 </jobs>
 
-<image credit="Karina Puente Frantzen" link="http://karinapuente.com">
+<imageblock credit="Karina Puente Frantzen" link="http://karinapuente.com">
 
-![Karina](./img/KarinaPuenteFrantzen.png)
+![Karina](img/KarinaPuenteFrantzen.png)
 
-</image>
+</imageblock>
 
 <voices who="Hitomi Yokata" role="Senior Service Designer, Bridgeable">
 “How might we make co-design processes inclusive of people with language barriers?” As part of her masters thesis, Hitomi created the Inclusive Co-Design Toolkit with her team at Bridgeable, focusing on the extension of design research techniques into language needs.

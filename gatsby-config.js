@@ -18,15 +18,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-transformer-cloudinary",
-      options: {
-        cloudName: "stupidsystems",
-        apiKey: "476513234338388",
-        apiSecret: "6ygQYOl6TmG8I2nxVL9mX6mmijs",
-        uploadFolder: "divergeweekly",
-      },
-    },
-    {
       resolve: `gatsby-plugin-styled-components`,
       options: {
         pure: true,
@@ -45,6 +36,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `gatsby-remark-unwrap-images`,
           `gatsby-remark-component`,
           `gatsby-remark-reading-time`,
           {
@@ -86,13 +78,13 @@ module.exports = {
               },
             },
           },
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 590,
-              linkImagesToOriginal: false,
-            },
-          },
+          // {
+          //   resolve: `gatsby-remark-images`,
+          //   options: {
+          //     maxWidth: 590,
+          //     linkImagesToOriginal: false,
+          //   },
+          // },
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
@@ -100,7 +92,13 @@ module.exports = {
             },
           },
           `gatsby-remark-prismjs`,
-          `gatsby-remark-copy-linked-files`,
+          {
+            resolve: `gatsby-remark-copy-linked-files`,
+            options: {
+              destinationDir: f => `img/${f.name}+${f.hash}_world`,
+              ignoreFileExtensions: [],
+            },
+          },
           `gatsby-remark-smartypants`,
         ],
       },

@@ -112,7 +112,10 @@ export default class Main extends Component {
                   </tr>
                   <tr>
                     <td>
-                      <img src="/alb.png" alt="Andrew Lovett-Barron" />
+                      <img
+                        src="https://divergeweekly.com/alb.png"
+                        alt="Andrew Lovett-Barron"
+                      />
                       Andrew Lovett-Barron
                     </td>
                   </tr>
@@ -125,8 +128,8 @@ export default class Main extends Component {
                   <tbody>
                     <tr>
                       <td>
-                        Thanks for following the Diverge Weekly. If you'd like
-                        to support us, please consider{" "}
+                        Thanks for following Diverge Weekly. If you'd like to
+                        support us, please consider{" "}
                         <a href="/sponsor/issue">sponsoring an issue</a>,{" "}
                         <a href="/sponsor/issue">posting a job</a>, or{" "}
                         <a href="/sponsor/issue">sharing a small ad</a>.

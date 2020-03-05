@@ -40,8 +40,8 @@ const Table = styled.table`
   .image {
     width: 50%;
     @media (max-width: 700px) {
-      display: inline;
-      padding: 0;
+      /* display: inline; */
+      margin: 10px;
       width: 100%;
     }
   }
@@ -54,6 +54,7 @@ export default class Security extends Component {
   }
 
   render() {
+    console.log(this.props.children[0])
     return (
       <>
         <Header>Security Blanket</Header>

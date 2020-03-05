@@ -16,7 +16,7 @@ tags:
 
 Hi Everyone,
 
-Welcome to the "preview" issue of the Diverge Weekly, a weekly look at systemic design around the world. This is the first issue, the preview that was used for prototyping and testing the idea. You may not have gotten this in your inbox, but if you did, thank you for helping make this happen!
+Welcome to the "preview" issue of Diverge Weekly, a weekly look at systemic design around the world. This is the first issue, the preview that was used for prototyping and testing the idea. You may not have gotten this in your inbox, but if you did, thank you for helping make this happen!
 
 To start, this newsletter is an investigation and roundup of the role that design might play in international affairs.
 

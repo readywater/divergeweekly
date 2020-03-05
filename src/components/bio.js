@@ -9,6 +9,7 @@ const Table = styled.table`
   position: relative;
   z-index: 0;
   min-height: 200px;
+  max-width: 1024px;
 
   td {
     @media (max-width: 700px) {

@@ -14,6 +14,7 @@ export const theme = {
   white: "#ffffff",
   lightgreen: "#D4EEE6",
   green: "#078B8D",
+  pink: "#ffcdc4",
   tinyWidth: "400px",
   unitWidth: "800px",
   maxWidth: "1200px",

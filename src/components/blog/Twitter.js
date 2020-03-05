@@ -38,6 +38,8 @@ const Table = styled.table`
       display: inline;
       padding: 0;
       width: 100%;
+      text-align: center;
+      margin: 10px auto 20px auto;
     }
   }
 `

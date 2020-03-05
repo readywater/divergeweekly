@@ -4,6 +4,7 @@ import styled from "styled-components"
 import Bio from "../components/bio"
 import Background from "../components/background"
 import Layout from "../components/layout"
+import { rhythm } from "../utils/typography"
 import SEO from "../components/seo"
 import EmailSignup from "../components/mailsignup"
 import { BlogPost, Nav, Minutes, Article } from "../templates/blog-post"
@@ -25,11 +26,16 @@ export const RespLayout = styled.div`
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    .header {
+      width: 100%;
+      display: block;
+    }
     > div {
+      margin: 0 10px;
       @media (max-width: 700px) {
         max-width: 100%;
       }
-      max-width: 50%;
+      max-width: 45%;
     }
   }
   .top {
@@ -49,7 +55,7 @@ export const RespLayout = styled.div`
         margin: 10px;
         padding: 10px;
       }
-      margin: 20px;
+      /* margin: 20px; */
       padding: 20px;
     }
   }
@@ -109,14 +115,28 @@ class BlogIndex extends React.Component {
         <RespLayout>
           <div className="top">
             <div id="newsletter">
-              <EmailSignup />
+              <div className="header">
+                <h3
+                  style={{
+                    margin: "0",
+                    marginTop: 0,
+                    lineHeight: rhythm(1),
+                    marginBottom: rhythm(0.5),
+                  }}
+                >
+                  Every Wednesday, a look at design practice from around the
+                  world and its impact on those who inhabit it.
+                </h3>
+                <p style={{ fontSize: rhythm(0.5), lineHeight: rhythm(1) }}>
+                  Regional design news, international jobs, featured designers,
+                  and more!
+                </p>
+              </div>
               <div id="search">
+                <EmailSignup />
                 <small>Read Previous Issues:</small>
                 <Select options={options} value={options[0]} />
               </div>
-            </div>
-            <div id="background">
-              <Background title={siteTitle} />
             </div>
           </div>
           <div id="posts">
