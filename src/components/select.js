@@ -85,7 +85,7 @@ const Blanket = props => (
   />
 )
 const Dropdown = ({ children, isOpen, target, onClose }) => (
-  <div css={{ position: "relative" }}>
+  <div css={{ position: "relative", zIndex: 100 }}>
     {target}
     {isOpen ? <Menu>{children}</Menu> : null}
   </div>

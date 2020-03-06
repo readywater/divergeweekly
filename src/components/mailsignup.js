@@ -10,7 +10,7 @@ const ButtonBlock = styled.div`
   display: flex;
   flex-wrap: none;
   width: 100%;
-  margin-top: 0;
+  margin-top: ${rhythm(0.5)};
   align-items: flex-start;
   p {
     flex: 1 1 0;
@@ -28,6 +28,7 @@ const BButton = styled(Button)`
 
 class EmailSignup extends Component {
   state = {
+    active: false,
     email: this.props.email,
     hp: "",
     gdpr: true,
@@ -85,7 +86,14 @@ class EmailSignup extends Component {
             this.setState({ success: true })
           }}
         >
-          <label htmlFor="email" style={{ fontSize: "24px", fontWeight: 800 }}>
+          <label
+            htmlFor="email"
+            style={{
+              fontSize: "24px",
+              fontWeight: 800,
+              marginBottom: rhythm(0.5),
+            }}
+          >
             <FloatingLabelInput
               type="email"
               label="Enter your Email"

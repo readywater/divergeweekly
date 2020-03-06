@@ -1,8 +1,8 @@
 ---
-title: The Blank
+title: The Afghan Peace Talk Issue
 issue: 1
-date: "2020-03-04T09:00:00.000Z"
-description: "The first issue of a new initiative"
+date: "2020-03-11T09:00:00.000Z"
+description: "Taking a look at the Afghan peace talks and what women have designed over the past 20 years"
 category: issue
 published: false
 tags:
@@ -10,23 +10,23 @@ tags:
   - "2020"
 ---
 
-<main credit="Thierry Chehab" quote="A human being becomes human not through the casual convergence of certain biological conditions, but through an act of will and love on the part of other people. - — Italo Calvino">
+<main credit="Ashley Hamer" quote="There are no separate systems. The world is a continuum. Where to draw a boundary around a system depends on the purpose of the discussion. - Dona Meadows">
 
-![Thierry Chehab](img/ThierryChehab.jpg)
+![Ashley Hamer](img/anbahhospital.png)
 
-Hi Everyone,
+Hello!
 
-Welcome to the "preview" issue of Diverge Weekly, a weekly look at systemic design around the world. This is the first issue, the preview that was used for prototyping and testing the idea. You may not have gotten this in your inbox, but if you did, thank you for helping make this happen!
+For most of my adult life, my country (one of them anyway, being a dual citizen between the US and Canada) [has been at war somewhere else in the world](https://www.aljazeera.com/indepth/interactive/2020/02/war-afghanistan-2001-invasion-2020-taliban-deal-200229142658305.html), but the experience of that war for American civilians was often ambiguous or bureaucratic, not tactile or kinetic.
 
-To start, this newsletter is an investigation and roundup of the role that design might play in international affairs.
+Recently, the announced agreement between the Taliban and US (with extension into NATO forces) has been a sign that at least that dominant conflict is drawing to a close, [but many unknowns remain](https://www.brookings.edu/blog/order-from-chaos/2020/03/04/on-afghanistan-give-peace-a-chance-but-be-wary-of-the-taliban/). Foremost amongst these concerns is how negotiations with the existing Afghan government will go (as they are not part of the US/Taliban negotiations), and what will happen to the rights and access that many Afghans have fought to establish and define amongst war but outside of the Taliban’s direct control.
 
-This week, we're seeing the global spread of COVID-19, or Corona virus, to the Middle East and beyond.New cases popping up in Lebanon, Iraq, Iran, Oman, Quatar, and around the world, cases in the Americas and Europe are causing alarm. Pandemics make visible much of what we believe and how we behave arounds systemic uncertainty, and often these behaviours manifest through artifacts tied to sickness. Face masks and hand sanitizer clipped to bags are two artifacts I’ve seen here in Copenhagen, [though the former is perhaps more a totem than something with real utility](https://www.vox.com/the-goods/2020/2/6/21124979/wuhan-coronavirus-face-masks-hoarding). The real question is whether our focus on totems might [serve to exacerbate the crisis if we hit a certain tipping point](https://www.nytimes.com/2020/02/29/health/coronavirus-n95-face-masks.html): yet another object designed for one catalyzing negative outcomes for many.
+Afghan women have particularly led these social changes, and have much reason to be concerned about any sign of a strengthening Taliban. [While great strides have been made in women’s leadership](https://giwps.georgetown.edu/a-new-generation-of-afghan-women-leaders/), it’s often overlooked that the [status of women in Afghanistan had progressively improving](https://www.amnesty.org.uk/womens-rights-afghanistan-history) before the Soviet coup in 1978, which led to the conflict with the Mujihadeen and eventual rise of the Taliban in the 1990s. A rehydrated Taliban power in Afghanistan might mean that much of what women have fought for in the past decades will be repressed, and worse, those women and men who have led that fight will face retaliation.
 
-In the United States, the democratic presidential primaries are in full swing, with Senator Bernie Sanders emerging as a frontrunner with message focused around [Medicare for All](https://www.nytimes.com/2020/02/25/upshot/medicare-for-all-basics-bernie-sanders.html). For many of us who have experienced universal healthcare systems (in my case, Canada and Denmark), the discussion around a need for continued healthcare reform in the US is exciting and overdue. Good design and good experiences should not only be for the wealthy, and neither should good health care.
+Consider some of the incredible design work emerging from Afghanistan, both tangible designs and in the services supporting people. [The Anabah Maternity Center](https://aquietrevolution.emergency.it/#/introduction) is a bright spot in how vital service delivery — in this case reproductive care — in Afghanistan is meeting both the health and cultural needs of those its serves. Originally created and supported by he Italian nonprofit Emergency, [the site has really grown into something led and operated by women serving the needs of their own community](https://brightthemag.com/health-women-maternity-afghanistan-security-da7a37b8e0bd). In a country where the female working population is (and will be) recovering from years of repression, it’s impossible not to celebrate the design and implementation of a healthcare system led by and staffed solely by women to support women who otherwise wouldn’t be able to access healthcare options because of patriarchal and religious barriers.
 
-[The ongoing battle for Idlib](https://www.aljazeera.com/topics/events/idlib-battle-syria.html) in Syria presents a less hopeful lens. Already a humanitarian disaster with countless refugees having fled to Idlib, the convergence of Russian-backed Pro-Assad forces and Turkish forces (both militia and actual military) has exacerbated their plight. From a design perspective, the ubiquitous UNHCR tent has been used [as cover by pro-ASSAD forces](https://twitter.com/TitusMichaeleus/status/1184867339331919872) to disguise their forces against the [onslaught of Turkish airstrikes](https://www.middleeastmonitor.com/20200301-turkey-destroys-scores-of-syrian-army-targets-incl-airport-air-defences-and-tanks/). The subversion of humanitarian objects for military maneuvers is nothing new, but given the humanitarian catastrophe using the symbols of the oppressed as cover is horrifying.
+Good design doesn't always come from those trained in design practices, but rather can emerge where a human centred disposition comes together with a systems-oriented mindset and an inclination to make something tangible. Design training and a tested process certainly facilitate and make repeatable that emergence, but as designers we can take a lot of inspiration from instances like Anabah, where its planners and operators performed great service design in the absence of a service designer.
 
-This is the prototype newsletter, so please [let us know what you think](mailto:alb@andrewlb.com) and I'm looking forward to building something you enjoy reading every week!
+That’s it for this week. As always, I’d encourage you to [subscribe](https://divergeweekly.com) if you haven’t and [feel free to send me a note](mailto:alb@andrewlb.com) if you have questions or feedback!
 
 </main>
 
@@ -43,34 +43,34 @@ Knowsi manages consent for user research. Send and track participant consent wit
 <region>
 
 [[region | Americas]]
-|[How do we stop another Iowa tech nightmare? The answers are hiding in plain sight.](https://medium.com/alloydotus/how-do-we-stop-another-iowa-tech-nightmare-the-answers-are-hiding-in-plain-sight-3cad991231df)
-|My old boss from the US Digital Service, Mikey Dickerson, weighs in on what happened in Iowa and the illusion of simplicity in software.
+|[Coronavirus Fears Have Led To A Golden Age Of Hand-Washing PSAs](https://www.npr.org/2020/03/04/811609241/coronavirus-fears-have-led-to-a-golden-age-of-hand-washing-psas)
+|With the surge in American Coronavirus cases, NPR takes a look at the numerous media touchpoints on hand washing as a mechanism to reduce spread. I'm personally following Quang Đăng's dance every time I wash my hands, weird looks be damned.
 
 [[region | MENA]]
-|[Syria film ‘For Sama’ wins BAFTA award – Middle East Monitor](https://www.middleeastmonitor.com/20200203-syria-film-for-sama-wins-bafta-award/)
-|Just try to keep it together watching this incredible film.
+|[Farzana Wahidy’s portraits of Afghanistan](https://www.economist.com/prospero/2020/03/03/farzana-wahidys-portraits-of-afghanistan)
+|She became the country’s first female photojournalist to work for international wire services, and she'll be sharing a collection of her work Women by Women
 
 [[region | East Asia]]
-|[‘No More Hugging, No More Kissing.’ At Home in Hong Kong With 2 Frontline Doctors. - The New York Times](https://www.nytimes.com/2020/02/20/world/asia/coronavirus-hong-kong-doctor-SARS.html)
-|The emotional impact of dealing with something unseen that — perhaps — makes you a danger to your loved one.
+|['More scary than coronavirus': South Korea's health alerts expose private lives](https://www.theguardian.com/world/2020/mar/06/more-scary-than-coronavirus-south-koreas-health-alerts-expose-private-lives)
+|Containing a pandemic is often a matter of surveillance and tracing connections between those affected. While Chinese surveillance culture is well known, the Coronavirus outbreak has revealed state surveillance in many societies, to the dismay of its citizens.
 
 [[region | South Asia]]
-|[Pakistani architect Yasmeen Lari wins the Jane Drew Prize 2020](https://www.dezeen.com/2020/01/30/yasmeen-lari-jane-drew-prize-2020/)
-|“Let us not treat disaster-affected households as destitute, needing handouts. Rather let us give them due respect and treat them as we would a corporate-sector client.”
+|[Facebook, Google and Twitter Rebel Against Pakistan’s Censorship Rules](https://www.nytimes.com/2020/02/27/technology/pakistan-internet-censorship.html)
+|Internet Censorship is a major issue around the world, cutting across autocratic, semi-democratic, and even some democratic regimes. The current situation in Pakistan and the response of the FAANG companies will be worth watching to understand the privacy and identity are being co-designed on the international stage.
 
 [[region | Europe]]
-|[Creating the Defence Digital Service (DDS) in MOD - Defence Digital](https://defencedigital.blog.gov.uk/2019/12/16/creating-the-defence-digital-service/)
-|A friend from my DDS days worked with the UK Ministry of Defence to spin up their own version of the Defence Digital Service (with a C).
+|[Innovation Methodologies for Defence Challenges](http://militaryepistemology.com/imdc-2020-in-budapest-hungary/)
+|Last week, the IMDC 2020 conference happened in Budapest, bringing together NATO military officials and design thinking practitioners in one room. It looked like an interesting event, and is perhaps a great pathway for bringing design practice into global affairs.
 
 </region>
 
-<security credit="Kevin L. Moses Sr.">
+<security credit="Source Unknown">
 
-![Kevin L. Moses Sr.](img/wotrrobot.jpg)
+![Source Unknown](img/j20.jpg)
 
-[How to train your ai soldier robots (and the humans who command them) - war on the rocks](./img/wotrrobot.jpg)
+[Google denies link to China’s military over touch-screen tools that may help PLA pilots](https://www.scmp.com/news/china/science/article/3017141/google-denies-link-chinas-military-over-touch-screen-tools-may)
 
-WOTR has been publishing weekly articles on artificial intelligence and defence. These articles have proven to be an interesting lens into the American defence establishment and the way that academics, officers, and acquisitions professionals are thinking about an emergent technology and the people who operate them.
+An interesting look at how consumer UX expectations bleed into critical military and defence applications. Having been a product designer at the Pentagon myself, I can generally say that the state of military UX is pretty dismal EXCEPT for when it's mission critical. In a culture obsessed with Job Boyd's OODA loop, speed and efficiency for warfighters is a strong argument. Seeing how that is playing out in other militaries, I wonder if UX will become yet another front in great power competition.
 
 </security>
 
@@ -80,32 +80,33 @@ WOTR has been publishing weekly articles on artificial intelligence and defence.
 |[Sales Lead @ Knowsi](mailto:andrew@knowsi.com?subject=sales%lead)
 |Knowsi manages the consent relationship between researchers and participants. Help us make design research more private and more inclusive to participants by spreading the word and building our product marketing strategy.
 
-[[jobad | Graphic and Data Viz Expert @ UN Food and Agriculture Organization]]
-|Located in Azerbaijan, and serves the entire United Nations community from UNICEF to UNHCR.
+[[jobad | Co-Creation Manager]]
+|[Co-Creation Manager, Aga Khan Foundation](https://3ga4b0g2bmm2x0mm4aptur1d-wpengine.netdna-ssl.com/wp-content/uploads/Local-Impact-Central-Asia-Project-and-Co-Creation-Manager-TOR_final_20200228.pdf)
+|Located in the Kyrgyz Republic or Tajikistan, the Aga Khan Foundation works in poverty reduction in Central Asia. This looks like an incredible role to apply design experience both in defining a strategy for improving people's outcomes, and in co-designing that strategy with the folk who will ultimately be experiencing it. Apply before March 20!
 
-[[jobad | Design Consultant]]
-|[Designer, International Rescue Committee](https://rescue.csod.com/ats/careersite/JobDetails.aspx?site=1&id=8368)
-|Located in Bangladesh
-|The IRC is looking for an experienced designer to lead these early prototyping activities with an education focus. The Designer will work collaborate closely with the IRC's education team. This looks like an awesome opportunity for someone trying to get some international design experience.
+[[jobad | Research in Turkey]]
+|[Researcher, Amnesty International](https://careers.amnesty.org/vacancy/researcher---turkey-2803/2831/description/)
+|Located in Turkey
+|Amnesty International is looking for a researcher to report on human rights issues in Turkey and the surrounding region. While this appears to be a more traditional research role, and less of a design-centric one, I think it could serve as a fascinating bridge for a design researcher to transition their values and viewpoint into the policy space. In particular, emphasizing empathy and qualitative methods in your application would go a long way!
 
 </jobs>
 
-<image credit="Karina Puente Frantzen" link="http://karinapuente.com">
+<image credit="John Snow" link="https://mappinglondon.co.uk/2014/mapping-cholera/">
 
-![Karina](./img/KarinaPuenteFrantzen.png)
+![John Snow Cholera Map](./img/cholera_john_snow.jpg)
 
 </image>
 
-<voices who="Hitomi Yokata" role="Senior Service Designer, Bridgeable">
-“How might we make co-design processes inclusive of people with language barriers?” As part of her masters thesis, Hitomi created the Inclusive Co-Design Toolkit with her team at Bridgeable, focusing on the extension of design research techniques into language needs.
+<voices who="Fahmida Azad" role="Acting Head of Education, CIID">
+Fahmida is a fascinating designer. I facilitated a workshop with her in Copenhagen, and got to see her methods for fusing critical discourse with design talent. She's a Bangladeshi-American service designer with experience working in education and NGOs around the world, including time spent in Palestine and Jordan. These days, she's leading education for the IDP program at Copenhagen Institute of Interaction Design and giving awesome talks at Interaction 20.
 
-[The Inclusive Co-design Toolkit | Bridgeable](https://www.bridgeable.com/ideas/introducing-the-inclusive-co-design-toolkit/)
+[What Designers can learn from Intersectional Feminism](https://interaction20.ixda.org/program/what-designers-can-learn-from-intersectional-feminism#speaker-fahmida-azad)
 
 </voices>
 
-<twitter who="ablerism">
+<twitter who="hondanhon">
 
-Those four principles at the end of James Scott's \_Seeing Like A State \_are, once again, such an elegant 101 formulation for young engineers and designers: take small steps; favor reversibility; plan on surprises; plan on human invention: [sarahendren.com/2018/01/17/see…](https://sarahendren.com/2018/01/17/seeing-like-a-state/)
+[JAMES BOND WILL RETURN IN DOUBLE DIAMONDS ARE FOREVER](https://twitter.com/hondanhon/status/1225872032639987714)
 
 </twitter>
 

@@ -5,7 +5,10 @@ const fs = require("fs")
 const glob = require("glob")
 const globAsync = util.promisify(glob)
 const readFileAsync = util.promisify(fs.readFile)
-const inlineCss = require("inline-css")
+// const inlineCss = require("inline-css")
+const cheerio = require("cheerio")
+const htmlToText = require("html-to-text")
+const juice = require("juice")
 
 function dedupeCategories(allMarkdownRemark) {
   const uniqueCategories = new Set()
@@ -176,7 +179,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
 exports.onCreatePage = ({ page, actions }) => {
   const { createPage, deletePage } = actions
-  console.log("OnCreatePage", page)
+  // console.log("OnCreatePage", page)
   if (page.path.includes("/mail")) {
     deletePage(page)
     // You can access the variable "house" in your page queries now
@@ -203,33 +206,73 @@ exports.onPostBuild = async () => {
     const data = await readFileAsync(file, "utf8")
 
     return new Promise(async (resolve, reject) => {
-      let inline = String(data)
-      try {
-        // inline = await inlineCss(inline, {
-        //   url: "https://divergeweekly.com",
-        //   preserveMediaQueries: true,
-        //   applyTableAttributes: false,
-        //   applyStyleTags: true,
-        //   applyLinkTags: true,
-        //   applyWidthAttributes: true,
-        // })
-        console.log("CSS inlined")
-      } catch (err) {
-        console.warn(
-          `Error during run a html-minifier at file ${file}:\n\n${err}`
-        )
-      }
-      // Remove Script
-      inline = inline.replace(/<script[^>]*>.*?<\/script>/gi, "")
-      // Remove comments
-      inline = inline.replace(/<!-.*?\/->/gi, "")
-      // Add url to image tags
-      inline = inline.replace(
-        /(<img *src=")(?!https:\/\/)(.*?)"/,
-        "$1" + "https://divergeweekly.com" + '$2"'
-      )
+      let html = String(data)
+      const url = "https://divergeweekly.com"
 
-      fs.writeFile(file, inline, err => {
+      const $ = cheerio.load(html)
+      $("script").remove() // remove scripts
+
+      $("img[src^='/']").prop("href", function(_idx, oldHref) {
+        if (!oldHref) {
+          console.log("Something is weird", oldHref, _idx)
+        } else {
+          return oldHref.append(url)
+        }
+      })
+
+      // $("a[href^='/']").prop("src", function(_idx, oldHref) {
+      //   if (!oldHref) {
+      //     console.log("Something is weird", oldHref, _idx)
+      //   } else {
+      //     return oldHref.append(url)
+      //   }
+      // })
+
+      // Convert Gatsby image to image
+      $(".gatsby-resp-image-wrapper").each(function() {
+        const _this = this
+
+        $(this).replaceWith(`<img src="${url+$(this).find('img').attr("src")}" alt="${$(this).find('img').attr("alt")}" />`)
+
+      })
+
+      // Convert all links
+      $("a")
+        .not('[href^="http"],[href^="https"],[href^="mailto:"],[href^="#"]')
+        .each(function() {
+          $(this).attr("href", function(index, value) {
+            if(value) {
+                
+              if (value.substr(0, 1) !== "/") {
+                value = url + value
+              }
+
+              return url + value
+            } else {
+              console.log("Weird.",index, value)
+            }
+          })
+        })
+
+      const text = htmlToText.fromString($.html(), {
+        wordwrap: 130,
+      })
+
+      const inlined = juice($.html())
+
+      // Write HTML
+
+      fs.writeFile(file, inlined, err => {
+        if (err) {
+          reject()
+          console.error(`Inline CSS error on write file:\n\n${err}`)
+        }
+        resolve()
+      })
+
+      // Write Text
+
+      fs.writeFile(file.split(".")[0] + ".txt", text, err => {
         if (err) {
           reject()
           console.error(`Inline CSS error on write file:\n\n${err}`)
