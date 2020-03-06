@@ -291,7 +291,7 @@ exports.onPostBuild = async () => {
   //     "Content-Type": "application/x-www-form-urlencoded",
   //   },
   //   body: new URLSearchParams({
-  //     ...this.state,
+      
   //     list: "w11veSoyUbYWx8PANkEe6w",
   //     boolean: true,
   //     subform: true,
