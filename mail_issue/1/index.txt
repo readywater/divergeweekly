@@ -44,12 +44,7 @@ See you next Wednesday,Andrew Lovett-Barron [https://divergeweekly.com/alb.png]A
 Weekly. If you'd like to support us, please consider sponsoring an issue [https://divergeweekly.com/sponsor/issue], posting a job
 [https://divergeweekly.com/sponsor/job], or sharing a small ad [https://divergeweekly.com/sponsor/ad].There are no separate
 systems. The world is a continuum. Where to draw a boundary around a system depends on the purpose of the discussion. - Dona
-Meadows[https://www.knowsi.com/static/tier1.png]KNOWSI
-Knowsi manages consent for user research. Send and track participant consent with custom forms and GDPR-focused tools.
-
-Join Knowsi today for free! [https://knowsi.com]
-
-HAPPENINGS
+MeadowsHAPPENINGS
 AmericasCoronavirus Fears Have Led To A Golden Age Of Hand-Washing PSAs
 [https://www.npr.org/2020/03/04/811609241/coronavirus-fears-have-led-to-a-golden-age-of-hand-washing-psas]With the surge in
 American Coronavirus cases, NPR takes a look at the numerous media touchpoints on hand washing as a mechanism to reduce spread.
@@ -85,10 +80,6 @@ critical. In a culture obsessed with Job Boyd’s OODA loop, speed and efficienc
 that is playing out in other militaries, I wonder if UX will become yet another front in great power competition.
 
 GLOBAL DESIGN JOBS
-Sales Lead @ Knowsi [andrew@knowsi.com?subject=sales%25lead]Knowsi manages the consent relationship between researchers and
-participants. Help us make design research more private and more inclusive to participants by spreading the word and building our
-product marketing strategy.
-
 Co-Creation ManagerCo-Creation Manager, Aga Khan Foundation
 [https://3ga4b0g2bmm2x0mm4aptur1d-wpengine.netdna-ssl.com/wp-content/uploads/Local-Impact-Central-Asia-Project-and-Co-Creation-Manager-TOR_final_20200228.pdf]
 Located in the Kyrgyz Republic or Tajikistan, the Aga Khan Foundation works in poverty reduction in Central Asia. This looks like
@@ -104,8 +95,12 @@ methods in your application would go a long way!
 
 We find a lot of our postings on the incredible Design Gigs for Good
 [https://groups.google.com/forum/#!forum/design-gigs-for-good] board. 
-Give it a look!John Snow Cholera Map [https://divergeweekly.com/static/ae68b45b489c66e01e8cd9fa45b4c675/1c72d/cholera_john_snow.jpg]
-DESIGN VOICES
+Give it a look![https://www.knowsi.com/static/tier1.png]KNOWSI
+Knowsi manages consent for user research. Send and track participant consent with custom forms and GDPR-focused tools.
+
+Join Knowsi today for free! [https://knowsi.com]
+
+John Snow Cholera Map [https://divergeweekly.com/static/ae68b45b489c66e01e8cd9fa45b4c675/1c72d/cholera_john_snow.jpg]DESIGN VOICES
 FAHMIDA AZAD
 Acting Head of Education, CIID
 
@@ -117,14 +112,7 @@ Institute of Interaction Design and giving awesome talks at Interaction 20.What 
 
 JAMES BOND WILL RETURN IN DOUBLE DIAMONDS ARE FOREVER [https://twitter.com/hondanhon/status/1225872032639987714]
 
-@hondanhon [https://twitter.com/hondanhon]CLASSIFIED
-Join CIID around the world [http://ciid.dk/education/summer-school/] for dedicated master classes in design and prototyping skills
-hosted yearly in different cities around the globe.
-
-Expecting a new family member? FitFaj prepares you for the challenge of parenthood with a customized workout plan that finishes
-right before your baby arrives. Signup Today! [https://fitfaj.com]
-
-Diverge Weekly is a newsletter exploring design in a global context, outside of the familiar western lens on design practice.
+@hondanhon [https://twitter.com/hondanhon]Diverge Weekly is a newsletter exploring design in a global context, outside of the familiar western lens on design practice.
 Great services, purposeful architecture, incredible products, thoughtful interfaces: these emerge where person-centric and
 systems-oriented sensibility combine with a practice of making things tangible.
 
