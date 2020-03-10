@@ -56,7 +56,7 @@ class Sponsor extends React.Component {
         <SEO title="Sponsor a Newsletter" />
         <h1>Sponsor {title}</h1>
         <p>
-          {title} is read by hundrds of designers and foreign policy
+          {title} is read by hundreds of designers and foreign policy
           professionals around the world. Support us and get your message out by
           sponsoring a weekly feature, booking a classified ad, or featuring a
           job posting.
@@ -75,8 +75,8 @@ class Sponsor extends React.Component {
             <h1>Share a Job Post</h1>
             <p>
               We share relevant job posts with our community because we want
-              great people filling them. A featured job posts are highlighted
-              and contain more information.
+              great people filling them. Featured job posts are highlighted and
+              contain more information.
             </p>
             <Link to={`/sponsor/job`}>Post a Job</Link>
           </Level>

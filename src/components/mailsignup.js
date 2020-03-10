@@ -24,6 +24,11 @@ const ButtonBlock = styled.div`
 const BButton = styled(Button)`
   background: ${theme.pink};
   border: 1px solid ${theme.black};
+
+  &.disabled {
+    border: 1px solid #eee;
+    background: ${theme.white};
+  }
 `
 
 class EmailSignup extends Component {
@@ -38,7 +43,10 @@ class EmailSignup extends Component {
   handleChange = e => {
     const { name, type, value } = e.target
     const val = type === "number" ? parseFloat(value) : value
-    this.setState({ [name]: val })
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+    const validate = re.test(String(val).toLowerCase())
+
+    this.setState({ [name]: val, active: validate })
   }
 
   toggleGDPR = e => {
@@ -114,10 +122,11 @@ class EmailSignup extends Component {
             />
           </div>
           <ButtonBlock>
-            <BButton style={{}}>
+            <BButton className={!this.state.active ? "disabled" : ""}>
               <button
                 type="submit"
                 name="submit"
+                disabled={!this.state.active}
                 id="submit"
                 className="center"
               >

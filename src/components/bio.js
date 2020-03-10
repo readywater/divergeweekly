@@ -65,7 +65,7 @@ const Bio = props => {
       className="footer"
     >
       <tbody>
-        <tr>
+        <tbody>
           <td valign="top" width="60%" style={{ padding: "20px" }}>
             <Background />
             {props.mail && (
@@ -84,40 +84,42 @@ const Bio = props => {
               cellspacing="0"
               className="block"
             >
-              <tr>
-                <td>
-                  <h4 style={{ marginTop: 0 }}>Sponsor an issue</h4>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <Link to={`/sponsor/issue`}>Sponsor an Issue</Link>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <Link to={`/sponsor/job`}>Post a Job</Link>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <Link to={`/sponsor/ad`}>Classified Ad</Link>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p className="small grey">
-                    Published by{" "}
-                    <a href="https://andrewlb.com">Andrew Lovett-Barron</a> at
-                    Stupid Systems LLC
-                    <br />
-                    113 Cherry St #54268, Seattle, WA 98104, USA.
-                  </p>
-                </td>
-              </tr>
+              <tbody>
+                <tr>
+                  <td>
+                    <h4 style={{ marginTop: 0 }}>Sponsor an issue</h4>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <Link to={`/sponsor/issue`}>Sponsor an Issue</Link>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <Link to={`/sponsor/job`}>Post a Job</Link>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <Link to={`/sponsor/ad`}>Classified Ad</Link>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p className="small grey">
+                      Published by{" "}
+                      <a href="https://andrewlb.com">Andrew Lovett-Barron</a> at
+                      Stupid Systems LLC
+                      <br />
+                      113 Cherry St #54268, Seattle, WA 98104, USA.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
             </table>
           </td>
-        </tr>
+        </tbody>
       </tbody>
     </Table>
   )

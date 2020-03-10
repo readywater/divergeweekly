@@ -131,8 +131,8 @@ export default class Main extends Component {
                         Thanks for following Diverge Weekly. If you'd like to
                         support us, please consider{" "}
                         <a href="/sponsor/issue">sponsoring an issue</a>,{" "}
-                        <a href="/sponsor/issue">posting a job</a>, or{" "}
-                        <a href="/sponsor/issue">sharing a small ad</a>.
+                        <a href="/sponsor/job">posting a job</a>, or{" "}
+                        <a href="/sponsor/ad">sharing a small ad</a>.
                       </td>
                       <td>
                         <div className="quote">{this.props.quote}</div>

@@ -16,13 +16,13 @@ tags:
 
 Hello 👋,
 
-Welcome to Diverge Weekly, a newsletter taking a critical look at design and world affairs. Every week, we take a global perspective on events shaping human experience, and consider how design is and isn't changing things for the better.
+Welcome to Diverge Weekly, a newsletter exploring design in a global context, outside of the familiar western lens on design practice. Great services, purposeful architecture, incredible products, thoughtful interfaces: these emerge where person-centric and systems-oriented sensibility combine with a practice of making things tangible.
 
 You're busy and you're already informed. You might be a traveling UX researcher, a student wondering when you can take your studio work to the world, or a product manager juggling a dozen priorities. You might be a civil servant at a government agency who is design curious, or serving in your country's military and looking for ways to think and problem solve divergently. There's a lot going on though, so think of Diverge Weekly as a **launching pad for developing your own global design literacy.**
 
 Every week, we'll take a look at what's happening around the globe and where our current definitions of design — **service, systemic, interaction, industrial, etc** — intersect and perhaps intervene in people's lived experiences with world affairs. Sometimes we look at how design is failing us, like how a [myopic focus on one context for design interventions in refugee communities can blind us to better options](https://www.dezeen.com/2017/12/18/dont-design-shelter-refugees-kilian-kleinschmidt-rene-boer-good-design-bad-world/). Other times, [we'll look to how designers go out of their way to surface others' stories and change their own narrative in the process](https://medium.com/design-voices/instructed-to-fear-meeting-refugees-seeking-home-697017e3b125).
 
-**Our goal is to look through a regional and critical lens at what design is and where it is rooted.** We believe that sometimes great design is happening when the word "design" is never mentioned, so be patient with us when we share a link that might seem out of left field. Specifically, we focus on people and collectives within regions, and try not to focus on the action of a nation as the primary agent on the international stage. Rather, we emphasize the actions, creations, and agency of people, collectives, and organizations. Fundamentally, we think that makes the world a much more interesting place.
+**We want to provide a gateway for designers to get involved in global design practice** by curating jobs, stories, and context with a lens to being critical about where design can play a role. In particular, we hope to identify opportunities where design has NOT traditionally had a seat (defence, global development, diplomacy), and work with our audience to infiltrate and have a design-led impact.
 
 Thank you so much for joining and [don't hesitate to send us a note](mailto:hello@divergeweekly.com).
 

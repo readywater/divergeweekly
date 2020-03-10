@@ -52,13 +52,21 @@ class Sponsor extends React.Component {
         <SEO title="About {title}" />
         <h1>About this Newsletter</h1>
         <p>
-          {title} is your weekly look at design in a global context. Design
-          practice has a profound capacity to reveal the unseen and to affect
-          our behaviour, the systems we rely on, and the outcomes we
-          collectively experience. {title} aims to take a critical global
-          perspective in how design emerges from different localities, and how
-          our design decisions converge to impact and influence the lives of
-          those around the world.
+          Diverge Weekly is a newsletter exploring design in a global context,
+          outside of the familiar western lens on design practice. Great
+          services, purposeful architecture, incredible products, thoughtful
+          interfaces: these are not isolated to a western design practice and
+          education. Rather, they emerge where person-centric and
+          systems-oriented sensibility combine with a practice of making things
+          tangible.
+        </p>
+        <p>
+          Our goal: provide a gateway for designers to get involved in global
+          design practice by curating jobs, stories, and context with a lens to
+          being critical about where design can play a role. In particular, we
+          hope to identify opportunities where design has NOT traditionally had
+          a seat (defence, global development, diplomacy), and work with our
+          audience to infiltrate and have a design-led impact.
         </p>
 
         <h1>Principles</h1>
@@ -76,12 +84,12 @@ class Sponsor extends React.Component {
 
         <ul>
           <li>
-            This newsletter takes the perspective that we loose the thread on
-            the person centric nature of design if we anthropomorphize systems
-            and political constructs. To that end, we specifically focus on
-            people and collectives within regions, and try not to focus on the
-            action of a nation, but rather emphasize the actions and creations
-            of an administration, a person, or a business.
+            This newsletter takes the perspective that we lose the thread on the
+            person centric nature of design if we anthropomorphize systems and
+            political constructs. To that end, we specifically focus on people
+            and collectives within regions, and try not to focus on the action
+            of a nation, but rather emphasize the actions and creations of an
+            administration, a person, or a business.
           </li>
         </ul>
 

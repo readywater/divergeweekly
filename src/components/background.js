@@ -33,15 +33,19 @@ const Background = props => {
   return (
     <Bg>
       <p>
-        Design practice has a deep capacity to reveal the unseen and to affect
-        our behaviour, the systems we rely on, and the outcomes we collectively
-        experience.{" "}
+        <strong>Diverge Weekly</strong> is a newsletter exploring design in a
+        global context, outside of the familiar western lens on design practice.
+        Great services, purposeful architecture, incredible products, thoughtful
+        interfaces: these emerge where person-centric and systems-oriented
+        sensibility combine with a practice of making things tangible.
       </p>
       <p>
-        <strong>Diverge Weekly</strong> takes a critical global perspective in
-        how design emerges from different localities, and how our design
-        decisions converge to impact and influence the lives of those around the
-        world.
+        Our goal: provide a gateway for designers to get involved in global
+        design practice by curating jobs, stories, and context with a lens to
+        being critical about where design can play a role. In particular, we
+        hope to identify opportunities where design has NOT traditionally had a
+        seat (defence, global development, diplomacy), and work with our
+        audience to infiltrate and have a design-led impact.{" "}
       </p>
     </Bg>
   )

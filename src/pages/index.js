@@ -124,12 +124,11 @@ class BlogIndex extends React.Component {
                     marginBottom: rhythm(0.5),
                   }}
                 >
-                  Every Wednesday, a look at design practice from around the
+                  Every Wednesday, a look at Design Practice from around the
                   world and its impact on those who inhabit it.
                 </h3>
                 <p style={{ fontSize: rhythm(0.5), lineHeight: rhythm(1) }}>
-                  Regional design news, international jobs, featured designers,
-                  and more!
+                  Regional design news, international jobs, featured designers, ways for designers to get involved in international work, and a weekly issue focus to help inform and inspire.
                 </p>
               </div>
               <div id="search">

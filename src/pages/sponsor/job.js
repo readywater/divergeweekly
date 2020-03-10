@@ -14,7 +14,7 @@ class Job extends React.Component {
         <SEO title="Sponsor a Newsletter" />
         <h1>List a Job Posting</h1>
         <p>
-          {title} is read by hundrds of designers and foreign policy
+          Diverge Weekly is read by hundreds of designers and foreign policy
           professionals around the world. Support us and get your message out by
           sponsoring a weekly feature, booking a classified ad, or featuring a
           job posting.
