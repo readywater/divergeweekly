@@ -212,6 +212,8 @@ exports.onPostBuild = async () => {
       const $ = cheerio.load(html)
       $("script").remove() // remove scripts
 
+      $("link").remove() // remove links
+
       $("img[src^='/']").prop("href", function(_idx, oldHref) {
         if (!oldHref) {
           console.log("Something is weird", oldHref, _idx)
@@ -232,8 +234,14 @@ exports.onPostBuild = async () => {
       $(".gatsby-resp-image-wrapper").each(function() {
         const _this = this
 
-        $(this).replaceWith(`<img src="${url+$(this).find('img').attr("src")}" alt="${$(this).find('img').attr("alt")}" />`)
-
+        $(this).replaceWith(
+          `<img src="${url +
+            $(this)
+              .find("img")
+              .attr("src")}" alt="${$(this)
+            .find("img")
+            .attr("alt")}" />`
+        )
       })
 
       // Convert all links
@@ -241,15 +249,14 @@ exports.onPostBuild = async () => {
         .not('[href^="http"],[href^="https"],[href^="mailto:"],[href^="#"]')
         .each(function() {
           $(this).attr("href", function(index, value) {
-            if(value) {
-                
+            if (value) {
               if (value.substr(0, 1) !== "/") {
                 value = url + value
               }
 
               return url + value
             } else {
-              console.log("Weird.",index, value)
+              console.log("Weird.", index, value)
             }
           })
         })
@@ -291,7 +298,7 @@ exports.onPostBuild = async () => {
   //     "Content-Type": "application/x-www-form-urlencoded",
   //   },
   //   body: new URLSearchParams({
-      
+
   //     list: "w11veSoyUbYWx8PANkEe6w",
   //     boolean: true,
   //     subform: true,
