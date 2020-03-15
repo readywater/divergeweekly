@@ -1,8 +1,8 @@
 ---
-title: The Pandemic Issue
+title: The Global Pandemic Issue
 issue: 2
 date: "2020-03-11T09:00:00.000Z"
-description: "A critical look at design's role (or lack therof) in coronavirus response, with an eye to foresight and intervention"
+description: "A critical look at design's role (or lack thereof) in coronavirus response, with an eye to foresight and intervention"
 category: issue
 published: true
 tags:
@@ -11,9 +11,9 @@ tags:
   - coronavirus
 ---
 
-<main credit="Ashley Hamer" quote="There are no separate systems. The world is a continuum. Where to draw a boundary around a system depends on the purpose of the discussion. - Dona Meadows">
+<main credit="George Caleb Bingham" quote="When someone is saved from certain death by a strange concatenation of circumstances, they say that's a miracle. But of course if someone is killed by a freak chain of events -- the oil spilled just there, the safety fence broken just there -- that must also be a miracle. Just because it's not nice doesn't mean it's not miraculous. - Terry Pratchett, Interesting Times">
 
-![Ashley Hamer](img/anbahhospital.png)
+![George Caleb Bingham painting of General Order no. 11 during the US civil war](img/Orderno11.jpg)
 
 Hello from a shuttered Denmark,
 
@@ -53,8 +53,8 @@ That’s it for this week. As always, I’d encourage you to [subscribe](https:/
 |Already having faced incredible internal upheaval in January, Iran has been brutally affected by the coronavirus, evidenced by the digging of mass graves near Qom. The societal scars of poor foresight, maladapted systems, and just bad luck will be with us for decades; and Iran will be an important place to watch for social adaptation post-crisis.
 
 [[region | East Asia]]
-|[](https://news.avclub.com/japanese-women-in-self-isolation-coin-new-word-for-onl-1842313435)
-|
+|[Health Care + Design in Singapore](https://blog.centerforinnovation.mayo.edu/2012/02/16/health-care-design-in-singapore/)
+|Singapore has been lauded has being particularly well adapted to coronavirus and previous pandemics (like SARS). In trying to learn a bit more about how this happened, I found this to be a useful look at how Singapore has approached the design of its healthcare system.
 
 [[region | South Asia]]
 |[Designing a handwashing station for infrastructure-restricted communities in Bangladesh](https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-13-877)
@@ -68,11 +68,11 @@ That’s it for this week. As always, I’d encourage you to [subscribe](https:/
 
 <security credit="Source Unknown">
 
-![Source Unknown](img/j20.jpg)
+![Source: Voice of America photo from 2016](img/voa-mask.jpg)
 
-[Google denies link to China’s military over touch-screen tools that may help PLA pilots](https://www.scmp.com/news/china/science/article/3017141/google-denies-link-chinas-military-over-touch-screen-tools-may)
+[Islamic State Advice on Coronavirus Pandemic](http://www.aymennjawad.org/2020/03/islamic-state-advice-on-coronavirus-pandemic)
 
-An interesting look at how consumer UX expectations bleed into critical military and defence applications. Having been a product designer at the Pentagon myself, I can generally say that the state of military UX is pretty dismal EXCEPT for when it is mission critical. In a culture obsessed with Job Boyd's OODA loop, speed and efficiency for warfighters is a strong argument. Seeing how that is playing out in other militaries, I wonder if UX will become yet another front in great power competition.
+A newsletter to ISIS members, translated by Aymenn Jawad Al-Tamimi, a researcher focused on the Syrian civil war. As objectively evil as the Islamic State is, it is still an organization that has to look after its members and do what organizations do: communicate, align, and act. Some of the language in the newsletter is pretty interesting from that lens and a good cue for how these kind of societal threats get translated across orgs and cultures.
 
 </security>
 
@@ -82,14 +82,15 @@ An interesting look at how consumer UX expectations bleed into critical military
 |[Sales Lead @ Knowsi](mailto:andrew@knowsi.com?subject=sales%lead)
 |Knowsi manages the consent relationship between researchers and participants. Help us make design research more private and more inclusive to participants by spreading the word and building our product marketing strategy. -->
 
-[[jobad | Co-Creation Manager]]
-|[Co-Creation Manager, Aga Khan Foundation](https://3ga4b0g2bmm2x0mm4aptur1d-wpengine.netdna-ssl.com/wp-content/uploads/Local-Impact-Central-Asia-Project-and-Co-Creation-Manager-TOR_final_20200228.pdf)
-|Located in the Kyrgyz Republic or Tajikistan, the Aga Khan Foundation works in poverty reduction in Central Asia. This looks like an incredible role to apply design experience both in defining a strategy for improving people's outcomes, and in co-designing that strategy with the folk who will ultimately be experiencing it. Apply before March 20!
+[[jobad | Communication in Kenya]]
+|[Communications Advisor, Médecins Sans Frontières](https://careers.msf-applications.org/job/Communications-Advisor/518538202/)
+|Located in Kenya
+|MSF is an incredible organization working around the world in medical disaster response, prevention, and recovery. This role, while it looks like a classic comms role, might be a really interesting fit for someone with design research experience, but coming from a more formal communication design or journalism background. The balance of the role points to a design experience with field work, daily response work, and strategy development.
 
-[[jobad | Research in Turkey]]
-|[Researcher, Amnesty International](https://careers.amnesty.org/vacancy/researcher---turkey-2803/2831/description/)
-|Located in Turkey
-|Amnesty International is looking for a researcher to report on human rights issues in Turkey and the surrounding region. While this appears to be a more traditional research role, and less of a design-centric one, I think it could serve as a fascinating bridge for a design researcher to transition their values and viewpoint into the policy space. In particular, emphasizing empathy and qualitative methods in your application would go a long way!
+[[jobad | Technology in the US Congress]]
+|[Director, TechCongress](https://www.techcongress.io/deputy-director)
+|Located in Washington DC, USA
+|TechCongress is an awesome program connecting designers and technologists with congressional leaders in the United States. I got a bit of a behind-the-scenes look during my time at New America, and can enthusiastically recommend the opportunity to work with Travis and his team. This would be an awesome role for a designer with both technical chops and leadership experience who wants to get involved in government.
 
 </jobs>
 
@@ -103,22 +104,23 @@ Knowsi manages consent for user research. Send and track participant consent wit
 
 </sponsor>
 
-<image credit="John Snow" link="https://mappinglondon.co.uk/2014/mapping-cholera/">
+<image credit="Angelina Bambina" link="https://mappinglondon.co.uk/2014/mapping-cholera/">
 
-![John Snow Cholera Map](./img/cholera_john_snow.jpg)
+![ Zhijun Wang](./img/acronymmask.jpg)
+German/Canadian brand Acronym is well known for being a defining force in the "tech wear" movement, and designer [Zhijun Wang](https://www.instagram.com/zhijunwang/) [reinterpreted the Nike/Acronym sneaker](https://hypebeast.com/2016/12/acronym-nike-presto-face-mask) style into this interesting (and intimidating) face mask.
 
 </image>
 
-<voices who="Fahmida Azad" role="Acting Head of Education, CIID">
-Fahmida is a fascinating designer. I facilitated a workshop with her in Copenhagen, and got to see her methods for fusing critical discourse with design talent. She's a Bangladeshi-American service designer with experience working in education and NGOs around the world, including time spent in Palestine and Jordan. These days, she's leading education for the IDP program at Copenhagen Institute of Interaction Design and giving awesome talks at Interaction 20.
+<voices who="Cade Dieh" role="Founder, New Design Congress">
+Cade Diehm is a designer and thinker based in Berlin, but travels around the world speaking on design through a lens of security, society, and critical theory. I was first introduced to his work a few years ago through his essay On Weaponized Design, but more recently have been excited to see what comes out of The New Design Congress. Give it a subscribe below: the first newsletter just came out last weekend.
 
-[What Designers can learn from Intersectional Feminism](https://interaction20.ixda.org/program/what-designers-can-learn-from-intersectional-feminism#speaker-fahmida-azad)
+[The New Design Congress](https://newdesigncongress.org/)
 
 </voices>
 
-<twitter who="hondanhon">
+<twitter who="tomvanderbilt">
 
-[JAMES BOND WILL RETURN IN DOUBLE DIAMONDS ARE FOREVER](https://twitter.com/hondanhon/status/1225872032639987714)
+[After decades of WFH, I'd need an article with tips on how to work in an office.](https://twitter.com/tomvanderbilt/status/1238524310035279878)
 
 </twitter>
 
