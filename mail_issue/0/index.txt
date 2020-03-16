@@ -95,12 +95,12 @@ We find a lot of our postings on the incredible Design Gigs for Good
 [https://groups.google.com/forum/#!forum/design-gigs-for-good] board. 
 Give it a look!Karina [https://divergeweekly.com/static/1e07e6edb8681950074cd1db97b1715e/fcda8/KarinaPuenteFrantzen.png]
 credit: Karina Puente FrantzenDESIGN VOICES
-HITOMI YOKATA
-Senior Service Designer, Bridgeable
-
 “How might we make co-design processes inclusive of people with language barriers?” As part of her masters thesis, Hitomi created
 the Inclusive Co-Design Toolkit with her team at Bridgeable, focusing on the extension of design research techniques into language
-needs.The Inclusive Co-design Toolkit | Bridgeable [https://www.bridgeable.com/ideas/introducing-the-inclusive-co-design-toolkit/]
+needs.HITOMI YOKATA
+Senior Service Designer, Bridgeable
+
+The Inclusive Co-design Toolkit | Bridgeable [https://www.bridgeable.com/ideas/introducing-the-inclusive-co-design-toolkit/]
 
 Those four principles at the end of James Scott’s _Seeing Like A State _are, once again, such an elegant 101 formulation for young
 engineers and designers: take small steps; favor reversibility; plan on surprises; plan on human invention: 
