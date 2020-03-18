@@ -1,6 +1,6 @@
 [https://divergeweekly.com/logo.png] [https://divergeweekly.com/]ISSUE #2: THE GLOBAL PANDEMIC ISSUE
-Read in your browser [https://divergeweekly.com/issue/2/]George Caleb Bingham painting of General Order no. 11 during the US civil war [https://divergeweekly.com/static/5147d96646dbd64e470596f656158d3b/1c72d/Orderno11.jpg]
-Image credit: George Caleb Bingham [undefined]Hello from a shuttered Denmark,
+Read in your browser [https://divergeweekly.com/issue/2/]Edvard Much self portrait with the Spanish Flu [https://divergeweekly.com/static/c7f3604e4e3d28db0e1fda21c6edbeea/1c72d/edvardmunch.jpg]
+Image credit: Edvard Munch [undefined]Hello from a shuttered Denmark,
 
 This past week we’ve seen the “exponential” part of exponential growth hit the world like a tidal wave. Markets have dipped,
 businesses are scrambling, and the people that constitute both are unsure of what’s coming.
@@ -37,9 +37,12 @@ But we’re also seeing an active response in how design engages with the crisis
 Digital Ground, “The success of a design is arrived at socially.” Across China —an already incredibly sophisticated and integrated
 surveillance state— software serves to mitigate, inform, but also surveil. Chinese public-private partnerships have led to a
 colour-code based access system to public space [https://www.nytimes.com/2020/03/01/business/china-coronavirus-surveillance.html],
-with quite legitimate concerns for social acceptance of surveillance post-pandemic. South Korea is taking a similar intervention
-with a different implementation — free drive through testing in your car with a simple text-message based notification of your
-results
+with quite legitimate concerns for social acceptance of surveillance post-pandemic. A state’s over-reach might seem prudent in a
+crisis, but what provisions are in place to revert once the crisis has passed? We don’t always get Cincinnatus
+[https://en.wikipedia.org/wiki/Lucius_Quinctius_Cincinnatus], after all.
+
+South Korea is taking a similar intervention with a different implementation — free drive through testing in your car with a
+simple text-message based notification of your results
 [https://www.npr.org/sections/goatsandsoda/2020/03/13/815441078/south-koreas-drive-through-testing-for-coronavirus-is-fast-and-free] 
 which allows testing infrastructure to be incredibly light weight in a country where two-thirds of people own a car. In other
 words, we are seeing “crisis architecture” churn through society once more: the modular hospitals in Wuhan
@@ -155,7 +158,8 @@ The New Design Congress [https://newdesigncongress.org/]
 After decades of WFH, I’d need an article with tips on how to work in an office.
 [https://twitter.com/tomvanderbilt/status/1238524310035279878]
 
-@tomvanderbilt [https://twitter.com/tomvanderbilt]Diverge Weekly is a newsletter exploring design in a global context, outside of the familiar western lens on design practice.
+@tomvanderbilt [https://twitter.com/tomvanderbilt]Please share Diverge weekly, either by forwarding this email or by sharing this
+link.https://divergeweekly.com/issue/2/ [https://divergeweekly.com/issue/2/]Diverge Weekly is a newsletter exploring design in a global context, outside of the familiar western lens on design practice.
 Great services, purposeful architecture, incredible products, thoughtful interfaces: these emerge where person-centric and
 systems-oriented sensibility combine with a practice of making things tangible.
 
