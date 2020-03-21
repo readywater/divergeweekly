@@ -98,6 +98,9 @@ Knowsi manages consent for user research. Send and track participant consent wit
 </image>
 
 <voices who="Fahmida Azad" role="Acting Head of Education, CIID">
+
+![Fahmida Azad](img/fahmida.png)
+
 Fahmida is a fascinating designer. I facilitated a workshop with her in Copenhagen, and got to see her methods for fusing critical discourse with design talent. She's a Bangladeshi-American service designer with experience working in education and NGOs around the world, including time spent in Palestine and Jordan. These days, she's leading education for the IDP program at Copenhagen Institute of Interaction Design and giving awesome talks at Interaction 20.
 
 [What Designers can learn from Intersectional Feminism](https://interaction20.ixda.org/program/what-designers-can-learn-from-intersectional-feminism#speaker-fahmida-azad)

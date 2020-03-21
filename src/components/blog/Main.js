@@ -98,12 +98,7 @@ export default class Main extends Component {
               <td valign="top" className="main">
                 <div className="image">
                   {this.props.children[0]}
-                  <small>
-                    Image credit:{" "}
-                    <a href={this.props.creditlink} target="_blank">
-                      {this.props.credit}
-                    </a>
-                  </small>
+                  <small>Image credit: {this.props.credit}</small>
                 </div>
                 {this.props.children.slice(1)}
                 <table className="sig">

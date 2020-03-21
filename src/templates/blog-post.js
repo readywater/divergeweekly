@@ -16,6 +16,7 @@ import Voices from "../components/blog/Voices"
 import Twitter from "../components/blog/Twitter"
 import ImageBlock from "../components/blog/Image"
 import Main from "../components/blog/Main"
+import Share from "../components/share"
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
@@ -229,14 +230,8 @@ export const BlogPost = ({ post, mail }) => {
             {(!mail && (
               <tr>
                 <td>
-                  <span>
-                    Published on {post.frontmatter.date} under{" "}
-                    <Link to={`/${post.frontmatter.category}`}>
-                      {post.frontmatter.category.charAt(0).toUpperCase() +
-                        post.frontmatter.category.slice(1)}
-                    </Link>
-                  </span>{" "}
-                  {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
+                  <span>Published on {post.frontmatter.date}</span>{" "}
+                  {false && ( //post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
                     <span style={{ display: "inline" }}>
                       with tags{" "}
                       {post.frontmatter.tags.map(t => {
@@ -283,6 +278,9 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <BlogPost post={post} mail={isMail} />
+        <Share
+          url={`https://divergeweekly.com/${post.frontmatter.category}${post.fields.slug}`}
+        />
         <Bio mail={isMail} />
       </Layout>
     )

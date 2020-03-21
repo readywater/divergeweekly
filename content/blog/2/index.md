@@ -1,7 +1,7 @@
 ---
 title: The Global Pandemic Issue
 issue: 2
-date: "2020-03-11T09:00:00.000Z"
+date: "2020-03-18T09:00:00.000Z"
 description: "A critical look at design's role (or lack thereof) in coronavirus response, with an eye to foresight and intervention"
 category: issue
 published: true
@@ -11,9 +11,9 @@ tags:
   - coronavirus
 ---
 
-<main credit="George Caleb Bingham" quote="When someone is saved from certain death by a strange concatenation of circumstances, they say that's a miracle. But of course if someone is killed by a freak chain of events -- the oil spilled just there, the safety fence broken just there -- that must also be a miracle. Just because it's not nice doesn't mean it's not miraculous. - Terry Pratchett, Interesting Times">
+<main credit="Edvard Munch" quote="When someone is saved from certain death by a strange concatenation of circumstances, they say that's a miracle. But of course if someone is killed by a freak chain of events -- the oil spilled just there, the safety fence broken just there -- that must also be a miracle. Just because it's not nice doesn't mean it's not miraculous. - Terry Pratchett, Interesting Times">
 
-![George Caleb Bingham painting of General Order no. 11 during the US civil war](img/Orderno11.jpg)
+![Edvard Much self portrait with the Spanish Flu](img/edvardmunch.jpg)
 
 Hello from a shuttered Denmark,
 
@@ -30,11 +30,13 @@ For the nearer term, the designer has a host of tools available, from [card game
 
 On the other end is **intervention**. With the current coronavirus outbreak, the rhetorical focus has very much been on POLICY interventions: how can we wield the apparatus of states to tackle a [collective action problem](https://en.wikipedia.org/wiki/Collective_action_problem) like a global pandemic? For examples of this discussion, [there’s a great episode of Vox’s The Weeds](https://megaphone.link/VMP2383267901) on the American policy response, and [Vox’s global affairs podcast Worldly has an additional North American-centric exploration of outcomes and implications as well](https://megaphone.link/VMP2017093543).
 
-But we’re also seeing an active response in how design engages with the crisis. As Malcom McCullough points out in his book Digital Ground, “The success of a design is arrived at socially.” Across China —an already incredibly sophisticated and integrated surveillance state— software serves to mitigate, inform, but also surveil. [Chinese public-private partnerships have led to a colour-code based access system to public space](https://www.nytimes.com/2020/03/01/business/china-coronavirus-surveillance.html), with quite legitimate concerns for social acceptance of surveillance post-pandemic. South Korea is taking a similar intervention with a different implementation — [free drive through testing in your car with a simple text-message based notification of your results](https://www.npr.org/sections/goatsandsoda/2020/03/13/815441078/south-koreas-drive-through-testing-for-coronavirus-is-fast-and-free) which allows testing infrastructure to be incredibly light weight in a country where two-thirds of people own a car. In other words, we are seeing “crisis architecture” churn through society once more: the [modular hospitals in Wuhan](https://www.straitstimes.com/asia/east-asia/china-building-1000-bed-hospital-over-the-weekend-to-treat-coronavirus) being in the same family as [post-9/11 segmentation of America’s airports](https://99percentinvisible.org/episode/episode-32-design-for-airports/).
+But we’re also seeing an active response in how design engages with the crisis. As Malcom McCullough points out in his book Digital Ground, “The success of a design is arrived at socially.” Across China —an already incredibly sophisticated and integrated surveillance state— software serves to mitigate, inform, but also surveil. [Chinese public-private partnerships have led to a colour-code based access system to public space](https://www.nytimes.com/2020/03/01/business/china-coronavirus-surveillance.html), with quite legitimate concerns for social acceptance of surveillance post-pandemic. A state's over-reach might seem prudent in a crisis, but what provisions are in place to revert once the crisis has passed? [We don't always get Cincinnatus](https://en.wikipedia.org/wiki/Lucius_Quinctius_Cincinnatus), after all.
+
+South Korea is taking a similar intervention with a different implementation — [free drive through testing in your car with a simple text-message based notification of your results](https://www.npr.org/sections/goatsandsoda/2020/03/13/815441078/south-koreas-drive-through-testing-for-coronavirus-is-fast-and-free) which allows testing infrastructure to be incredibly light weight in a country where two-thirds of people own a car. In other words, we are seeing “crisis architecture” churn through society once more: the [modular hospitals in Wuhan](https://www.straitstimes.com/asia/east-asia/china-building-1000-bed-hospital-over-the-weekend-to-treat-coronavirus) being in the same family as [post-9/11 segmentation of America’s airports](https://99percentinvisible.org/episode/episode-32-design-for-airports/).
 
 Clearly, design has a role in this crisis, but how does the individual designer engage? The most useless thing I’ve read about the coronavirus was this [list of how design thinking is going to save us from coronavirus](https://fortune.com/2020/01/28/the-coronavirus-problem-could-be-solved-by-design-thinking/). If you’re a “design thinker” only asking these questions now, you’ve already failed. The examples in China and South Korea are an adaptive strategy with an adaptive design to a fast moving crisis that came from either excellent foresight activities (taking a more strategic approach) or simply learning the hard way (the more intuitive approach). As such, the context for an appropriate design to emerge, succeed, and hopefully obviate its utility already exists, as we’re already seeing with the [1000 bed hospital in Wuhan being disassembled](https://archpaper.com/2020/03/wuhan-shutters-all-temporary-hospitals-covid-19-risk-dissipates/).
 
-As we collectively weather this pandemic, the thing we should recognize is that foresight without intervention is simply speculation, and intervention without foresight is [naive at best](https://news.ycombinator.com/item?id=22453746) and [incredibly harmful at worst](https://www.npr.org/sections/goatsandsoda/2020/03/12/814876173/coronavirus-trump-speech-creates-chaos-eu-says-it-wasnt-warned-of-travel-ban). As those working in or adjacent to design, we have a responsibility to look ahead: both systematically using the tools of our trade, and ambiantly by absorbing information globally and from many sources.
+As we collectively weather this pandemic, the thing we should recognize is that **foresight without intervention is simply speculation, and intervention without foresight is [naive at best](https://news.ycombinator.com/item?id=22453746) and [incredibly harmful at worst](https://www.npr.org/sections/goatsandsoda/2020/03/12/814876173/coronavirus-trump-speech-creates-chaos-eu-says-it-wasnt-warned-of-travel-ban)**. As those working in or adjacent to design, we have a responsibility to look ahead: both systematically using the tools of our trade, and ambiantly by absorbing information globally and from many sources.
 
 Be safe and by generous. Finally, look after yourself now, because like everyone’s favourite William Gibson quote, “The future is already here — it’s just not very evenly distributed.” [Just as China is finding itself able to respond to Italy’s needs](https://www.straitstimes.com/world/europe/coronavirus-china-sends-medical-aid-to-spain-and-italy) because of how it handled its own spike in infections, we all might be in a position to help others depending on where we are in our own infection curve.
 
@@ -107,11 +109,14 @@ Knowsi manages consent for user research. Send and track participant consent wit
 <image credit="Angelina Bambina" link="https://mappinglondon.co.uk/2014/mapping-cholera/">
 
 ![ Zhijun Wang](./img/acronymmask.jpg)
-German/Canadian brand Acronym is well known for being a defining force in the "tech wear" movement, and designer [Zhijun Wang](https://www.instagram.com/zhijunwang/) [reinterpreted the Nike/Acronym sneaker](https://hypebeast.com/2016/12/acronym-nike-presto-face-mask) style into this interesting (and intimidating) face mask.
+German/Canadian brand Acronym is well known for being a defining force in the techwear movement, and designer [Zhijun Wang](https://www.instagram.com/zhijunwang/) [reinterpreted the Nike/Acronym sneaker](https://hypebeast.com/2016/12/acronym-nike-presto-face-mask) style into this interesting (and intimidating) face mask.
 
 </image>
 
-<voices who="Cade Dieh" role="Founder, New Design Congress">
+<voices who="Cade Diehm" role="Founder, New Design Congress" image="img/cade.png">
+
+![Cade Diehm](img/cade.png)
+
 Cade Diehm is a designer and thinker based in Berlin, but travels around the world speaking on design through a lens of security, society, and critical theory. I was first introduced to his work a few years ago through his essay On Weaponized Design, but more recently have been excited to see what comes out of The New Design Congress. Give it a subscribe below: the first newsletter just came out last weekend.
 
 [The New Design Congress](https://newdesigncongress.org/)

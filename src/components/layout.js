@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
+import EmailSignup from "../components/mailsignup"
 import { rhythm } from "../utils/typography"
 
 const Header = styled.div`
@@ -73,7 +74,7 @@ class Layout extends React.Component {
           </div>
           {!isMail && (
             <Links>
-              <Link to={`/`}>Issues</Link>
+              <Link to={`/`}>Subscribe</Link>
               <Link to={`/sponsor`}>Sponsor</Link>
               <Link to={`/about`}>About</Link>
             </Links>

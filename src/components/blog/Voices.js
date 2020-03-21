@@ -69,10 +69,11 @@ export default class Voices extends Component {
           <tbody>
             <tr cellspacing="0" cellpadding="0">
               <td className="image" valign="center">
+                {this.props.children[0]}
                 <h2>{this.props.who}</h2>
                 <p>{this.props.role}</p>
               </td>
-              <td valign="top">{this.props.children}</td>
+              <td valign="top">{this.props.children.slice(1)}</td>
             </tr>
           </tbody>
         </Table>

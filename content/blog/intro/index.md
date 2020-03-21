@@ -16,9 +16,11 @@ tags:
 
 Hello 👋,
 
-Welcome to Diverge Weekly, a newsletter exploring design in a global context, outside of the familiar western lens on design practice. Great services, purposeful architecture, incredible products, thoughtful interfaces: these emerge where person-centric and systems-oriented sensibility combine with a practice of making things tangible.
+### Thank you for signing up!
 
-You're busy and you're already informed. You might be a traveling UX researcher, a student wondering when you can take your studio work to the world, or a product manager juggling a dozen priorities. You might be a civil servant at a government agency who is design curious, or serving in your country's military and looking for ways to think and problem solve divergently. There's a lot going on though, so think of Diverge Weekly as a **launching pad for developing your own global design literacy.**
+Welcome to Diverge Weekly, a newsletter looking at design and global affairs. Great services, purposeful architecture, incredible products, thoughtful interfaces: we want to help you make sense of what is happening around the world and empower you to participate.
+
+You're busy and you're already informed. You might be a **UX researcher** fascinated by people, a **design student** wondering when you can take your studio work to the world, or a **product manager** juggling a dozen priorities. You might be a **civil servant** at a government agency who is design curious, or **serving in your country's military** and looking for ways to think and problem solve divergently. There's a lot going on though, so think of Diverge Weekly as a **launching pad for developing your own global design literacy.**
 
 Every week, we'll take a look at what's happening around the globe and where our current definitions of design — **service, systemic, interaction, industrial, etc** — intersect and perhaps intervene in people's lived experiences with world affairs. Sometimes we look at how design is failing us, like how a [myopic focus on one context for design interventions in refugee communities can blind us to better options](https://www.dezeen.com/2017/12/18/dont-design-shelter-refugees-kilian-kleinschmidt-rene-boer-good-design-bad-world/). Other times, [we'll look to how designers go out of their way to surface others' stories and change their own narrative in the process](https://medium.com/design-voices/instructed-to-fear-meeting-refugees-seeking-home-697017e3b125).
 

@@ -133,10 +133,12 @@ class EmailSignup extends Component {
                 Subscribe
               </button>
             </BButton>
-            <p>
-              I consent to recieve <br />
-              Diverge Weekly's newsletter.
-            </p>
+            {this.state.active && (
+              <p>
+                I consent to recieve <br />
+                Diverge Weekly's newsletter.
+              </p>
+            )}
           </ButtonBlock>
         </form>
       </FormSetup>

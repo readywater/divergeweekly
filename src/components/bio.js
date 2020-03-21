@@ -26,6 +26,7 @@ const Table = styled.table`
       margin: 0;
     }
     a {
+      display: inline-block;
       border-radius: 5px;
       background: ${theme.white};
       padding: 0 5px;
