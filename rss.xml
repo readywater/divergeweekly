@@ -1,20 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Diverge Weekly]]></title><description><![CDATA[Every Wednesday, a look at design from around the world and its impact on those who inhabit it.]]></description><link>https://divergeweekly.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 24 Mar 2020 23:52:20 GMT</lastBuildDate><item><title><![CDATA[The Uncertainty Issue]]></title><description><![CDATA[Hi. You’re likely at home, or I hope you are able to be. Last week, I wrote about the balance of intervention and foresight in a design…]]></description><link>https://divergeweekly.com/3/</link><guid isPermaLink="false">https://divergeweekly.com/3/</guid><pubDate>Wed, 25 Mar 2020 09:00:00 GMT</pubDate><content:encoded>&lt;div&gt;&lt;main credit=&quot;Edvard Munch&quot; quote=&quot;Modern economies are vastly complicated. Somehow they must process immense quantities of information—concerning the tastes and incomes of consumers, the outputs and costs of producers, future products and methods of production, and the myriad of interdependences of all of the above. The task of gathering this information, let alone making sense of it, is beyond any designing intelligence. But it is not beyond the market, which yields ‘spontaneous order’ out of chaos. — The Economist&apos;s obituary to Friedrich Hayek&quot;&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Diverge Weekly]]></title><description><![CDATA[Every Wednesday, a look at design from around the world and its impact on those who inhabit it.]]></description><link>https://divergeweekly.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 25 Mar 2020 00:02:46 GMT</lastBuildDate><item><title><![CDATA[The Uncertainty Issue]]></title><description><![CDATA[Hi. You’re likely at home, or I hope you are able to be. Last week, I wrote about the balance of intervention and foresight in a design…]]></description><link>https://divergeweekly.com/3/</link><guid isPermaLink="false">https://divergeweekly.com/3/</guid><pubDate>Wed, 25 Mar 2020 09:00:00 GMT</pubDate><content:encoded>&lt;div&gt;&lt;main credit=&quot;David Chandler&quot; quote=&quot;Modern economies are vastly complicated. Somehow they must process immense quantities of information—concerning the tastes and incomes of consumers, the outputs and costs of producers, future products and methods of production, and the myriad of interdependences of all of the above. The task of gathering this information, let alone making sense of it, is beyond any designing intelligence. But it is not beyond the market, which yields ‘spontaneous order’ out of chaos. — The Economist&apos;s obituary to Friedrich Hayek&quot;&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 460px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBAv/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABZPoKirL/xAAaEAACAwEBAAAAAAAAAAAAAAABAgARIgMh/9oACAEBAAEFAujEpVD2EaZtVP/EABYRAQEBAAAAAAAAAAAAAAAAAAAREv/aAAgBAwEBPwGMv//EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAgBAgEBPwGrr//EABcQAQADAAAAAAAAAAAAAAAAAAEQIGH/2gAIAQEABj8CaOEf/8QAGRABAAMBAQAAAAAAAAAAAAAAAQARITFB/9oACAEBAAE/IQRcg7g7C23OB0iAUdCAfJ//2gAMAwEAAgADAAAAENPf/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/EAEnb//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/EKL/xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAhMUHR/9oACAEBAAE/EHVqNF7vArvEPe/cjqby9cJbIWC5SIbA4swKpuf/2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 66.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdyd41CP/8QAGhAAAgIDAAAAAAAAAAAAAAAAAREAAhIhMv/aAAgBAQABBQIHILcp0kRP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAACAxMv/aAAgBAQAGPwKml//EABoQAQEBAQADAAAAAAAAAAAAAAEAETFBUcH/2gAIAQEAAT8hT4I0DTkcnhPcHc8txf/aAAwDAQACAAMAAAAQV/8A/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARMf/aAAgBAwEBPxAZV//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/EGf/xAAdEAEAAwABBQAAAAAAAAAAAAABABEhURAxQWGh/9oACAEBAAE/EH4obx8JtuynO/OlxYdj266Xe/uCjP/Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Edvard Much, Murder on the Road&quot;
-        title=&quot;Edvard Much, Murder on the Road&quot;
-        src=&quot;/static/80a6feae461a5799f8cf1b4b9c227667/e41a8/murderontheroad.jpg&quot;
-        srcset=&quot;/static/80a6feae461a5799f8cf1b4b9c227667/a80bd/murderontheroad.jpg 148w,
-/static/80a6feae461a5799f8cf1b4b9c227667/1c91a/murderontheroad.jpg 295w,
-/static/80a6feae461a5799f8cf1b4b9c227667/e41a8/murderontheroad.jpg 460w&quot;
-        sizes=&quot;(max-width: 460px) 100vw, 460px&quot;
+        alt=&quot;David Chandler, Thucydides and the Plague of Athens&quot;
+        title=&quot;David Chandler, Thucydides and the Plague of Athens&quot;
+        src=&quot;/static/ce638ed304dea6ea74b457bc82624206/1c72d/David-Chandler-thucydides.jpg&quot;
+        srcset=&quot;/static/ce638ed304dea6ea74b457bc82624206/a80bd/David-Chandler-thucydides.jpg 148w,
+/static/ce638ed304dea6ea74b457bc82624206/1c91a/David-Chandler-thucydides.jpg 295w,
+/static/ce638ed304dea6ea74b457bc82624206/1c72d/David-Chandler-thucydides.jpg 590w,
+/static/ce638ed304dea6ea74b457bc82624206/a8a14/David-Chandler-thucydides.jpg 885w,
+/static/ce638ed304dea6ea74b457bc82624206/fbd2c/David-Chandler-thucydides.jpg 1180w,
+/static/ce638ed304dea6ea74b457bc82624206/e5166/David-Chandler-thucydides.jpg 1200w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -111,19 +114,19 @@ Located in USA (remote) and must be US national&lt;/p&gt;&lt;p&gt;This looks lik
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 149.96249062265568%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAeABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAwL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABZwcmxTNCl5TqRcOyv//EABwQAAICAwEBAAAAAAAAAAAAAAECAxEABBIhIv/aAAgBAQABBQKWUKFm6RRa7cSlRyoiPabj4fch8h3BTx/TXWf/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAeEAACAQQDAQAAAAAAAAAAAAAAASECERJBEDJRgf/aAAgBAQAGPwJqjsN5TpCbU2M9l0JsVH0kpM/SeP/EABwQAQEBAQADAQEAAAAAAAAAAAERACExUWFxgf/aAAgBAQABPyG5EPrhqv8AIC5Y0gpuFQp/cKgE7zL5VpS/WZAJjD8ucK4YHqZARxZzPgDhv//aAAwDAQACAAMAAAAQj+pw/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QIT//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBjP//EAB4QAQEAAQQDAQAAAAAAAAAAAAERACExQYFRkcGx/9oACAEBAAE/ED4UVdhvesZeKiRM0JNv3CxRi2U1y+ypTjdk50yyyTUR4+YXBaj0zIkS+nY+5q6vIXFYEW3bfuLIqIOC4IcUaH33gomAA8Gf/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 149.96249062265568%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAeABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAwH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABbXbmRTNSsZD6BdOlf//EABsQAAICAwEAAAAAAAAAAAAAAAEDAhEABBIh/9oACAEBAAEFAmsEAHWsCxtqiYgCGLPcNydA+4rxW4D0upSJrP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EACAQAAIBBAEFAAAAAAAAAAAAAAABAhASITFxETJBUbH/2gAIAQEABj8Caj3EpXcCbWS/T+nVCkKPukeBT8aM0//EABwQAQADAQADAQAAAAAAAAAAAAEAESExUXGBsf/aAAgBAQABPyHekNcjsgrgOzHBAp4i/hq6/UKzEbiqdZ9HMrQSGn7TcCxQlFTFrIKoMJ//2gAMAwEAAgADAAAAEB/sTP/EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPxAyE//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxB2M//EACEQAQEAAgEDBQEAAAAAAAAAAAERACExUWGBQXGhscHh/9oACAEBAAE/EKsTgUCc3xcbnpBVU0Tv84491sCbMgdRTgLIPXLyiqSnTDcAGzsp+YYrteI/v1isRG3nL9pQvd3+4ZTaQ2TeSLcRo71zmswIHQz/2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Mitch Sinclair&quot;
         title=&quot;Mitch Sinclair&quot;
-        src=&quot;/static/4b556e10127ec678aa1acd1aea64ec9f/1c72d/mitch-sinclair.jpg&quot;
-        srcset=&quot;/static/4b556e10127ec678aa1acd1aea64ec9f/a80bd/mitch-sinclair.jpg 148w,
-/static/4b556e10127ec678aa1acd1aea64ec9f/1c91a/mitch-sinclair.jpg 295w,
-/static/4b556e10127ec678aa1acd1aea64ec9f/1c72d/mitch-sinclair.jpg 590w,
-/static/4b556e10127ec678aa1acd1aea64ec9f/a8a14/mitch-sinclair.jpg 885w,
-/static/4b556e10127ec678aa1acd1aea64ec9f/fbd2c/mitch-sinclair.jpg 1180w,
-/static/4b556e10127ec678aa1acd1aea64ec9f/f9218/mitch-sinclair.jpg 1333w&quot;
+        src=&quot;/static/cc8fc8a0accaeeb918385a31d16a1acd/1c72d/mitch-sinclair.jpg&quot;
+        srcset=&quot;/static/cc8fc8a0accaeeb918385a31d16a1acd/a80bd/mitch-sinclair.jpg 148w,
+/static/cc8fc8a0accaeeb918385a31d16a1acd/1c91a/mitch-sinclair.jpg 295w,
+/static/cc8fc8a0accaeeb918385a31d16a1acd/1c72d/mitch-sinclair.jpg 590w,
+/static/cc8fc8a0accaeeb918385a31d16a1acd/a8a14/mitch-sinclair.jpg 885w,
+/static/cc8fc8a0accaeeb918385a31d16a1acd/fbd2c/mitch-sinclair.jpg 1180w,
+/static/cc8fc8a0accaeeb918385a31d16a1acd/f9218/mitch-sinclair.jpg 1333w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
