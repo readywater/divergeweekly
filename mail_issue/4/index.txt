@@ -115,7 +115,7 @@ incredibly prescient decision, given how close family structures might help us w
 
 South AsiaIndia tracks attendees after Muslim event linked to virus cases
 [https://www.aljazeera.com/news/2020/03/india-links-dozens-coronavirus-cases-muslim-gathering-200331095417048.html]Cycles can be
-destructive. The chipping away by populism and religious violence, the world’s largest democracy is is straining under multiple
+destructive. The chipping away by populism and religious violence, the world’s largest democracy is straining under multiple
 stressors, and covid-19 is only the most recent. Looking at the anti-muslim rhetoric of the Modi administration, it is a major
 worry that this crisis will turn into a justification for increased surveillance and increased persecution. While many world
 leaders are finding their position tenuous in these times, most authoritarians will leverage emergency power in the coming weeks,
@@ -126,9 +126,8 @@ AmericasThe coronavirus outbreak won’t peak in every state at once
 [https://www.axios.com/coronavirus-states-peak-hospitals-53274e0e-69b8-4dc7-b069-fb27955c559a.html]The last two issues of Diverge
 looked at this idea that a common event in time is experienced both subjectively and objectively in very different ways. In this
 case, we have an incredibly tangible model of how covid-19 will hit its peak in different states, at different points in time. As
-we saw in the UK (from PM Johnson recommended herd immunity and handshaking the infected to self isolating himself) and an
-unending stream of exponential graphs, that interval between a considered-or-ignored threat and a deadly reality comes far too
-quickly.
+we saw in the UK (PM Johnson went from recommended herd immunity and handshaking the infected to self isolating) and an unending
+stream of exponential graphs, that interval between a considered-or-ignored threat and a deadly reality comes far too quickly.
 
 MENAEurope sends medical gear to Iran, bypassing US sanctions as coronavirus deaths rise
 [https://english.alaraby.co.uk/english/news/2020/3/31/europe-sends-medical-gear-to-iran-in-sanction-bypass-deal]Cycles can also be
@@ -148,11 +147,11 @@ we’ll be tomorrow.
 
 EuropeHas the World Learned the Lessons of the 2015 Refugee Crisis?
 [https://www.worldpoliticsreview.com/articles/28644/has-the-world-learned-the-lessons-of-the-2015-refugee-crisis]Framed by the
-current coronavirus crisis, this article explores the collective action problem of mass migration resulting and what we have
-apparently failed to learn in its systemic effects. As Dona Meadows demonstrates, while events may differ on the surface, their
-underlying systemic mechanics might actually be quite similar. I found this to be a useful read given how the European Union has
-been approaching the virus and its most affected member states, both to consider consistencies in response and in how this virus
-will multiply the strain already felt by the EU.
+current coronavirus crisis, this article explores the collective action problem of mass migration and what we have apparently
+failed to learn in its systemic effects. As Dona Meadows demonstrates, while events may differ on the surface, their underlying
+systemic mechanics might actually be quite similar. I found this to be a useful read given how the European Union has been
+approaching the virus and its most affected member states, both to consider consistencies in response and in how this virus will
+multiply the strain already felt by the EU.
 
 SECURITY BLANKET
 Source: Greg Baker, Foreign Policy/AFP [https://divergeweekly.com/static/b951066c124f93eec2f01f11491b4b41/1c72d/pla-greg-barker.jpg]
@@ -181,16 +180,16 @@ User Research in EthiopiaContract User Researcher, Simple.org
 [https://groups.google.com/forum/embed/?place=forum/design-gigs-for-good&showsearch=true&showpopout=true&showtabs=false&parenturl=https%3A%2F%2Fwww.designgigsforgood.org%2Fjob-board#!topic/design-gigs-for-good/ssVm3KilpSA]
 Located in Ethiopia
 
-This would be an awesome opportunity for a user researcher interested in global health and based in Ethiopia to travel and develop
-their experience. While it looks like the role might mostly be targeted at locals, there may also be room for someone with
-experience doing research work in Africa more generally.
+This would be an awesome opportunity for a user researcher interested in global health and based in Ethiopia. While it looks like
+the role might mostly be targeted at locals, there may also be room for someone with experience doing research work in Africa more
+generally.
 
 Education and InnovationEducation Research & Innovation Lead, International Rescue Committee
 [https://rescue.csod.com/ats/careersite/JobDetails.aspx?site=1&id=8360]Located in New York, USA
 
-I have a not so secret crush on the IRC and tsome of their design work. This role would have you working with the Airbel Impact
-Lab to develop solutions for people impacted by conflict and disaster, with a focus on children. It’s a high impact role and
-probably a great one for someone with strong design education and co-creation experience.
+I have a not so secret crush on the IRC and their design work. This role would have you working with the Airbel Impact Lab to
+develop solutions for people impacted by conflict and disaster, with a focus on children. It’s a high impact role and probably a
+great one for someone with strong design education and co-creation experience.
 
 We find a lot of our postings on the incredible Design Gigs for Good
 [https://groups.google.com/forum/#!forum/design-gigs-for-good] board. 
@@ -214,8 +213,12 @@ was participating in a panel on Design Thinking in the Military. While I am a bi
 exploration of design practice by military theorists and practitioners is worth our attention.
 
 Philippe and his peers are creating a synthesis around modalities of thought, learning, and practice in the design high-autonomy
-teams and high-stake outcomes. To be honest, his work and the work of his peers is helping me reframe my own understanding of
-design, so expect to see more of this type of thing shared in future issues.
+teams and high-stake outcomes. His work and the work of his peers is helping me reframe my own understanding of design, so expect
+to see more of this type of thing shared in future issues.
+
+In Philippe’s words: “We use design thinking as an umbrella term to make things easier with military organizations. We dig more
+deeply into a philosophical and methodological assemblage including American pragmatism, system theory, design theory, strategic
+design, foresight, organization theory, complexity theory, post structuralism, and operational art to name a few.”
 
 The Archipelago of Design: Reflexive Military Practice [http://militaryepistemology.com/]
 
