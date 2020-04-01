@@ -39,7 +39,7 @@ one which celebrates sustainability — or engage with the incredibly tangible v
 defensible assets and property, and relative market share. This choice is often not as hard as one might think, as we are all
 often hundreds and thousands of individual design decisions down the path of the market’s frame on value.
 
-So how does one escape this? I actually don’t know that you can.
+So how does one escape this? I actually don’t know that you can. Here are two examples of lock-in: one positive; one negative.
 
 A product that I’ve really admired over the past bit is Solar Sack [https://solarsack.com/], a startup from Denmark’s Innofounder
 program of which led design mentorship in 2018 and 2019. Solar Sack is a brilliantly designed product. It’s a mechanism to heat
@@ -51,8 +51,6 @@ masters in industrial design, and before that, he had spent time in Kenya workin
 co-designed with its users: with Alexander taking multiple extended trips across Africa to work with his potential customers. As
 such, by the time Solar Sack hit the market, he had been through countless cycles of a design process that oriented his values
 toward those of his customers, and facilitated the emergence of this product.
-
-If Alexander is an example of what successful design can look like…
 
 Take an alternative, far larger, and far more tragic example: the US failure to aid and rebuild in Afghanistan. Between the
 invasion in 2001 and 2016, the United States spent more money attempting to rebuild Afghanistan than it spent rebuilding Europe in
@@ -211,13 +209,14 @@ Philippe Beaulieu-Brossard [https://divergeweekly.com/static/7d7e538010adaddb608
 BEAULIEU-BROSSARD
 Co-Director, Archipelago of Design
 
-I met Philippe when attending a seminar on Design Thinking in the Military at Copenhagen University’s War Studies department. It
-was a pretty enlightening conversation between Philippe and other visiting scholar, mostly who were involved in teaching design
-methodologies to the special forces teams in the US, Denmark, and Canada. While I tend to believe that design is fundamentally a
-discipline that results in tangible artefacts (and so can be a bit of a design thinking sceptic sometimes), there is something in
-this contemporary exploration of design practice that is incredibly interest and worth paying attention to, including by designers
-disinterested in military affairs. Philippe and his peers are at the forefront of an interesting synthesis around modalities of
-thought, of learning, and of practice, and I’d encourage you to keep an eye on his work.
+I met Philippe at a panel on Design Thinking in the Military — a discussion by different design teachers to special forces teams
+in the US, Denmark, and Canada. While I believe that design is fundamentally a discipline that results in tangible artefacts (and
+so can be a bit of a design thinking sceptic), this contemporary exploration of design practice by military theorists and
+practitioners is worth your attention. With an eye to both deep theory and high stakes operations, Philippe and his peers are
+creating an interesting synthesis around modalities of thought, learning, and practice when it comes to the design of teams and
+the design of high-autonomy, high-stake outcomes — its own form of very tangible and designed experience. To be honest, his work
+and the work of his peers is helping me reframe my own understanding of design, so expect to see more of this type of work shared
+in this newsletter.
 
 The Archipelago of Design: Reflexive Military Practice [http://militaryepistemology.com/]
 
