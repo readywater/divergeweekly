@@ -26,7 +26,7 @@ const Table = styled.table`
       margin: 0;
     }
     a {
-      display: inline-block;
+      display: inline-block !important;
       border-radius: 5px;
       background: ${theme.white};
       padding: 0 5px;
@@ -37,6 +37,9 @@ const Table = styled.table`
     margin-top: 20px;
     font-size: 14px;
     line-height: 18px;
+    a {
+      display: inline-block !important;
+    }
   }
 
   td,

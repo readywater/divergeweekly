@@ -27,7 +27,7 @@ const Table = styled.table`
     font-size: 18px;
   }
   td {
-    max-width: 50%;
+    /* max-width: 50%; */
     @media (max-width: 700px) {
       display: inline;
       width: 100%;
@@ -37,7 +37,7 @@ const Table = styled.table`
 
 export default class Jobs extends Component {
   render() {
-    const columns = this.props.columns || 2
+    const columns = this.props.columns || 1
     console.log(this.props.children[0])
     return (
       <>

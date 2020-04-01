@@ -27,7 +27,7 @@ const Table = styled.table`
       display: inline;
       width: 100%;
     }
-    text-align: center;
+    text-align: left;
     width: 40%;
     padding: 20px;
     a {
@@ -40,6 +40,7 @@ const Table = styled.table`
   }
   .image {
     max-width: 30%;
+    text-align: center;
     @media (max-width: 700px) {
       display: inline;
       padding: 0;

@@ -30,6 +30,7 @@ const Table = styled.table`
     text-align: left;
     padding: 20px;
     a {
+      margin: 10px;
       padding: 10px;
       margin-top: 10px;
       background: #ffffff !important;

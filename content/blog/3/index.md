@@ -1,5 +1,5 @@
 ---
-title: The Uncertain Issue
+title: The Uncertainty Issue
 issue: 3
 date: "2020-03-25T09:00:00.000Z"
 description: "Uncertainty and decision making in a time of crisis, and looking to the scope of ones impact"
@@ -11,26 +11,29 @@ tags:
   - coronavirus
 ---
 
-<main credit="Edvard Munch" quote="Modern economies are vastly complicated. Somehow they must process immense quantities of information—concerning the tastes and incomes of consumers, the outputs and costs of producers, future products and methods of production, and the myriad of interdependences of all of the above. The task of gathering this information, let alone making sense of it, is beyond any designing intelligence. But it is not beyond the market, which yields ‘spontaneous order’ out of chaos. — The Economist's obituary to Friedrich Hayek">
+<main credit="David Chandler" quote="Modern economies are vastly complicated. Somehow they must process immense quantities of information—concerning the tastes and incomes of consumers, the outputs and costs of producers, future products and methods of production, and the myriad of interdependences of all of the above. The task of gathering this information, let alone making sense of it, is beyond any designing intelligence. But it is not beyond the market, which yields ‘spontaneous order’ out of chaos. — The Economist's obituary to Friedrich Hayek">
 
-![Edvard Much, Murder on the Road](img/murderontheroad.jpg)
+![David Chandler, Thucydides and the Plague of Athens](img/David-Chandler-thucydides.jpg)
 
 Hi.
 
 You’re likely at home, or I hope you are able to be.
 
-Last week, [I wrote about the balance of intervention and foresight](https://divergeweekly.com/issue/2/) in a design-based response to the coronavirus pandemic, and closed with the William Gibson quote “The future is already here — it’s just not very evenly distributed.” This means two things: physically and in our daily lives, some of us are experiencing Covid-19 on different schedules and scales, with Italy being the most egregious case. _But it also means our individual construction of the future in a pandemic is relative to our own experience_, and that is the focus here.
+Last week, [I wrote about the balance of intervention and foresight](https://divergeweekly.com/issue/2/) in a design-based response to the coronavirus pandemic, and closed with the William Gibson quote “The future is already here — it’s just not very evenly distributed.” We are all experiencing Covid-19 on different schedules and scales, with Italy being the most egregious case and with [America marching blindly into its wake](https://www.politico.com/news/2020/03/24/trump-wants-to-restart-economy-by-mid-april-146398). _This means that our individual construction of the future in this pandemic is relative to our own experience and belief about the future_, and that relativism is the focus of this week.
 
-Here are three scenarios of this construct that I’ve seen:
+Here are three ways that I see this being constructed:
 
-- 1.  _An act of Apprehension_
-      I’m in Denmark right now, and writing this on Saturday, March 21st. My wife, my one year-old son, and I have been self-isolating for 10 days, as have many of our friends. Today, it’s been two weeks since the last major outing, meeting with some friends for lunch. This apprehension is a judgement of risk relative to the array of possible futures at the point of decision, and making a “best guess” for which set of possibilities we should prepare. We might have felt pretty dumb pulling our son from daycare a few days early if things had turned out fine, but since [I’ve worked remotely for two years now](https://andrewlb.com/writing/remotework/) we had the right tools and support set up so that the cost of being wrong was effectively my son joining a few video meetings and my exhaustion. Ultimately, an act of apprehension can go either way, and is a gamble on trying to position oneself along a more preferable future.
+1.  **An act of Apprehension**
 
-- 2. _An act of Mitigation_
-     Only yesterday, my university in the UK announced that they were closing the school and modifying distance courses: despite the fact that by percentage of the population, [the UK has a higher rate of cases than Denmark](https://cream.io/?m=tcpp&r=United%20States%2C-45&r=Italy%2C-35&r=South%20Korea%2C-31&r=Denmark%2C-45&r=United%20Kingdom%2C-45&s=log&z=3) – even with Denmark being in lock down for over a week. As cases and deaths grow, [PM Johnson’s reactions have been compared to that of the Mayor in Jaws](https://www.theguardian.com/commentisfree/2020/mar/20/coronavirus-myth-economy-uk-business-life-death), keeping the beach open for tourist season despite a murderous shark in its waters. Here then, our action and judgement is responsive to independent variables and driven by the same. Apprehension may drive our consumption of information, but the action of mitigation is only to offset damage that is already being done.
+    I’m in Denmark right now, and writing this on Saturday, March 21st. My wife, my one year-old son, and I have been self-isolating for 10 days, as have many of our friends. We were early in preparing for this lockdown, and this apprehension is a judgement of risk relative to the array of possible futures at the point of decision, and making a “best guess” for which set of possibilities we should prepare. We might have felt pretty dumb pulling our son from daycare a few days early if things had turned out fine, but since [I’ve worked remotely for two years now](https://andrewlb.com/writing/remotework/) we had the right tools and support set up so that the cost of being wrong was effectively my son joining a few video meetings and my exhaustion. Ultimately, an act of apprehension can go either way, and is a gamble on trying to position oneself along a more preferable future.
 
-- 3. _An act of Ignorance_
-     The most worrisome trends are where no action is being taken at all or the threat is seen as negligible. In Denmark, I was shocked to see folk pushing past each other while grocery shopping and the school closure being seen as an excuse to party, not shelter. This aligns with the stories of [American students congregating on beaches for spring break](https://www.bbc.com/news/av/world-us-canada-51955362/us-students-party-on-spring-break-despite-coronavirus), or worse, [exposure by those attending the rallies of Brazilian president Bolsonaro](https://politica.estadao.com.br/noticias/geral,bolsonaro-tem-contato-direto-com-ao-menos-272-pessoas-durante-ato-mostra-video,70003234397). This route is either willful or unintended: resulting from a dearth of information or — worst of all — given the information available, doing nothing or doing harm.
+2.  **An act of Mitigation**
+
+    Only yesterday, my university in the UK announced that they were closing the school and modifying distance courses: despite the fact that by percentage of the population, [the UK has a higher rate of cases than Denmark](https://cream.io/?m=tcpp&r=United%20States%2C-45&r=Italy%2C-35&r=South%20Korea%2C-31&r=Denmark%2C-45&r=United%20Kingdom%2C-45&s=log&z=3) – even with Denmark being in lock down for over a week. As cases and deaths grow, [PM Johnson’s reactions have been compared to that of the Mayor in Jaws](https://www.theguardian.com/commentisfree/2020/mar/20/coronavirus-myth-economy-uk-business-life-death), keeping the beach open for tourist season despite a murderous shark in its waters. Here then, our action and judgement is responsive to independent variables and driven by the same. Apprehension may drive our consumption of information, but the action of mitigation is only to offset damage that is already being done.
+
+3.  **An act of Ignorance**
+
+    The most worrisome trends are where no action is being taken at all or the threat is seen as negligible. In Denmark, I was shocked to see folk pushing past each other while grocery shopping and the school closure being seen as an excuse to party, not shelter. This aligns with the stories of [American students congregating on beaches for spring break](https://www.bbc.com/news/av/world-us-canada-51955362/us-students-party-on-spring-break-despite-coronavirus), or worse, [exposure by those attending the rallies of Brazilian president Bolsonaro](https://politica.estadao.com.br/noticias/geral,bolsonaro-tem-contato-direto-com-ao-menos-272-pessoas-durante-ato-mostra-video,70003234397). This route is either willful or unintended: resulting from a dearth of information or — worst of all — given the information available, doing nothing or doing harm.
 
 The problem with these three actions is that they reflect an inflection point that is being considered by everyone: informed by their lived experience, their state of mind, societal pressures, and access to resources. My decision to self isolate 10 days ago might have occurred at the same moment in time as someone’s decision that spring break was a great idea.
 
@@ -52,7 +55,9 @@ Zahra’s work might shift Toronto's future in a particular way, and if that pro
 
 If the future isn’t evenly distributed, how might we distribute the right future more evenly?
 
-As always, I’d encourage you to [subscribe](https://divergeweekly.com) if you haven’t and [send me a note](mailto:alb@andrewlb.com) if you have questions or feedback!
+On that note, my wife and I [created a very bleak, no-fun game to try a predict and prepare for potential futures](https://andrewlb.com/writing/anxietygame/) this past weekend. It's a **simulator and scenario generator for what might come —for you, specifically— in this pandemic**. Despite being a game, as my description of our first play-through indicates, the results were exhausting (but useful). I encourage you to give it a try.
+
+As always, [please subscribe to and share Diverge Weekly](https://divergeweekly.com) if you haven’t and [send me a note](mailto:alb@andrewlb.com) if you have questions or feedback!
 
 </main>
 
@@ -64,7 +69,7 @@ As always, I’d encourage you to [subscribe](https://divergeweekly.com) if you 
 
 [[region | MENA]]
 |[Has the coronavirus reached Syria?](https://gulfnews.com/world/mena/has-the-coronavirus-reached-syria-1.70539898)
-|Covid-19 is an extreme threat to existing power structures: both physically and politically. As seen in Iran, the
+|Covid-19 is an extreme threat to existing power structures: both physically and politically. As seen in Iran, certainly it can infect those in power, but it also undermines their power base depending on how they handle the crisis. The various Syrian civil war facitons are now dealing with the potential of an influx of cases, and
 
 [[region | East Asia]]
 |[South Korea’s COVID-19 quarantine kits](https://observers.france24.com/en/20200305-south-korea-coronavirus-COVID-19-kits-masks)
@@ -80,13 +85,13 @@ As always, I’d encourage you to [subscribe](https://divergeweekly.com) if you 
 
 </region>
 
-<security credit="Source Unknown">
+<security credit="Frederick Burr Opper">
 
-![Source: Voice of America photo from 2016](img/voa-mask.jpg)
+![Source: (1894 illustration by Frederick Burr Opper)[https://www.loc.gov/resource/ppmsca.29087/]](img/fakenews.jpg)
 
-[Islamic State Advice on Coronavirus Pandemic](http://www.aymennjawad.org/2020/03/islamic-state-advice-on-coronavirus-pandemic)
+[How Coronavirus Scammers Hide On Facebook And YouTube](https://www.bellingcat.com/news/rest-of-world/2020/03/19/how-coronavirus-scammers-hide-on-facebook-and-youtube/)
 
-A newsletter to ISIS members, translated by Aymenn Jawad Al-Tamimi, a researcher focused on the Syrian civil war. As objectively evil as the Islamic State is, it is still an organization that has to look after its members and do what organizations do: communicate, align, and act. Some of the language in the newsletter is pretty interesting from that lens and a good cue for how these kind of societal threats get translated across orgs and cultures.
+The rise of large scale, low cost, multi-actor and wildly decentralized disinformation campaigns is one of the greatest security threats of our present era. Why? They frustrate meaningful engagement in collective action problems like a national political process or — just by way of example — global pandemics. They do this to the point of paralysis. Bellingcat paints a striking picture of what I believe is **one of the greatest design failures of the 21st century**: the capacity for contemporary disinformation campaigns (and individual actors) to permeate and diffuse the major social networking platforms that so eagerly embraced human centered design in their inception and grwoth. I'm inclined to believe that the various platforms _are_ trying to do better (perhaps not so far as good), but assuming this, their inability to effectively combat disnformation is telling.
 
 </security>
 
@@ -96,15 +101,17 @@ A newsletter to ISIS members, translated by Aymenn Jawad Al-Tamimi, a researcher
 |[Sales Lead @ Knowsi](mailto:andrew@knowsi.com?subject=sales%lead)
 |Knowsi manages the consent relationship between researchers and participants. Help us make design research more private and more inclusive to participants by spreading the word and building our product marketing strategy. -->
 
-[[jobad | Job job]]
-|[]()
-|Located in
+[[jobad | Innovation in Kenya]]
+|[Innovation Director, One Acre Fund](https://oneacrefund.org/work-with-us/job-openings/g/?gh_jid=2058337)
+|Located in Kenya (50% Kakamega, 50% Nairobi) and must be a Kenyan national
 |
+|One Acre Fund works with small farmers to boost regional and local productivity. Kenya already has a great innovation economy and has seen substantive growth, but continues to face great structural challenges. This looks like one of those roles where one could learn a huge amount while having great impact.
 
-[[jobad | Job job]]
-|[]()
-|Located in
+[[jobad | UX for the US]]
+|[Lead Program Analyst (UX/UI Design)](https://www.usajobs.gov/GetJob/ViewDetails/562675400)
+|Located in USA (remote) and must be US national
 |
+|This looks like a pretty interesting and familiar role to many of you. Effectively a UX design role, it looks like a great opportunity to work with other civil servants to coach them in human centered practices while doing some solid citizen-focused work.
 
 </jobs>
 
@@ -118,26 +125,26 @@ Knowsi manages consent for user research. Send and track participant consent wit
 
 </sponsor>
 
-<image credit="Angelina Bambina" link="https://mappinglondon.co.uk/2014/mapping-cholera/">
+<image credit="Celine Park" link="https://www.dezeen.com/2015/07/16/mushroom-inhalers-vaccination-replace-needles-celine-park-royal-college-of-art-graduate/">
 
-![ Zhijun Wang](./img/acronymmask.jpg)
-German/Canadian brand Acronym is well known for being a defining force in the techwear movement, and designer [Zhijun Wang](https://www.instagram.com/zhijunwang/) [reinterpreted the Nike/Acronym sneaker](https://hypebeast.com/2016/12/acronym-nike-presto-face-mask) style into this interesting (and intimidating) face mask.
+![ Zhijun Wang](./img/mushroom.jpg)
+[Celine Park created the brilliant Mushroom Inhaler](https://www.dezeen.com/2015/07/16/mushroom-inhalers-vaccination-replace-needles-celine-park-royal-college-of-art-graduate/) almost 5 years ago before the close of RCA's incredible Design Interaction program. I discovered my own identity as a designer through the lens of work like this, and continue to look to it in times like these as a way to reset my expectations for "reasonable" solutions. [Check out more of her work here](https://www.celinepark.co.uk/index.html)
 
 </image>
 
-<voices who="Cade Diehm" role="Founder, New Design Congress" image="img/cade.png">
+<voices who="Mitch Sinclair" role="Director at IDEO and Palmwood" image="img/mitch-sinclair.jpg">
 
-![Cade Diehm](img/cade.png)
+![Mitch Sinclair](img/mitch-sinclair.jpg)
 
-Cade Diehm is a designer and thinker based in Berlin, but travels around the world speaking on design through a lens of security, society, and critical theory. I was first introduced to his work a few years ago through his essay On Weaponized Design, but more recently have been excited to see what comes out of The New Design Congress. Give it a subscribe below: the first newsletter just came out last weekend.
+Mitch Sinclair is an executive designer director at IDEO and creative director at Palmwood, a collaboration between the United Arab Emirites and IDEO. I met Mitch originally when I was at IDEO Palo Alto, and instantly felt welcome and elevated in how she collaborated, connected, and created. The future-oriented and design-driven work in the UAE has been consistently interesting and worth exploring, so I'd encourage you to take a look at Palmwood and the team Mitch is co-creating in Dubai.
 
-[The New Design Congress](https://newdesigncongress.org/)
+[What Palmwood is Working On](https://www.palmwood.org/whatwerecreating-en)
 
 </voices>
 
-<twitter who="tomvanderbilt">
+<twitter who="rebexxxxa">
 
-[After decades of WFH, I'd need an article with tips on how to work in an office.](https://twitter.com/tomvanderbilt/status/1238524310035279878)
+[what’s your quarantine personality a) animal crossing b) tiktok dances c) baking sourdough d) wine e) doing something stupid to your hair f) crying](https://twitter.com/rebexxxxa/status/1242162412171726850)
 
 </twitter>
 

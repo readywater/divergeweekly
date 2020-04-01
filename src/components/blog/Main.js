@@ -54,6 +54,10 @@ const Table = styled.table`
   }
   .footer {
     td {
+      @media (max-width: 700px) {
+        display: inline;
+        width: 100%;
+      }
       margin: 0;
       padding: 20px;
       width: 50%;
