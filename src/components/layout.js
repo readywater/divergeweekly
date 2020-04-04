@@ -2,39 +2,14 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 import EmailSignup from "../components/mailsignup"
-import { rhythm } from "../utils/typography"
+import { rhythm, theme } from "../utils/typography"
+import Header from "../components/header"
 
-const Header = styled.div`
-  background: #ffcdc4;
-  .top {
-    max-width: 400px;
-    padding: 0 20px;
-    margin: 0 auto;
-    img {
-      width: 100%;
-      margin: 20px auto 0 auto;
-    }
-  }
-
+const HeaderStyle = styled.div`
   /* overflow: hidden; */
   position: relative;
   z-index: 0;
   min-height: 200px;
-
-  &::before {
-    background: #ffcdc4;
-    bottom: 100%;
-    content: "";
-    display: block;
-    height: 200%;
-    position: absolute;
-    top: -100%;
-    right: 0;
-    transform-origin: 100% 100%;
-    transform: rotate(-15deg);
-    width: 150%;
-    z-index: -100;
-  }
 `
 
 const Links = styled.div`
@@ -46,7 +21,7 @@ const Links = styled.div`
 `
 
 const Main = styled.div`
-  max-width: 800px;
+  max-width: 1024px;
   z-index: 0;
   position: relative;
   margin: 0 auto;
@@ -66,20 +41,9 @@ class Layout extends React.Component {
 
     return (
       <>
-        <Header>
-          <div className="top">
-            <Link to={`/`}>
-              <img src={`https://divergeweekly.com/logo.png`} />
-            </Link>
-          </div>
-          {!isMail && (
-            <Links>
-              <Link to={`/`}>Subscribe</Link>
-              <Link to={`/sponsor`}>Sponsor</Link>
-              <Link to={`/about`}>About</Link>
-            </Links>
-          )}
-        </Header>
+        <HeaderStyle>
+          <Header />
+        </HeaderStyle>
         <Main>{children}</Main>
       </>
     )

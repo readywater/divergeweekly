@@ -53,6 +53,7 @@
     "react-modal": "^3.11.1",
     "react-scroll-to-component-ssr": "^1.0.0",
     "react-select": "^3.0.8",
+    "react-sticky": "^6.0.3",
     "react-typography": "^0.16.19",
     "recursive-readdir": "^2.2.2",
     "rehype-react": "^4.0.1",
