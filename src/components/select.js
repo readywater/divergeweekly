@@ -29,7 +29,7 @@ export default class select extends Component {
             onClick={this.toggleOpen}
             isSelected={isOpen}
           >
-            {value ? `${value.label}` : "Select an issue"}
+            {"Search past issues"}
           </Button>
         }
       >
@@ -42,11 +42,13 @@ export default class select extends Component {
           isClearable={false}
           menuIsOpen
           options={options}
-          placeholder="Search..."
+          closeMenuOnSelect={true}
+          placeholder="Search past issues"
           styles={selectStyles}
           tabSelectsValue={false}
           onChange={value => {
             console.log("Changing!", value)
+
             if (window) window.location.href = value.link
           }}
         />

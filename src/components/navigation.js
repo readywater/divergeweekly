@@ -26,12 +26,11 @@ export default class Navigation extends Component {
   render() {
     return (
       <NavigationStyled>
-        <small>Read Previous Issues:</small>
-        <Select />
+        <Select options={this.props.options} value={this.props.options[0]} />
         <Links>
-          <Link to={`/`}>Subscribe</Link>
-          <Link to={`/sponsor`}>Sponsor</Link>
-          <Link to={`/about`}>About</Link>
+          <Link to={`/`}>Home</Link>
+          <Link to={`/sponsor`}>Post an Ad or Job!</Link>
+          <Link to={`/about`}>About Diverge</Link>
         </Links>
       </NavigationStyled>
     )

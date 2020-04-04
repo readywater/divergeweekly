@@ -5,13 +5,25 @@ import FloatingLabelInput from "react-floating-label-input"
 import { Button } from "./background"
 import { theme } from "../utils/typography"
 
-const FormSetup = styled.div``
+const FormSetup = styled.form`
+  p {
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-wrap: none;
+    width: 100%;
+    margin-top: ${rhythm(0.5)};
+    align-items: center;
+    margin-bottom: 0;
+    label {
+      min-width: 300px;
+    }
+  }
+`
 const ButtonBlock = styled.div`
-  display: flex;
-  flex-wrap: none;
-  width: 100%;
-  margin-top: ${rhythm(0.5)};
-  align-items: flex-start;
   p {
     flex: 1 1 0;
     margin-left: ${rhythm(0.5)};
@@ -22,8 +34,9 @@ const ButtonBlock = styled.div`
 `
 
 const BButton = styled(Button)`
-  background: ${theme.pink};
   border: 1px solid ${theme.black};
+  transition: 1s background;
+  background: ${theme.pink};
 
   &.disabled {
     border: 1px solid #eee;
@@ -97,30 +110,32 @@ class EmailSignup extends Component {
           <label
             htmlFor="email"
             style={{
-              fontSize: "24px",
+              fontSize: "20px",
               fontWeight: 800,
+              marginTop: rhythm(0.5),
               marginBottom: rhythm(0.5),
             }}
           >
+            <div style={{ display: "none" }}>
+              <label htmlFor="hp">HP</label>
+              <input
+                type="text"
+                name="hp"
+                id="hp"
+                onChange={this.handleChange}
+                value={this.state.hp || ""}
+              />
+            </div>
             <FloatingLabelInput
               type="email"
-              label="Enter your Email"
+              label="What's your Email?"
               name="email"
               id="email"
               onChange={this.handleChange}
               value={this.state.email || ""}
             />
           </label>
-          <div style={{ display: "none" }}>
-            <label htmlFor="hp">HP</label>
-            <input
-              type="text"
-              name="hp"
-              id="hp"
-              onChange={this.handleChange}
-              value={this.state.hp || ""}
-            />
-          </div>
+
           <ButtonBlock>
             <BButton className={!this.state.active ? "disabled" : ""}>
               <button
@@ -133,12 +148,6 @@ class EmailSignup extends Component {
                 Subscribe
               </button>
             </BButton>
-            {this.state.active && (
-              <p>
-                I consent to recieve <br />
-                Diverge Weekly's newsletter.
-              </p>
-            )}
           </ButtonBlock>
         </form>
       </FormSetup>

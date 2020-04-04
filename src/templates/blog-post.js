@@ -272,7 +272,7 @@ class BlogPostTemplate extends React.Component {
     const isMail =
       this.props.location && this.props.location.pathname.includes("/mail")
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location} title={siteTitle} mail={isMail}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}

@@ -5,13 +5,16 @@ import EmailSignup from "../components/mailsignup"
 import { rhythm, theme } from "../utils/typography"
 import Header from "../components/header"
 
+const Container = styled.div`
+  /* position: relative; */
+`
+
 const HeaderStyle = styled.div`
   /* overflow: hidden; */
   position: relative;
-  z-index: 0;
+  z-index: 100;
   min-height: 200px;
 `
-
 const Links = styled.div`
   display: flex;
   justify-content: center;
@@ -32,7 +35,7 @@ const Main = styled.div`
 
 class Layout extends React.Component {
   render() {
-    const { location, title, subtitle, children } = this.props
+    const { location, title, subtitle, children, mail } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     const isPost =
       location.pathname && String(location.pathname).split("/").length <= 3
@@ -40,12 +43,12 @@ class Layout extends React.Component {
       location.pathname && String(location.pathname).includes("/mail")
 
     return (
-      <>
+      <Container>
         <HeaderStyle>
-          <Header />
+          <Header mail={mail} />
         </HeaderStyle>
         <Main>{children}</Main>
-      </>
+      </Container>
     )
   }
 }
