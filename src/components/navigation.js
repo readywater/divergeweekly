@@ -8,11 +8,20 @@ import { rhythm, theme } from "../utils/typography"
 const NavigationStyled = styled.div`
   max-width: 20%;
   text-align: left;
+  @media (max-width: 700px) {
+    max-width: 100%;
+    text-align: center;
+  }
 `
 
 const Links = styled.div`
   text-align: left;
+
   a {
+    @media (max-width: 700px) {
+      display: inline-block;
+      margin: 0 10px;
+    }
     display: block;
     padding: ${rhythm(1)} 0;
   }

@@ -87,7 +87,7 @@ export default class Main extends Component {
   }
 
   render() {
-    console.log("Main props", this.props)
+    // console.log("Main props", this.props)
     return (
       <>
         <Table

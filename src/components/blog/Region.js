@@ -55,7 +55,7 @@ export default class Region extends Component {
               ]
               const trunc = [...arr.slice(...slice)]
               return (
-                <tr>
+                <tr key={i}>
                   {trunc.map(c => (
                     <td valign="top" width={`${100 / columns}%`}>
                       {c}

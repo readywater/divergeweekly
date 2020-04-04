@@ -5,7 +5,7 @@ import FloatingLabelInput from "react-floating-label-input"
 import { Button } from "./background"
 import { theme } from "../utils/typography"
 
-const FormSetup = styled.form`
+const FormSetup = styled.div`
   p {
     margin: 0;
     font-size: 12px;
@@ -14,11 +14,19 @@ const FormSetup = styled.form`
   form {
     display: flex;
     flex-wrap: none;
+    justify-content: space-between;
     width: 100%;
-    margin-top: ${rhythm(0.5)};
     align-items: center;
     margin-bottom: 0;
+    @media (max-width: 700px) {
+      min-width: 150px;
+      font-size: 15px;
+    }
     label {
+      @media (max-width: 700px) {
+        min-width: 150px;
+        font-size: 15px;
+      }
       min-width: 300px;
     }
   }
@@ -95,9 +103,6 @@ class EmailSignup extends Component {
     return (
       <FormSetup>
         <form
-          style={{
-            marginTop: rhythm(1),
-          }}
           id="newsform"
           onSubmit={async e => {
             e.preventDefault()
@@ -112,7 +117,7 @@ class EmailSignup extends Component {
             style={{
               fontSize: "20px",
               fontWeight: 800,
-              marginTop: rhythm(0.5),
+
               marginBottom: rhythm(0.5),
             }}
           >

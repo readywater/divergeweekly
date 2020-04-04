@@ -12,7 +12,7 @@ import { theme, Header } from "../utils/typography"
 
 export const RespLayout = styled.div`
   z-index: 1;
-  width: 1024px;
+  max-width: 1024px;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -21,9 +21,14 @@ export const RespLayout = styled.div`
   > div {
     margin: 0;
   }
+  @media (max-width: 700px) {
+  }
 
   #posts {
     width: 70%;
+    @media (max-width: 700px) {
+      width: 100%;
+    }
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse column-reverse;
@@ -70,7 +75,7 @@ class BlogIndex extends React.Component {
         label: `Issue #${node.frontmatter.issue}: ${node.frontmatter.title}`,
         link: `/${node.frontmatter.category}${node.fields.slug}`,
       }
-      console.log(ret)
+      // console.log(ret)
       return ret
     })
     return (

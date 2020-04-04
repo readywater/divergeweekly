@@ -15,8 +15,12 @@ const StyledHeader = styled.div`
   justify-content: left;
   align-items: center;
   z-index: 100;
+  flex-wrap: wrap;
   &.shrink {
     .hidden {
+      @media (max-width: 700px) {
+        height: 50px;
+      }
       height: 100px;
     }
   }
@@ -26,7 +30,7 @@ const StyledHeader = styled.div`
     flex: 0 1 0;
     margin: 0 auto;
     max-width: ${props => (props.mail ? "800px" : "1024px")};
-    justify-content: left;
+    justify-content: space-around;
     align-items: center;
     position: fixed !important;
     background: #fff;
@@ -41,16 +45,44 @@ const StyledHeader = styled.div`
 
 const Logo = styled.div`
   width: 50%;
+  .gatsby-image-wrapper {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  @media (max-width: 700px) {
+    width: 25%;
+    margin: 0 auto;
+    .gatsby-image-wrapper {
+      margin: 0 auto;
+      width: 100px;
+      height: 100px;
+    }
+  }
+  &.shrink {
+    .gatsby-image-wrapper {
+      max-width: 100px;
+      max-height: 100px;
+      @media (max-width: 700px) {
+        max-width: 50px;
+        max-height: 50px;
+      }
+    }
+  }
 `
 const Email = styled.div`
   width: 40%;
+  @media (max-width: 700px) {
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
   &.shrink {
-    position: fixed !important;
-    background: ${theme.white};
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100px;
+    width: 40%;
+    @media (max-width: 700px) {
+      width: 80%;
+      padding: 0 20px 0 0;
+      text-align: center;
+    }
   }
 `
 
@@ -70,10 +102,8 @@ export default class Header extends Component {
       shrinkOn = 400
 
     if (distanceY < shrinkOn) {
-      console.log("Mini Hidden")
       this.setState({ shrink: false })
     } else {
-      console.log("Mini Visible")
       this.setState({ shrink: true })
     }
   }
@@ -85,6 +115,9 @@ export default class Header extends Component {
           query BGQuery {
             diverge: file(absolutePath: { regex: "/diverge.png/" }) {
               childImageSharp {
+                fluid(maxWidth: 300, maxHeight: 300) {
+                  ...GatsbyImageSharpFluid
+                }
                 fixed(width: 300, height: 300) {
                   ...GatsbyImageSharpFixed
                 }
@@ -98,38 +131,35 @@ export default class Header extends Component {
             className={this.state.shrink && `shrink`}
           >
             <div className="hidden">
-              <Logo shrink={this.state.shrink}>
+              <Logo className={`shrink`}>
                 <Link to="/">
                   <Image
-                    fixed={data.diverge.childImageSharp.fixed}
+                    fluid={data.diverge.childImageSharp.fluid}
                     alt={"Diverge Weekly"}
                     style={{
                       marginRight: rhythm(1 / 2),
                       marginBottom: 0,
-                      maxWidth: 100,
-                      maxHeight: 100,
                     }}
                   />
                 </Link>
               </Logo>
-              <Email shrink={true}>
+              <Email className={`shrink`}>
                 <EmailSignup mini={true} />
               </Email>
             </div>
-            <Logo shrink={this.state.shrink}>
+            <Logo>
               <Link to="/">
                 <Image
-                  fixed={data.diverge.childImageSharp.fixed}
+                  fluid={data.diverge.childImageSharp.fluid}
                   alt={"Diverge Weekly"}
                   style={{
                     marginRight: rhythm(1 / 2),
                     marginBottom: 0,
-                    maxWidth: 300,
                   }}
                 />
               </Link>
             </Logo>
-            <Email shrink={this.state.shrink}>
+            <Email>
               <h3>
                 Every Wednesday, a look at design and designers through the lens
                 of global affairs to inform, inspire, and activate.

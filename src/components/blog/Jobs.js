@@ -64,7 +64,7 @@ export default class Jobs extends Component {
                 ]
                 const trunc = [...arr.slice(...slice)]
                 return (
-                  <table>
+                  <table key={i}>
                     <tbody>
                       <tr>
                         {trunc.map(c => (
