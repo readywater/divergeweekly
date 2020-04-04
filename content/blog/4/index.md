@@ -1,7 +1,7 @@
 ---
 title: The Cycles Issue
 issue: 4
-date: "2020-03-25T09:00:00.000Z"
+date: "2020-04-01T09:00:00.000Z"
 description: "Design is a cyclical action. It also forces us into patterns which perhaps undermine our intentions and values. The question is: can we reset those patterns?"
 category: issue
 published: true

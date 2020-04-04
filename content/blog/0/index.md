@@ -1,5 +1,5 @@
 ---
-title: The Preview
+title: The Prototype
 issue: 0
 date: "2020-03-04T09:00:00.000Z"
 description: "The first issue of a new initiative"
