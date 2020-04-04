@@ -162,7 +162,7 @@ export default class Header extends Component {
             <Email>
               <h3>
                 Every Wednesday, a look at design and designers through the lens
-                of global affairs to inform, inspire, and activate.
+                of global affairs.
               </h3>
               <EmailSignup mini={this.state.shrink} />
             </Email>

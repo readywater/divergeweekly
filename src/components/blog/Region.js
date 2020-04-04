@@ -54,6 +54,7 @@ export default class Region extends Component {
                 i < arr.length - columns ? i + columns : arr.length,
               ]
               const trunc = [...arr.slice(...slice)]
+              console.log(trunc)
               return (
                 <tr key={i}>
                   {trunc.map(c => (
