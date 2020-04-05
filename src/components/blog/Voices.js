@@ -4,8 +4,8 @@ import styled from "styled-components"
 import { theme, Header } from "../../utils/typography"
 
 const Table = styled.table`
-  background: ${theme.lightgreen};
-  border: none;
+  border: 5px solid ${theme.lightgreen};
+  /* border: none; */
   @media (max-width: 700px) {
     width: 90%;
     margin: 0 auto !important;
@@ -33,7 +33,8 @@ const Table = styled.table`
     a {
       padding: 10px;
       margin-top: 10px;
-      background: #ffffff !important;
+      text-align: center;
+      background: ${theme.lightgreen} !important;
       display: block;
       font-weight: 800;
     }

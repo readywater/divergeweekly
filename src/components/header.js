@@ -43,6 +43,13 @@ const StyledHeader = styled.div`
   }
 `
 
+const StyleTableHeader = styled.table`
+  margin: 40px auto;
+  max-width: 600px;
+  z-index: 100;
+  text-align: left;
+`
+
 const Logo = styled.div`
   width: 50%;
   .gatsby-image-wrapper {
@@ -118,56 +125,90 @@ export default class Header extends Component {
                 fluid(maxWidth: 300, maxHeight: 300) {
                   ...GatsbyImageSharpFluid
                 }
-                fixed(width: 300, height: 300) {
+                fixed(width: 200, height: 200) {
                   ...GatsbyImageSharpFixed
                 }
               }
             }
           }
         `}
-        render={data => (
-          <StyledHeader
-            mail={this.props.mail}
-            className={this.state.shrink && `shrink`}
-          >
-            <div className="hidden">
-              <Logo className={`shrink`}>
-                <Link to="/">
-                  <Image
-                    fluid={data.diverge.childImageSharp.fluid}
-                    alt={"Diverge Weekly"}
-                    style={{
-                      marginRight: rhythm(1 / 2),
-                      marginBottom: 0,
-                    }}
-                  />
-                </Link>
-              </Logo>
-              <Email className={`shrink`}>
-                <EmailSignup mini={true} />
-              </Email>
-            </div>
-            <Logo>
-              <Link to="/">
-                <Image
-                  fluid={data.diverge.childImageSharp.fluid}
-                  alt={"Diverge Weekly"}
-                  style={{
-                    marginRight: rhythm(1 / 2),
-                    marginBottom: 0,
-                  }}
-                />
-              </Link>
-            </Logo>
-            <Email>
-              <h3>
-                Every Wednesday, a look at design and designers through the lens
-                of global affairs.
-              </h3>
-              <EmailSignup mini={this.state.shrink} />
-            </Email>
-          </StyledHeader>
-        )}
+        render={data => {
+          if (!this.props.mail)
+            return (
+              <StyledHeader
+                mail={this.props.mail}
+                className={this.state.shrink && `shrink`}
+              >
+                <div className="hidden">
+                  <Logo className={`shrink`}>
+                    <Link to="/">
+                      <Image
+                        fluid={data.diverge.childImageSharp.fluid}
+                        alt={"Diverge Weekly"}
+                        style={{
+                          marginRight: rhythm(1 / 2),
+                          marginBottom: 0,
+                        }}
+                      />
+                    </Link>
+                  </Logo>
+                  <Email className={`shrink`}>
+                    <EmailSignup mini={true} />
+                  </Email>
+                </div>
+                <Logo>
+                  <Link to="/">
+                    <Image
+                      fluid={data.diverge.childImageSharp.fluid}
+                      alt={"Diverge Weekly"}
+                      style={{
+                        marginRight: rhythm(1 / 2),
+                        marginBottom: 0,
+                      }}
+                    />
+                  </Link>
+                </Logo>
+                <Email>
+                  <h3>
+                    Every Wednesday, a look at design and designers through the
+                    lens of global affairs.
+                  </h3>
+                  <EmailSignup mini={this.state.shrink} />
+                </Email>
+              </StyledHeader>
+            )
+          else
+            return (
+              <StyleTableHeader>
+                <tbody>
+                  <tr>
+                    <td>
+                      <Logo>
+                        <Link to="https://divergeweekly.com">
+                          <Image
+                            fixed={data.diverge.childImageSharp.fixed}
+                            alt={"Diverge Weekly"}
+                            style={{
+                              marginRight: rhythm(1 / 2),
+                              marginBottom: 0,
+                            }}
+                          />
+                        </Link>
+                      </Logo>
+                    </td>
+                    <td>
+                      <Email style={{ width: "100%" }}>
+                        <h3>
+                          Every Wednesday, a look at design and designers
+                          through the lens of global affairs.
+                        </h3>
+                      </Email>
+                    </td>
+                  </tr>
+                </tbody>
+              </StyleTableHeader>
+            )
+        }}
       />
     )
   }

@@ -13,7 +13,7 @@ const Header = styled.h2`
     top: 40%;
     left: 0;
     width: 50%;
-    background: yellow;
+    border: 3px solid #0978ab;
     z-index: -1 !important;
   }
 `
@@ -25,7 +25,7 @@ const Table = styled.table`
   }
   a {
     color: black;
-    background: yellow;
+    background: #f1faee;
   }
   td {
     max-width: 50%;

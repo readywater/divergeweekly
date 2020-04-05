@@ -7,16 +7,7 @@ const Table = styled.table`
   border: none;
   width: 70%;
   margin: 0 auto;
-  img,
-  p {
-    margin-bottom: 0 !important;
-    a {
-      margin: 0px;
-      padding: 20px;
-      background: white !important;
-      border-radius: 10px;
-    }
-  }
+  text-align: center;
   @media (max-width: 700px) {
     width: 90%;
     margin: 0 auto !important;
@@ -29,6 +20,15 @@ const Table = styled.table`
   }
 
   td {
+    margin-top: 10px;
+    a {
+      margin: 0px;
+      padding: 20px;
+      background: white !important;
+      border-radius: 10px;
+      display: inline-block;
+    }
+
     @media (max-width: 700px) {
       display: inline;
       width: 100%;
@@ -39,14 +39,6 @@ const Table = styled.table`
       padding: 20px;
       background: white;
       font-weight: 800;
-    }
-  }
-  .image {
-    max-width: 30%;
-    @media (max-width: 700px) {
-      display: inline;
-      padding: 0;
-      width: 100%;
     }
   }
 `
@@ -67,21 +59,15 @@ export default class Share extends Component {
         width="70%"
       >
         <tbody>
-          <tr cellspacing="0" cellpadding="0">
-            <td>
-              <table>
-                <tr>
-                  <td valign="top">
-                    Please share Diverge weekly, either by forwarding this email
-                    or by sharing this link.
-                  </td>
-                </tr>
-                <tr>
-                  <td valign="bottom" className="border">
-                    <a href={this.props.url}>{this.props.url}</a>
-                  </td>
-                </tr>
-              </table>
+          <tr>
+            <td valign="top">
+              Please share Diverge weekly, either by forwarding this email or by
+              sharing this link.
+            </td>
+          </tr>
+          <tr>
+            <td valign="bottom" className="border">
+              <a href={this.props.url}>{this.props.url}</a>
             </td>
           </tr>
         </tbody>

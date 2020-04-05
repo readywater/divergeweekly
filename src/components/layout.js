@@ -25,6 +25,9 @@ const Links = styled.div`
 
 const Main = styled.div`
   max-width: 1024px;
+  &.mail {
+    max-width: 600px;
+  }
   z-index: 0;
   position: relative;
   margin: 0 auto;
@@ -45,9 +48,9 @@ class Layout extends React.Component {
     return (
       <Container>
         <HeaderStyle>
-          <Header mail={mail} />
+          <Header mail={mail} path={location.pathname} />
         </HeaderStyle>
-        <Main>{children}</Main>
+        <Main className={isMail && `mail`}>{children}</Main>
       </Container>
     )
   }

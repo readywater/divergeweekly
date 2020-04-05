@@ -12,7 +12,7 @@ export const theme = {
   beige: "#D8B784",
   offwhite: "#F4F4F4",
   white: "#ffffff",
-  lightgreen: "#D4EEE6",
+  lightgreen: "#A8DADC",
   green: "#078B8D",
   pink: "#ffcdc4",
   tinyWidth: "400px",
@@ -27,17 +27,6 @@ export const Head = styled.h2`
   margin: 20px 0 0 0;
   position: relative;
   z-index: 100;
-  /* &::after {
-    content: "";
-    display: block;
-    height: 30%;
-    position: absolute;
-    top: 40%;
-    left: 0;
-    width: 50%;
-    background: yellow;
-    z-index: -1 !important;
-  } */
 `
 
 export const Header = props => <Head>{props.children}</Head>

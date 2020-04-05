@@ -24,7 +24,8 @@ const Table = styled.table`
 const Header = styled.h2`
   margin: 0 auto;
   padding: 10px;
-  background: yellow;
+  background: transparent;
+  border: 3px solid #0978ab;
   text-align: center;
   margin-top: 40px;
   max-width: 300px;

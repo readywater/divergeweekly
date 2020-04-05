@@ -69,12 +69,8 @@ export default class Security extends Component {
         >
           <tbody>
             <tr cellspacing="0" cellpadding="0">
-              <td className="image" rowspan="2" valign="top">
-                {this.props.children[0]}
-                <small>Image credit: {this.props.credit}</small>
-              </td>
               <td colspan="2" valign="top">
-                {this.props.children.slice(1)}
+                {this.props.children}
               </td>
             </tr>
           </tbody>

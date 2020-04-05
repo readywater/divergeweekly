@@ -5,11 +5,15 @@ import styled from "styled-components"
 import { theme } from "../utils/typography"
 
 const Table = styled.table`
-  background: #ffcdc4;
+  background: ${theme.pink};
   position: relative;
   z-index: 0;
   min-height: 200px;
   max-width: 1024px;
+
+  a {
+    display: inline-block !important;
+  }
 
   td {
     @media (max-width: 700px) {

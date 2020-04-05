@@ -13,6 +13,7 @@ const Table = styled.table`
       padding: 20px;
       background: white !important;
       border-radius: 10px;
+      display: inline-block;
     }
   }
   @media (max-width: 700px) {

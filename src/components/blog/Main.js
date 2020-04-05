@@ -30,6 +30,15 @@ const Table = styled.table`
     }
     text-align: center;
     padding: 0;
+    &.sponsor {
+      width: 50%;
+      font-size: 14px;
+      line-height: 22px;
+      a {
+        background: ${theme.lightgreen};
+        display: inline-block;
+      }
+    }
   }
   .image {
     width: 50%;
@@ -68,7 +77,8 @@ const Table = styled.table`
     }
   }
   .quote {
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 20px;
     padding: 20px;
     background: ${theme.lightgreen};
     width: 100%;
@@ -117,6 +127,17 @@ export default class Main extends Component {
                       />
                       Andrew Lovett-Barron
                     </td>
+                    <td className="sponsor">
+                      Thanks for following Diverge Weekly. <br />
+                      Please{" "}
+                      <a href="https://divergeweekly.com?utm_campaign=share">
+                        share us
+                      </a>{" "}
+                      with others who might be interested, or if you'd like to
+                      support us, please consider{" "}
+                      <a href="/sponsor/job">posting a job</a>, or{" "}
+                      <a href="/sponsor/">taking out a small ad</a>.
+                    </td>
                   </tr>
                 </table>
               </td>
@@ -126,13 +147,6 @@ export default class Main extends Component {
                 <table className="footer">
                   <tbody>
                     <tr>
-                      <td>
-                        Thanks for following Diverge Weekly. If you'd like to
-                        support us, please consider{" "}
-                        <a href="/sponsor/issue">sponsoring an issue</a>,{" "}
-                        <a href="/sponsor/job">posting a job</a>, or{" "}
-                        <a href="/sponsor/ad">sharing a small ad</a>.
-                      </td>
                       <td>
                         <div className="quote">{this.props.quote}</div>
                       </td>

@@ -198,7 +198,7 @@ export const Article = styled.table`
     }
     &.ad {
       a {
-        background: yellow;
+        border: 3px solid #0978ab;
         display: inline;
       }
       img {
