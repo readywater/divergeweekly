@@ -244,6 +244,20 @@ exports.onPostBuild = async () => {
         )
       })
 
+      // COnvert picture
+      $("picture").each(function() {
+        const _this = this
+
+        $(this).replaceWith(
+          `<img src="${url +
+            $(this)
+              .find("img")
+              .attr("src")}" alt="${$(this)
+            .find("img")
+            .attr("alt")}" />`
+        )
+      })
+
       // Convert all links
       $("a")
         .not('[href^="http"],[href^="https"],[href^="mailto:"],[href^="#"]')

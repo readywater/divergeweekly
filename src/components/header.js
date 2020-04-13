@@ -184,7 +184,7 @@ export default class Header extends Component {
                   <tr>
                     <td>
                       <Logo>
-                        <Link to="https://divergeweekly.com">
+                        <Link to="/">
                           <Image
                             fixed={data.diverge.childImageSharp.fixed}
                             alt={"Diverge Weekly"}

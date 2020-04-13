@@ -1,99 +1,110 @@
 ---
-title: The Template
-issue: 0
-date: "2020-03-01T09:00:00.000Z"
-description: "The first issue of a new initiative"
+title: The First Reflection Issue
+issue: 5
+date: "2020-04-08T09:00:00.000Z"
+description: "This is issue #5, so I figured it was time for a short reflection"
 category: issue
 published: false
 tags:
   - newsletter
   - "2020"
+  - reflection
 ---
 
-[[quote]]
-|_A Quote_
-|— By Someone
+<main credit="" quote="">
 
-Hi Everyone,
+![](img/)
 
-Welcome to.
+Hi.
 
-Big issue 1. Design Connection
+As always, [please subscribe to and share Diverge Weekly](https://divergeweekly.com) if you haven’t and [send me a note](mailto:alb@andrewlb.com) if you have questions or feedback!
 
-Big issue 2. Design connection
-
-Inspiration
-
-Wrap up,
-
-Andrew
-
-<sponsor image="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png">
-
-## Sponsor
-
-Sponsor Text
-
-[Support sponsor today!](https://divergeweekly.com)
-
-</sponsor>
+</main>
 
 <region>
 
-[[region | Americas]]
-|[link](url)
-|text
-
-[[region | MENA]]
-|[link](url)
-|text
-
 [[region | East Asia]]
-|[link](url)
-|text
+|[]()
+|
 
 [[region | South Asia]]
-|[link](url)
-|text
+|[]()
+|
+
+[[region | Americas]]
+|[]()
+|
+
+[[region | MENA]]
+|[]()
+|
+
+[[region | Africa]]
+|[]()
+|
 
 [[region | Europe]]
-|[link](url)
-|text
+|[]()
+|
 
 </region>
 
-[[security | Security Blanket]]
-|[link](url)
-|text
+<security credit="">
+
+![Source: ](img/)
+
+[]()
+
+sdfsdf
+
+</security>
 
 <jobs>
 
-[[featurejob]]
-|[Feature Job](https://divergeweekly.com)
-|Feature Job Text
+[[jobad | ]]
+|[]()
+|Located in
+|
+|
 
-[[jobad | Job Lead]]
-|Job doing a thing it's awesome
-
-[[jobad | Job Consultant]]
-|One line about the job
+[[jobad | ]]
+|[]()
+|Located in
+|
+|
 
 </jobs>
 
-[[tweet | The Tweeter]]
-|A tweet
+<sponsor image="https://www.knowsi.com/static/tier1.png">
 
-[[designer | The Designer]]
-|Who, Where
-|Quote or why she is important
-|[The Link](https://divergeweekly.com)
+## Knowsi
 
-<classified>
+Knowsi manages consent for user research. Send and track participant consent with custom forms and GDPR-focused tools.
 
-[[classified]]
-|[Join us](http://divergeweekly.com) an ad that goes here for various things blah blah
+[Join Knowsi today for free!](https://knowsi.com)
 
-[[classified]]
-|Another ad goes here, this is handy [Signup Today!](https://divergeweekly.com)
+</sponsor>
 
-</classified>
+<image credit=" " link=" ">
+
+![ ](img/)
+
+sdfsdf
+
+</image>
+
+<voices who=" " role=" " image="img/ ">
+
+![ ](img/)
+
+fdsdfsdf
+
+[ ]()
+
+</voices>
+
+<twitter who="">
+
+[ ]()
+
+</twitter>
