@@ -9,7 +9,7 @@ Image credit: AP Photo/Thanassis StavrakisHi all,
 This will be a quick one relative to some of the essays I’ve been writing recently.
 
 I’ve been reading and thinking about foresight — especially as it relates to the current pandemic and security. As a result, I’ve
-been getting interested in the human-made inevitability of prediction and wanted to explore that briefly.
+been getting interested in why we believe what we believe about the future.
 
 With the rise of platform empires, we’ve effectively ceded the original vision of the internet as a distributed space
 [https://anildash.com/2012/12/13/the_web_we_lost/]. Battle after battle of the free internet was lost to convenience, monetization
@@ -27,17 +27,17 @@ think there’s a meaningful discussion to be had around this idea of capture an
 I read an article recently by Patrick Porter on how the British national security apparatus undermined its own foresight efforts
 by unconsciously insisting on confidence in their capacity to handle whatever might come
 [https://www.cambridge.org/core/journals/european-journal-of-international-security/article/taking-uncertainty-seriously-classical-realism-and-national-security/1022E6B6D12A8902E7F40B575D01C40B]
-. This very idea is pathological: that they might both acknowledge the magnitude of the unknowns they faced, and still feel
-require confidence that we can wrangle it given our current preparedness. Britain isn’t alone in this, of course. If you’re
-developing a product, you’ll experience microcosms of this every day: the feature or design decision you made just doesn’t glom on
-to reality. Your user or customer is frustrated, their user or customers are confused — all because your synthesis of their needs
-and your own sensibility missed its mark. The difference lies in the speed of iteration.
+. This very idea is pathological: that they might both acknowledge the magnitude of the unknowns they face, and still require
+confidence that they can wrangle it given our current preparedness. Britain isn’t alone in this, of course. If you’re developing a
+product, you’ll experience microcosms of this every day: the feature or design decision you made just doesn’t glom on to reality.
+Your user or customer is frustrated, their user or customers are confused — all because your synthesis of their needs and your own
+sensibility missed its mark. The difference lies in the speed of iteration.
 
 A designer can (usually) quite easily test their hypothesis. Find a customer, set up a prototype, launch a test, or simply watch
-how your (possibly socially distanced) neighbour interacts with it. But of course it’s not so easy for a state’s national security
-establishment. Usually, national security institutions are pretty brilliant when it comes to punching through their own biases,
-using tools like red teaming [https://en.wikipedia.org/wiki/Red_team] and others to explore alternative scenarios. But as Micah
-Zenko’s book on Red Teaming points out [https://amzn.to/3aaWM4X] , the role of the Red Team can often be institutionally
+how your (possibly socially distanced) neighbour interacts with it. But of course that’s not so easy for a state’s national
+security establishment. Usually, national security institutions are pretty brilliant when it comes to punching through their own
+biases, using tools like red teaming [https://en.wikipedia.org/wiki/Red_team] and others to explore alternative scenarios. But as 
+Micah Zenko’s book on Red Teaming points out [https://amzn.to/3aaWM4X], the role of the Red Team can often be institutionally
 undermined in subtle ways: be it explicitly walking back a decision during a war game
 [https://warontherocks.com/2015/11/millennium-challenge-the-real-story-of-a-corrupted-military-exercise-and-its-legacy/] or 
 tacitly signalling leadership’s dissatisfaction with the results
@@ -47,9 +47,9 @@ constrained by the needs and fears of the commissioning institutions. It’s eff
 
 I think the same thing happens to the sensibility of designers captured by institutions. The scope of potential divergence becomes
 naturally constrained by the needs of the institutions they serve, and so their sensibility is reinforced and narrowed along those
-lines over time [https://divergeweekly.com/issue/4/]. And I think this is part of what I want Diverge Weekly to combat. This
-capture is a reflection of a point in time for an individual or a class of designers where the aperture is narrowing. But I’d like
-to believe it can still be opened.
+lines over time [https://divergeweekly.com/issue/4/]. And I think this is part of what I want Diverge Weekly to combat. This idea
+of capture is a reflection of a point in time for an individual or a class of designers where the aperture is narrowing. But I’d
+like to believe it can still be opened.
 
 So if the intent is to widen that aperture, functionally how do we start to open it again?
 
@@ -138,7 +138,7 @@ others are experiencing relative to the calm (save for a wonderful but berserk 1
 Berehulak’s photos before, but spent some more time with them while writing this. Please give them a look here
 [https://lens.blogs.nytimes.com/2015/04/20/daniel-berehulak-the-ebola-crisis-earn-photography-pulitzer/](Warning, they are
 difficult to see)DESIGN VOICES
-Julia Moisand Egea [https://divergeweekly.com/static/37eb5742114e1cdb86023438b2c6a554/1c72d/julia.jpg]JULIA MOISAND EGEA
+Julia Moisand-Egea [https://divergeweekly.com/static/37eb5742114e1cdb86023438b2c6a554/1c72d/julia.jpg]JULIA MOISAND-EGEA
 Head of Design, Nordea
 
 Julia is an incredible design leader who I first met in San Francisco. Originally from France and married to an American, she
@@ -152,8 +152,7 @@ a space for herself and her family where there are interesting problems and oppo
 cultivate design communities wherever she goes, and the fact that her team members will move around the world for the chance to
 work with her again is a testament to what great design leadership looks like.
 
-“Good design is good business” | nordea.com
-[https://www.nordea.com/en/press-and-news/news-and-press-releases/the-digital-hub/2017/new-head-of-design.html]
+Check out [https://www.linkedin.com/in/julia-moisand-eg%C3%A9a-84824614/]
 
 Every day is Tuesday, but today is Tuesday. Strength. Together-ish. #COVID19 #StayHome
 [https://twitter.com/CAFinUS/status/1250011429463298048]
