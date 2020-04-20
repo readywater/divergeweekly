@@ -50,7 +50,7 @@ export default class ImageBlock extends Component {
           <tbody>
             <tr cellspacing="0" cellpadding="0">
               <td className="image" valign="top">
-                {this.props.children[0]}
+                <a href={this.props.link}>{this.props.children[0]}</a>
                 <br />
                 <small>credit: {this.props.credit}</small>
               </td>
