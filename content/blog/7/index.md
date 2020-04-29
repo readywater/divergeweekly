@@ -4,14 +4,15 @@ issue: 7
 date: "2020-04-22T09:00:00.000Z"
 description: "Sharing some thoughts on the experience of Copenhagen opening, relative to my son's return to daycare"
 category: issue
-published: false
+published: true
+image: img/ando.png
 tags:
   - newsletter
   - "2020"
   - reflection
 ---
 
-<main credit="" quote="">
+<main credit="Tadao Ando" quote="The absolute unknowable appears as spring and disappears in fall. Signs come, not the essence signified. - Rumi">
 
 ![Tadao Ando, Okinawa 1984](img/ando.png)
 

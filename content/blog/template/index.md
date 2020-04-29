@@ -5,6 +5,7 @@ date: "2020-04-08T09:00:00.000Z"
 description: "This is issue #5, so I figured it was time for a short reflection"
 category: issue
 published: false
+image: img/__________.png
 tags:
   - newsletter
   - "2020"
@@ -20,6 +21,22 @@ Hi.
 As always, [please subscribe to and share Diverge Weekly](https://divergeweekly.com) if you haven’t and [send me a note](mailto:alb@andrewlb.com) if you have questions or feedback!
 
 </main>
+
+<voices who=" " role=" " image="img/ ">
+
+![ ](img/)
+
+fdsdfsdf
+
+[ ]()
+
+</voices>
+
+<twitter who="">
+
+[ ]()
+
+</twitter>
 
 <region>
 
@@ -92,19 +109,3 @@ Knowsi manages consent for user research. Send and track participant consent wit
 sdfsdf
 
 </image>
-
-<voices who=" " role=" " image="img/ ">
-
-![ ](img/)
-
-fdsdfsdf
-
-[ ]()
-
-</voices>
-
-<twitter who="">
-
-[ ]()
-
-</twitter>

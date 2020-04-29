@@ -5,6 +5,7 @@ date: "2020-04-15T09:00:00.000Z"
 description: "We take a look at foresight, and why it's often nonsense."
 category: issue
 published: true
+image: img/greek.jpg
 tags:
   - newsletter
   - "2020"

@@ -5,6 +5,7 @@ date: "2020-03-18T09:00:00.000Z"
 description: "A critical look at design's role (or lack thereof) in coronavirus response, with an eye to foresight and intervention"
 category: issue
 published: true
+image: img/edvardmunch.jpg
 tags:
   - newsletter
   - "2020"

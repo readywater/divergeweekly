@@ -72,6 +72,7 @@ class BlogIndex extends React.Component {
       const ret = {
         id: node.frontmatter.issue,
         key: node.frontmatter.issue,
+        thumbnail: data.diverge,
         label: `Issue #${node.frontmatter.issue}: ${node.frontmatter.title}`,
         link: `/${node.frontmatter.category}${node.fields.slug}`,
       }
@@ -103,6 +104,16 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         subtitle
+      }
+    }
+    diverge: file(absolutePath: { regex: "/diverge.png/" }) {
+      childImageSharp {
+        fluid(maxWidth: 300, maxHeight: 300) {
+          ...GatsbyImageSharpFluid
+        }
+        fixed(width: 200, height: 200) {
+          ...GatsbyImageSharpFixed
+        }
       }
     }
     allMarkdownRemark(

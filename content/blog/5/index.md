@@ -5,6 +5,7 @@ date: "2020-04-08T09:00:00.000Z"
 description: "This is issue #5, so I figured it was time for a short reflection"
 category: issue
 published: true
+image: img/mikhael_subotzky.jpg
 tags:
   - newsletter
   - "2020"

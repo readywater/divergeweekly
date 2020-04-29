@@ -5,6 +5,7 @@ date: "2020-03-25T09:00:00.000Z"
 description: "Uncertainty and decision making in a time of crisis, and looking to the scope of ones impact"
 category: issue
 published: true
+image: img/David-Chandler-thucydides.jpg
 tags:
   - newsletter
   - "2020"

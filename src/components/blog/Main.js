@@ -41,8 +41,7 @@ const Table = styled.table`
     }
   }
   .image {
-    width: 50%;
-    float: right;
+    width: 100%;
     margin: 20px;
     @media (max-width: 700px) {
       display: inline;

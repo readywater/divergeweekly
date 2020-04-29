@@ -3,7 +3,7 @@ module.exports = {
     title: `Diverge Weekly`,
     subtitle: `A weekly newsletter on design in a global context`,
     author: `Andrew Lovett-Barron`,
-    defaultImage: `${__dirname}/content/assets/diverge.png`,
+    defaultImage: `https://divergeweekly.com/logo.png`,
     description: `Every Wednesday, a look at design from around the world and its impact on those who inhabit it.`,
     siteUrl: `https://divergeweekly.com/`,
     social: {

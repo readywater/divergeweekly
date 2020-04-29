@@ -5,6 +5,7 @@ date: "2020-03-04T09:00:00.000Z"
 description: "The first issue of a new initiative"
 category: issue
 published: true
+image: img/tishkvarzanij.jpg
 tags:
   - newsletter
   - "2020"

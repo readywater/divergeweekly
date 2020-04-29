@@ -28,8 +28,12 @@ function SEO({ description, lang, meta, title, image }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const defaultImage = `https://divergeweekly.com/${image ||
-    site.siteMetadata.defaultImage}`
+  const defaultImage = site.siteMetadata.defaultImage
+  const imageSrc = image && image.childImageSharp.sizes.src
+
+  console.log("ImageSrc", image, imageSrc)
+
+  let origin = "https://divergeweekly.com"
 
   return (
     <Helmet
@@ -53,15 +57,19 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           property: `og:image`,
-          content: defaultImage,
+          content: image ? origin + imageSrc : defaultImage,
         },
         {
           property: `og:type`,
           content: `website`,
         },
         {
+          name: `twitter:image`,
+          content: image ? origin + imageSrc : defaultImage,
+        },
+        {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
@@ -69,7 +77,7 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: `${title} - Weekly design and global affairs news`,
         },
         {
           name: `twitter:description`,

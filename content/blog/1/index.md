@@ -5,6 +5,7 @@ date: "2020-03-11T09:00:00.000Z"
 description: "Taking a look at the Afghan peace talks and what women have designed over the past 20 years"
 category: issue
 published: true
+image: img/anbahhospital.png
 tags:
   - newsletter
   - "2020"
