@@ -1,4 +1,225 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Diverge Weekly]]></title><description><![CDATA[Every Wednesday, a look at design from around the world and its impact on those who inhabit it.]]></description><link>https://divergeweekly.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 22 Apr 2020 09:34:37 GMT</lastBuildDate><item><title><![CDATA[The Gradual Opening Issue]]></title><description><![CDATA[Hi all, My son had his first day back at daycare today (I’m writing this on Monday). When he left, he wasn’t yet able to stand on his feet…]]></description><link>https://divergeweekly.com/7/</link><guid isPermaLink="false">https://divergeweekly.com/7/</guid><pubDate>Wed, 22 Apr 2020 09:00:00 GMT</pubDate><content:encoded>&lt;div&gt;&lt;main credit=&quot;Tadao Ando&quot; quote=&quot;The absolute unknowable appears as spring and disappears in fall. Signs come, not the essence signified. - Rumi&quot;&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Diverge Weekly]]></title><description><![CDATA[Every Wednesday, a look at design from around the world and its impact on those who inhabit it.]]></description><link>https://divergeweekly.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Apr 2020 10:52:46 GMT</lastBuildDate><item><title><![CDATA[The Just Tired Issue]]></title><description><![CDATA[Hi all, Everyone I talk to lately is tired. For those of us in countries with a nominal “flattened” curve, it feels like like we’ve climbed…]]></description><link>https://divergeweekly.com/8/</link><guid isPermaLink="false">https://divergeweekly.com/8/</guid><pubDate>Wed, 29 Apr 2020 09:00:00 GMT</pubDate><content:encoded>&lt;div&gt;&lt;main credit=&quot;Acute Art x KAWS VR&quot; quote=&quot;It takes a minute to have a crush on someone, an hour to like someone, and a day to love someone… but it takes a lifetime to forget someone. - Kahlil Gibran&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.96932515337423%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAAEFklEQVQ4yx2U2VNTdxTH7/SxVcxCQrabm5uN7CpgCERBEWSZijoIQUcLiCFsMRDZKk4RLBQUlw7YStFiW0VjUFSKa3XqtC99sOPY9qFvnekf8umtD2fO73cePr/vOb9zjmCz6LFLFkTRglUSyXdJ+AMe6mrK2V9TQTAQxJ9vJ6CYx+1Apc1Bl6diV4mX6qibylIvnlCYoMeLaDYimI06PC4Z2WrB7rBRVV5Af+chZie6mZtMESkqwqHEHXYJ2ZXPBq2KTRoVLuWc7w0pQhzoDCJW2YHP50WQRQObvTLdhysZTR5g4mQTyfYGTg8keJaZZTgdJ1Jcik22oTeJbFRpFW/FKLnZoDGiMTnIybXwwYcbUesVhbXlhezdVcDSZAd3Z7v4ajJOV6ySWE0ZK0sXef3iHs1H2thZ14Q7WIRGb8Eo+9BbHAo8l01aA7lqPVaLE43ZheCymQhvdpFoqmHlUprFSyP8eGeO109u8ftvL/n3n7/59uYyuw/G8ZXUYnQVohN95BpdCtSFzbcNUfbjcW5BDpYhGHKVeshmYvt2k4zHuDQ1wncL51m7u8jL9QwPVzM8frJOUzyNeWs1xkA5encYnb0ArRTCnB/GH617b1KgFMHvtuOwmjh0oIrBZAsDvZ+Q7mnhzKl+ZqfHuXr1CtmVLLPzizgj9eg9UTS2zWjlLeTat6IW/aitAURvGFsgglCxo4TKsmKi20IMpY7TGT/K1Pgoc1+e54uZGaYmxpiZ+pylmxkqD7ajyd+uwLaikYKoLD5yjMrP6+18qLaQZwsiDPa00Zc4Qm31HpoONhCLNXPh4gVePH/Mz7/8ymdj49TvqebG8l3OzV/Hu70elaLwf2COycPGPCcqgwu1wckmvYwweXqAUwN9tLa0MXLqNL2pQb65dp1MNsudlfsklHtTcyO3M7d48/YPpucWcRRWoDK50dlCqPOUttFK72E6qwfhh2tf0x1vJxrdyUB/mqUb33P/wSOyD9ZYWs5y7+Ej6hoOczOzwts//+J29h5lHzfjVKByaDuiZxt5kpK6xqyolBCyt5fpOJ6gtrae+n2NjI9NcH72MgvXbrCcXeXZy1fEWjs5d/kKb96949GTp7R2dOOP7EbeUo7kj2BVWscsmvlIbUDIKC+Pjp5hID1MOv0pJ1JD9KSGOdaRUvwQZ6cvUrW3kdauFGtPn3NlYYHevn5KyiqQglHM3mIktw/RamaDMjHC6uoa8/MLnJ2YZvzMDOnBMbqTw7Qn+jja1kW8J01bl1Ljjl6SJ0fYWVVD3f4GSsqrsAfDOIoqcXr9WJVZV5vsCOtPX7G2/hMLV5cYGj5LemicRM8gxxXgkZaEojTJsc4TNB5upW5fA4WRHQQLiikMF2OW3dhDpVgkG05l22jNNv4DaudL0tYjqfIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Acute Art x KAWS VR&quot;
+        title=&quot;Acute Art x KAWS VR&quot;
+        src=&quot;/static/9b907590f850370a565a34159978f757/fcda8/kaws.png&quot;
+        srcset=&quot;/static/9b907590f850370a565a34159978f757/12f09/kaws.png 148w,
+/static/9b907590f850370a565a34159978f757/e4a3f/kaws.png 295w,
+/static/9b907590f850370a565a34159978f757/fcda8/kaws.png 590w,
+/static/9b907590f850370a565a34159978f757/efc66/kaws.png 885w,
+/static/9b907590f850370a565a34159978f757/c83ae/kaws.png 1180w,
+/static/9b907590f850370a565a34159978f757/1e5d2/kaws.png 1630w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;p&gt;Hi all,&lt;/p&gt;&lt;p&gt;Everyone I talk to lately is tired.&lt;/p&gt;&lt;p&gt;For those of us in countries with a nominal “flattened” curve, it feels like like we’ve climbed up
+to a ledge to find a temporary respite, with the knowledge that we can’t stay here too long. Those
+experiencing still uncontrolled outbreaks (the idea of control itself is dubious) only have the
+belief that a ledge might be close by — without much thought for where one goes next. Either way, we
+find ourselves stuck, unsure of how to get down safely or keep going forward. And this is an
+experience that everyone is independently living.&lt;/p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.650390625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAFehFfNJpZ//8QAGxABAAICAwAAAAAAAAAAAAAAAQIDAAQSIzP/2gAIAQEAAQUC2jsp8Za8l5Kl7GtnLP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAQACAgMAAAAAAAAAAAAAAAABMQIRITKB/9oACAEBAAY/AvGDu5aiKW//xAAaEAACAwEBAAAAAAAAAAAAAAAAAREhcWGR/9oACAEBAAE/IaFLei+RJExBNp0iV6EmP//aAAwDAQACAAMAAAAQix//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAeEAACAgICAwAAAAAAAAAAAAABEQAhMVFBYYHB0f/aAAgBAQABPxBySbcLS4IVSl3EAwsI/YDBGFtAShoEfXmKbXeTP//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;DSCF7731&quot;
+        title=&quot;DSCF7731&quot;
+        src=&quot;/static/b5f4e135fd680c0c143e8b5632fa9013/1c72d/DSCF7731.jpg&quot;
+        srcset=&quot;/static/b5f4e135fd680c0c143e8b5632fa9013/a80bd/DSCF7731.jpg 148w,
+/static/b5f4e135fd680c0c143e8b5632fa9013/1c91a/DSCF7731.jpg 295w,
+/static/b5f4e135fd680c0c143e8b5632fa9013/1c72d/DSCF7731.jpg 590w,
+/static/b5f4e135fd680c0c143e8b5632fa9013/a8a14/DSCF7731.jpg 885w,
+/static/b5f4e135fd680c0c143e8b5632fa9013/fbd2c/DSCF7731.jpg 1180w,
+/static/b5f4e135fd680c0c143e8b5632fa9013/e1596/DSCF7731.jpg 2048w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;p&gt;The &lt;a href=&quot;https://www.theatlantic.com/health/archive/2015/03/%0Ahow-uncertainty-fuels-anxiety/388066/&quot;&gt;impact of uncertainty on stress&lt;/a&gt; is something that is often obvious and widely acknowledged,
+but still insidious. We might dismiss a friend’s inquiry into our well being with a “Things are
+good” or “I’m fine” not because we feel that way, but simply because it’s the ingrained default. The
+construct of normalcy around us — whatever that normal might be — drives our behaviours until those
+norms are no longer load bearing.&lt;/p&gt;&lt;p&gt;I think we’re hitting that point where the erosion of localized norms is beginning to undermine the
+foundations they were built on. The Prussian military scholar Clausewitz (I’m a security studies
+student, what do you expect?) has this idea of &lt;a href=&quot;http://www.strategybydesign.org/friction&quot;&gt;Friction&lt;/a&gt;
+— the accumulation of little unknowns and events that undermine “the plan.” Clausewitz argues that a
+path to victory in war is managing the relative friction between various combatants: reduce your own
+friction and increase the enemies. The ubiquitous American MQ-9 Reaper drone is an example of
+something that amplifies an enemy’s friction (“Where the hell is that buzzing coming from?”) and
+reduces allies friction (“Eyes in the sky”). But we don’t have a Reaper drone for our current
+situation.&lt;/p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.650390625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAGLeGDCYP/EABoQAQEAAgMAAAAAAAAAAAAAAAECAAMSEyL/2gAIAQEAAQUC1SJWriSCT5xrO1M//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAgEFAAAAAAAAAAAAAAAAAAEhAhARIjL/2gAIAQEABj8Cg2qzN+UQkf/EABwQAQACAgMBAAAAAAAAAAAAAAEAESFBMVFxgf/aAAgBAQABPyEtb0hg6DEtnM2AYepaJgW/sA1Sn//aAAwDAQACAAMAAAAQg8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAEAAgMAAwAAAAAAAAAAAAABABEhMUFRYYH/2gAIAQEAAT8QakFQZN5IhEIwauZopxfFEeFCqdWO7hqLYjf1vcEEj05n/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;DSCF7674&quot;
+        title=&quot;DSCF7674&quot;
+        src=&quot;/static/a845729bdf9bf18b5035318eae9fe54c/1c72d/DSCF7674.jpg&quot;
+        srcset=&quot;/static/a845729bdf9bf18b5035318eae9fe54c/a80bd/DSCF7674.jpg 148w,
+/static/a845729bdf9bf18b5035318eae9fe54c/1c91a/DSCF7674.jpg 295w,
+/static/a845729bdf9bf18b5035318eae9fe54c/1c72d/DSCF7674.jpg 590w,
+/static/a845729bdf9bf18b5035318eae9fe54c/a8a14/DSCF7674.jpg 885w,
+/static/a845729bdf9bf18b5035318eae9fe54c/fbd2c/DSCF7674.jpg 1180w,
+/static/a845729bdf9bf18b5035318eae9fe54c/e1596/DSCF7674.jpg 2048w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;p&gt;Instead of other humans, we are engaged in a species-wide war of friction against a virus. Covid-19
+is a particularly friction-producing bastard. Its slow incubation timed and high infection rate
+allowed it to slip past our virological Maginot line, and emergency measures have been the result.
+By staying home and keeping physically distant, we’re doing something to balance those scales: the
+virus can’t spread what it can’t reach, and even if it does, it can’t spread far within an isolated
+household. This creates friction for the virus and we’re starting to see the results — &lt;a href=&quot;https://www.vox.com/2020/4/17/%0A21225916/coronavirus-in-germany-angela-merkel-lifting-lockdown&quot;&gt;Angela
+Merkel’s explanation of the effect of friction on the virus’ spread&lt;/a&gt; being perhaps the best framing of
+the impact that we can have.&lt;/p&gt;&lt;p&gt;But still our norms are eroding. My wife, son, and I had a picnic in the park this weekend with some
+friends. They sat two meters away and we commented on how weird it was. It was also an absolutely
+incredible relief and utterly surreal at the same time.&lt;/p&gt;&lt;p&gt;There’s a New Yorker article that came out this week called &lt;a href=&quot;https://www.newyorker.com/%0Amagazine/2020/04/27/americas-abandonment-of-syria&quot;&gt;Abandoned&lt;/a&gt;. It explores the American abandonment of the
+Syrian Democratic Forces — a mostly Kurdish force responsible for the defeat of ISIS in Syria and
+long-time ally of the US. The entire thing is worth your time, but the section on the re-habitation
+of Raqqa stood out for the dynamism with which people were trying to reclaim their lives. Wiring
+electricity for light and television, planting a garden, cleaning the debris as best they can. In
+shattered buildings, families are doing whatever they can do reclaim the shape of normal, but will
+never see those previous lives.&lt;/p&gt;&lt;p&gt;The human impact of the Syrian civil war and our current battle with covid-19 can’t and shouldn’t be
+compared, but it points to what happens when our foundations are torn from us: we establish new
+ones. New norms come slowly and with pain, but they do come. Often, design (particularly interaction
+design) looks at eliminating friction as completely as it can, but sometimes friction can beneficial
+results. An example is the &lt;a href=&quot;https://en.wikipedia.org/wiki/IKEA_effect&quot;&gt;IKEA effect&lt;/a&gt;, which shows
+that people tend to over-value things they create — like building Ikea furniture.&lt;/p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.650390625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAZlSYrM8P//EABsQAAEEAwAAAAAAAAAAAAAAAAIAAQMTERIy/9oACAEBAAEFAika85R1sjTDhz6X/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGBAAAgMAAAAAAAAAAAAAAAAAETEAICH/2gAIAQEABj8C1CIV/8QAGxABAAEFAQAAAAAAAAAAAAAAAQAQESExQYH/2gAIAQEAAT8hUnltaYMaXUX5byALtmaaf//aAAwDAQACAAMAAAAQw8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhMaH/2gAIAQEAAT8QAdXML2H33MVBBdYWaWr5CG1XAGuSw9XTf//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;DSCF7853&quot;
+        title=&quot;DSCF7853&quot;
+        src=&quot;/static/9c9081053de75fcc8193180e733644cf/1c72d/DSCF7853.jpg&quot;
+        srcset=&quot;/static/9c9081053de75fcc8193180e733644cf/a80bd/DSCF7853.jpg 148w,
+/static/9c9081053de75fcc8193180e733644cf/1c91a/DSCF7853.jpg 295w,
+/static/9c9081053de75fcc8193180e733644cf/1c72d/DSCF7853.jpg 590w,
+/static/9c9081053de75fcc8193180e733644cf/a8a14/DSCF7853.jpg 885w,
+/static/9c9081053de75fcc8193180e733644cf/fbd2c/DSCF7853.jpg 1180w,
+/static/9c9081053de75fcc8193180e733644cf/e1596/DSCF7853.jpg 2048w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;p&gt;The friends I met in the park had shared how they’d taught themselves to make bagels, how they were
+looking after a sick friend from a distance, and how they’d rediscovered their playstation.
+Anecdotally, everyone seems to be making sourdough — the shortage of dry yeast in grocery stories
+spurring folk to discover that yeast that is constantly floating around us. In the book &lt;a href=&quot;https://amzn.to/2Sgs8Rr&quot;&gt;Wild Ones&lt;/a&gt;, Jon Mooallem explores the idea of shifting baselines relative to
+generational norm setting — what we understand as “normal” isn’t the normal for our children or
+those geographically dispersed. But what we’re experiencing now is this shift at a much more
+dramatic speed.&lt;/p&gt;&lt;p&gt;Writing this newsletter each week has — for me — been a bit like that act of making sourdough or
+bagels in reaction to those shifting baselines. It’s a manifestation of my own labour and allows me
+to meditate a bit on what each week or sequence of weeks feels like — from my own perch in
+Copenhagen working as a product designer and manager, from the news and articles I read from around
+the world, and from the people I talk to across timezones. We are all incrementally building new
+norms — some of us under incredible stress and risk, others from a position of privilege. And
+perhaps the confluence of those new norms — and the friction they create for the coronavirus’ spread
+— will create a more resilient world on the other side.&lt;/p&gt;&lt;p&gt;As always, &lt;a href=&quot;https://divergeweekly.com&quot;&gt;please subscribe to and share Diverge Weekly&lt;/a&gt; if you haven’t and &lt;a href=&quot;mailto:alb@andrewlb.com&quot;&gt;send me a note&lt;/a&gt; if you have questions or feedback!&lt;/p&gt;&lt;/main&gt;&lt;voices who=&quot;Stephanie Nguyen&quot; role=&quot;Designer and Research Scientist, MIT Media Lab&quot; image=&quot;img/19_Alum_StephanieNguyen_RC_37.jpg&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 150%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAeABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgUG/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhADEAAAAdOaoJw4bESJHpxQn//EABwQAAICAgMAAAAAAAAAAAAAAAADARIEEQIjM//aAAgBAQABBQLRoqM5UWmZuZrJsxkryDLjsd67P//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EAB0QAAEEAwEBAAAAAAAAAAAAAAECEBEhABJBQlH/2gAIAQEABj8CdSvgzQqmptggGovBp5pgeHIiz1v/xAAdEAADAQABBQAAAAAAAAAAAAAAAREhYRAxQVFx/9oACAEBAAE/IV0mh7QwE6VybeSC8I9ch6YhfRabXszkVTkxN0YP/9oADAMBAAIAAwAAABAvDYL/xAAXEQEBAQEAAAAAAAAAAAAAAAABEBEx/9oACAEDAQE/EAU2HJ//xAAYEQACAwAAAAAAAAAAAAAAAAAQEQEhMf/aAAgBAgEBPxB2hOj/xAAdEAEAAgIDAQEAAAAAAAAAAAABABEhMVFhkaFB/9oACAEBAAE/ECDBHHUQ6lWVYbc/n2MtvoIGmumyIuYYgR2xfkNMS5swtPsCB5lT4kYaU5r2V4bGLd41HVxP/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Stephanie Thien Hang Nguyen&quot;
+        title=&quot;Stephanie Thien Hang Nguyen&quot;
+        src=&quot;/static/76ad2658a7398053020c6ad35028323f/1c72d/19_Alum_StephanieNguyen_RC_37.jpg&quot;
+        srcset=&quot;/static/76ad2658a7398053020c6ad35028323f/a80bd/19_Alum_StephanieNguyen_RC_37.jpg 148w,
+/static/76ad2658a7398053020c6ad35028323f/1c91a/19_Alum_StephanieNguyen_RC_37.jpg 295w,
+/static/76ad2658a7398053020c6ad35028323f/1c72d/19_Alum_StephanieNguyen_RC_37.jpg 590w,
+/static/76ad2658a7398053020c6ad35028323f/a8a14/19_Alum_StephanieNguyen_RC_37.jpg 885w,
+/static/76ad2658a7398053020c6ad35028323f/a2510/19_Alum_StephanieNguyen_RC_37.jpg 1000w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;p&gt;I worked with Stephanie at the US Digital Service back in 2016. She was an incredibly skilled and experienced designer then, but since then she joined the Harvard Kennedy School and got her Masters of Public Policy — joining the MIT Media Lab as a research scientist focused on data privacy.&lt;/p&gt;&lt;p&gt;Steph’s work is worth exploring — she’s proven to be both an incredible convener of talent while also a producer of insightful work herself. Give her portfolio a look and keep an eye open for her impact on the world of design and privacy.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.stephanienguyen.co/&quot;&gt;Stephanie Nguyen&lt;/a&gt;&lt;/p&gt;&lt;/voices&gt;&lt;twitter who=&quot;johnysun&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/jonnysun/status/1255271802219225090&quot;&gt;everyone in quarantine can have one (1) minute of focus per day, as a treat&lt;/a&gt;&lt;/p&gt;&lt;/twitter&gt;&lt;region&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;East Asia&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.scmp.com/week-asia/lifestyle-culture/article/3081484/coronavirus-japans-onsen-provide-virtual-reality&quot;&gt;Japan’s onsen provide virtual reality antidote to lockdown blues&lt;/a&gt;
+The ways that different cultures and communities simulate a lost experience is worth watching, because the simulation might become the experience itself before long.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;South Asia&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://overcast.fm/+WEGkNqmuU&quot;&gt;Inside the world’s biggest lockdown&lt;/a&gt;
+Today Explained is a fantastic podcast, and this episode explores some of the stories and systems behind India’s lockdown. The migration trigger is worth noting.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;Americas&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://apnews.com/6368f572177f6c546a7b709aa2ad205f&quot;&gt;Questions over Kim’s health highlight intelligence limits&lt;/a&gt;
+The speculation in American intelligence circles on the current state of Kim Jong Un’s health is significant, especially as diplomatic and military personnel prepare for a potentially seismic change in Korean/US relations.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;MENA&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.aljazeera.com/news/2020/04/jordan-flattening-covid-19-curve-200422112212466.html&quot;&gt;How Jordan is flattening its COVID-19 curve&lt;/a&gt;
+The bit at the end about the Stringency Index popped out as a fascinating point for design to inflect policy making and citizen uncertainty.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;Africa&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.aljazeera.com/ajimpact/level-5-4-south-africa-plans-reopen-economy-phases-200424160114471.html&quot;&gt;Level 5 to 4: South Africa plans to reopen economy, in phases&lt;/a&gt;
+South Africa is implementing a slow re-opening as well, but people seem anxious. The reports near the end of the article of increased crime and overbearing policing is worrying.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;Europe&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.aljazeera.com/news/2020/04/conte-defends-slowly-slowly-lifting-italy-lockdown-200428160319730.html&quot;&gt;Italian PM Conte defends ‘slowly-slowly’ lifting of Italy’s lockdown&lt;/a&gt;
+Italy, the worst hit of the European countries, is starting to open things up. Like almost everything in this crisis, so much has to do with communication. Let’s all watch this closely&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/region&gt;&lt;security credit=&quot;&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.208333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUE/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAHFvkNNtET/AP/EABoQAAIDAQEAAAAAAAAAAAAAAAESAgMRACH/2gAIAQEAAQUCjuV5AG71itZKvLv/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwFX/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8Bqv/EABkQAAIDAQAAAAAAAAAAAAAAAAARECExYf/aAAgBAQAGPwLg2UJxp//EABoQAAMBAQEBAAAAAAAAAAAAAAABETEhQXH/2gAIAQEAAT8h7YozG03w8xQV2D0qK8bIYx//2gAMAwEAAgADAAAAEMjf/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EFEQf//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxAyR//EABkQAQEBAQEBAAAAAAAAAAAAAAERACExQf/aAAgBAQABPxBV9I78JbhTAHorc78MdV9wAKfE9wBL0GEsVbv/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Source: GUSTAVO FIGUEIREDO/RLJE FILMS&quot;
+        title=&quot;Source: GUSTAVO FIGUEIREDO/RLJE FILMS&quot;
+        src=&quot;/static/283246e136141b6da9fe8a47fe2fdb82/1c72d/Cul-COLOROUTOFSPACE_9-1.jpg&quot;
+        srcset=&quot;/static/283246e136141b6da9fe8a47fe2fdb82/a80bd/Cul-COLOROUTOFSPACE_9-1.jpg 148w,
+/static/283246e136141b6da9fe8a47fe2fdb82/1c91a/Cul-COLOROUTOFSPACE_9-1.jpg 295w,
+/static/283246e136141b6da9fe8a47fe2fdb82/1c72d/Cul-COLOROUTOFSPACE_9-1.jpg 590w,
+/static/283246e136141b6da9fe8a47fe2fdb82/a8a14/Cul-COLOROUTOFSPACE_9-1.jpg 885w,
+/static/283246e136141b6da9fe8a47fe2fdb82/fbd2c/Cul-COLOROUTOFSPACE_9-1.jpg 1180w,
+/static/283246e136141b6da9fe8a47fe2fdb82/df51d/Cul-COLOROUTOFSPACE_9-1.jpg 2400w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;p&gt;&lt;a href=&quot;https://foreignpolicy.com/2020/04/20/coronavirus-pandemic-bioterrorism-preparedness/&quot;&gt;Foreign Policy: The Next Pandemic Might Not Be Natural&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Max Brooks is a favourite author of mine. World War Z is a book I’ve re-read about 10 times as a kind of comfort food, and it’s one of the best pieces of speculative fiction I’ve encountered. I regularly recommend it to students and colleagues alike. This article is a fantastic look by an expert at global security threat of bioterrorism, and how in some ways, our learning from the coronavirus pandemic may help ward off potentially greater threats down the road.&lt;/p&gt;&lt;/security&gt;&lt;jobs&gt;&lt;div class=&quot;custom-block jobad&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;Innovation in the DRC&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://ideas42.applytojob.com/apply/jqAGdysQBX/Innovations-Advisor&quot;&gt;Innovations Advisor, Ideas 42&lt;/a&gt;
+Located in Kinshasa, Congo&lt;/p&gt;&lt;p&gt;This looks like an awesome two year contract position for a service design or design research focused individual. You’ll need to be authorized to work in the DRC. It looks like a 1-2 year work visa can be applied for, so might be worth asking if the contract facilitates that process!&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;[[jobad | ]]
+|&lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+|Located in
+|
+|&lt;/p&gt;&lt;/jobs&gt;&lt;sponsor image=&quot;https://www.knowsi.com/static/tier1.png&quot;&gt;&lt;h2&gt;Knowsi&lt;/h2&gt;&lt;p&gt;Knowsi manages consent for user research. Send and track participant consent with custom forms and GDPR-focused tools.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://knowsi.com&quot;&gt;Join Knowsi today for free!&lt;/a&gt;&lt;/p&gt;&lt;/sponsor&gt;&lt;image credit=&quot; &quot; link=&quot; &quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.21471172962227%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACAElEQVQ4y41TXW/TQBD0D+XHIMQrDzzwCEIIBA+ICqQ2QlBAKglqmtJCiZpEMSWNm5DYPtuxc/Z9eVg7TihpCpy02r21PTM7vrPwj5Xn+ZX6up5SCtblxnoUS5scY6YxCXVZrwOu761NjCvAKguVQ6p8o8p1Qdblzd9GVppAdVFXhCgIr6pdjWyMgZQSQoiyLvqmGjEThsaW8CK1ZFmoX9bXAWZpBpNLqjWBK2RZVj6L5wrzucTAT6lHUXhbgeWbPNS6+FiUrx3tD+G782pMU+YkUzCJwkMW4oXv4Ik7xGfFF0Ly3zYUmQANAZI/UiAKBF5v1TCLR0jiBMx1wLwUU09Ckqyd4w4+7H7ECZvC4THW/S+SZXQMwYcFF7wJx92b2+i2exj2bYT+OVI+Rxy2MXAD7G/V8f3GLVKbEsHC68pUAtMLhXzWRMjqcCYees4Qjx7Ucef2Gzx/vIdPrVMcdo4w+rmL7sEp7nc6eHnvKVithUEYkfqAvCXgvFDrwKgMVsz6OP7SxHbjEDuNJl7tNfDs7XvUGgd41/qKE/sMPJVo2xGm9gj+xQTngzHOxlP0R1RfuHQCfiDIvoGlKSyRagR+CI8Yx55PweBHM8Q8JWaz+nsx1zTJDJyeTViAXhTATmbohgx9yjZP4JLR1v/c5T9uEoUojhP1NPmoq6O1XL8A4HPn63mWqdwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Tonari.no&quot;
+        title=&quot;Tonari.no&quot;
+        src=&quot;/static/05a78f16469c809417bc7825246ba3ef/fcda8/tonari.png&quot;
+        srcset=&quot;/static/05a78f16469c809417bc7825246ba3ef/12f09/tonari.png 148w,
+/static/05a78f16469c809417bc7825246ba3ef/e4a3f/tonari.png 295w,
+/static/05a78f16469c809417bc7825246ba3ef/fcda8/tonari.png 590w,
+/static/05a78f16469c809417bc7825246ba3ef/efc66/tonari.png 885w,
+/static/05a78f16469c809417bc7825246ba3ef/c83ae/tonari.png 1180w,
+/static/05a78f16469c809417bc7825246ba3ef/246e6/tonari.png 4024w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;p&gt;&lt;a href=&quot;https://tonari.no/&quot;&gt;Tonari&lt;/a&gt; (Japanese for “beside” or “next to”) is an exciting looking telepresence idea. Tons of groups have tried this kind of thing (Cisco, Oblong Industries, etc), but this one has a particularly human and these days, particularly appealing skin on it. Worth keeping an eye on!&lt;/p&gt;&lt;/image&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[The Gradual Opening Issue]]></title><description><![CDATA[Hi all, My son had his first day back at daycare today (I’m writing this on Monday). When he left, he wasn’t yet able to stand on his feet…]]></description><link>https://divergeweekly.com/7/</link><guid isPermaLink="false">https://divergeweekly.com/7/</guid><pubDate>Wed, 22 Apr 2020 09:00:00 GMT</pubDate><content:encoded>&lt;div&gt;&lt;main credit=&quot;Tadao Ando&quot; quote=&quot;The absolute unknowable appears as spring and disappears in fall. Signs come, not the essence signified. - Rumi&quot;&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
@@ -282,15 +503,7 @@ Located in Washington DC&lt;/p&gt;&lt;p&gt;This is a GS14 (so pretty high up) ci
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;&lt;p&gt;Julia is an incredible design leader who I first met in San Francisco. Originally from France and married to an American, she worked with my wife, Ayla, at Adaptive Path before its acquisition in Capital One. She mentored and supported many emerging designers before and after that transition, and left an incredible legacy of support with that team. She’s also the catalyst for our ending up in Copenhagen, as she helped start the Fjord Copenhagen studio and quite effectively recruited Ayla to move to Europe in early 2017.&lt;/p&gt;&lt;p&gt;Julia is a model of what a global designer can be: someone with experience and empathy across cultures and language, co-designing a space for herself and her family where there are interesting problems and opportunities. I’ve been hugely inspired watching her cultivate design communities wherever she goes, and the fact that her team members will move around the world for the chance to work with her again is a testament to what great design leadership looks like.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/julia-moisand-eg%C3%A9a-84824614/&quot;&gt;Julia on Linkedin&lt;/a&gt;&lt;/p&gt;&lt;/voices&gt;&lt;twitter who=&quot;CAFinUS&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/CAFinUS/status/1250011429463298048&quot;&gt;Every day is Tuesday, but today is Tuesday. Strength. Together-ish. #COVID19 #StayHome&lt;/a&gt;&lt;/p&gt;&lt;/twitter&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[The First Reflection Issue]]></title><description><![CDATA[Hi. As always, please subscribe to and share Diverge Weekly if you haven’t and send me a note if you have questions or feedback!East Asia…]]></description><link>https://divergeweekly.com/template/</link><guid isPermaLink="false">https://divergeweekly.com/template/</guid><pubDate>Wed, 08 Apr 2020 09:00:00 GMT</pubDate><content:encoded>&lt;div&gt;&lt;main credit=&quot;&quot; quote=&quot;&quot;&gt;&lt;img src=&quot;img/&quot;&gt;&lt;p&gt;Hi.&lt;/p&gt;&lt;p&gt;As always, &lt;a href=&quot;https://divergeweekly.com&quot;&gt;please subscribe to and share Diverge Weekly&lt;/a&gt; if you haven’t and &lt;a href=&quot;mailto:alb@andrewlb.com&quot;&gt;send me a note&lt;/a&gt; if you have questions or feedback!&lt;/p&gt;&lt;/main&gt;&lt;region&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;East Asia&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;South Asia&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;Americas&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;MENA&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;Africa&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;Europe&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/region&gt;&lt;security credit=&quot;&quot;&gt;&lt;img src=&quot;img/&quot; alt=&quot;Source: &quot;&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;sdfsdf&lt;/p&gt;&lt;/security&gt;&lt;jobs&gt;&lt;p&gt;[[jobad | ]]
-|&lt;a href=&quot;&quot;&gt;&lt;/a&gt;
-|Located in
-|
-|&lt;/p&gt;&lt;p&gt;[[jobad | ]]
-|&lt;a href=&quot;&quot;&gt;&lt;/a&gt;
-|Located in
-|
-|&lt;/p&gt;&lt;/jobs&gt;&lt;sponsor image=&quot;https://www.knowsi.com/static/tier1.png&quot;&gt;&lt;h2&gt;Knowsi&lt;/h2&gt;&lt;p&gt;Knowsi manages consent for user research. Send and track participant consent with custom forms and GDPR-focused tools.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://knowsi.com&quot;&gt;Join Knowsi today for free!&lt;/a&gt;&lt;/p&gt;&lt;/sponsor&gt;&lt;image credit=&quot; &quot; link=&quot; &quot;&gt;&lt;img src=&quot;img/&quot; alt=&quot; &quot;&gt;&lt;p&gt;sdfsdf&lt;/p&gt;&lt;/image&gt;&lt;voices who=&quot; &quot; role=&quot; &quot; image=&quot;img/ &quot;&gt;&lt;img src=&quot;img/&quot; alt=&quot; &quot;&gt;&lt;p&gt;fdsdfsdf&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;/voices&gt;&lt;twitter who=&quot;&quot;&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;/twitter&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[The First Reflection Issue]]></title><description><![CDATA[Hi all, We’re going to try something a little bit different this week and reflect a bit about this project and its goals. This is issue #…]]></description><link>https://divergeweekly.com/5/</link><guid isPermaLink="false">https://divergeweekly.com/5/</guid><pubDate>Wed, 08 Apr 2020 09:00:00 GMT</pubDate><content:encoded>&lt;div&gt;&lt;main credit=&quot;Mikhael Subotzky&quot; quote=&quot;I don&apos;t know where my expertise is; my expertise is no disciplines. I would recommend to drop disciplinarity wherever one can. - Heinz Von Foerster (1995)&quot;&gt;&lt;span
+    &lt;/span&gt;&lt;p&gt;Julia is an incredible design leader who I first met in San Francisco. Originally from France and married to an American, she worked with my wife, Ayla, at Adaptive Path before its acquisition in Capital One. She mentored and supported many emerging designers before and after that transition, and left an incredible legacy of support with that team. She’s also the catalyst for our ending up in Copenhagen, as she helped start the Fjord Copenhagen studio and quite effectively recruited Ayla to move to Europe in early 2017.&lt;/p&gt;&lt;p&gt;Julia is a model of what a global designer can be: someone with experience and empathy across cultures and language, co-designing a space for herself and her family where there are interesting problems and opportunities. I’ve been hugely inspired watching her cultivate design communities wherever she goes, and the fact that her team members will move around the world for the chance to work with her again is a testament to what great design leadership looks like.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/julia-moisand-eg%C3%A9a-84824614/&quot;&gt;Julia on Linkedin&lt;/a&gt;&lt;/p&gt;&lt;/voices&gt;&lt;twitter who=&quot;CAFinUS&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/CAFinUS/status/1250011429463298048&quot;&gt;Every day is Tuesday, but today is Tuesday. Strength. Together-ish. #COVID19 #StayHome&lt;/a&gt;&lt;/p&gt;&lt;/twitter&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[The First Reflection Issue]]></title><description><![CDATA[Hi all, We’re going to try something a little bit different this week and reflect a bit about this project and its goals. This is issue #…]]></description><link>https://divergeweekly.com/5/</link><guid isPermaLink="false">https://divergeweekly.com/5/</guid><pubDate>Wed, 08 Apr 2020 09:00:00 GMT</pubDate><content:encoded>&lt;div&gt;&lt;main credit=&quot;Mikhael Subotzky&quot; quote=&quot;I don&apos;t know where my expertise is; my expertise is no disciplines. I would recommend to drop disciplinarity wherever one can. - Heinz Von Foerster (1995)&quot;&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
@@ -388,7 +601,15 @@ Located in European Countries&lt;/p&gt;&lt;p&gt;This looks like an incredible br
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;&lt;p&gt;I first met Chris in San Francisco when he was working with Adaptive Path, and later re-connected with him in Copenhagen where he works with my wife at Fjord. Holding both American and Polish citizenship, Chris was able to travel quite easily within the EU, and has used that border-flexibility to travel quite broadly. Whether it’s bike-packing trips from Denmark to Norway, traveling to Sweden to interview Syrian refugees for an upcoming film he’s supporting, or carefully documented motorcycle trips across Italy — Chris brings artful communication and storytelling into everything he does.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://thewronski.com/&quot;&gt;The Wronski&lt;/a&gt;&lt;/p&gt;&lt;/voices&gt;&lt;twitter who=&quot;LibyaLiberty&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/LibyaLiberty/status/1247561924621012992&quot;&gt;I was talking about something with my daughter who’s in high school, and she shared some ideas that she said she “saw in a documentary recently. well, it was more of a tik tok.” a. documentary.&lt;/a&gt;&lt;/p&gt;&lt;/twitter&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[The Cycles Issue]]></title><description><![CDATA[Hi. Design is a cyclical action. While individual artifacts are ejected from the process (like this newsletter and its upcoming visual…]]></description><link>https://divergeweekly.com/4/</link><guid isPermaLink="false">https://divergeweekly.com/4/</guid><pubDate>Wed, 01 Apr 2020 09:00:00 GMT</pubDate><content:encoded>&lt;div&gt;&lt;main credit=&quot;Ant Farm&quot; quote=&quot;Boyd closed the briefing by saying the message is that whoever can handle the quickest rate of change is the one who survives. — Robert Coram on John Boyd&quot;&gt;&lt;span
+    &lt;/span&gt;&lt;p&gt;I first met Chris in San Francisco when he was working with Adaptive Path, and later re-connected with him in Copenhagen where he works with my wife at Fjord. Holding both American and Polish citizenship, Chris was able to travel quite easily within the EU, and has used that border-flexibility to travel quite broadly. Whether it’s bike-packing trips from Denmark to Norway, traveling to Sweden to interview Syrian refugees for an upcoming film he’s supporting, or carefully documented motorcycle trips across Italy — Chris brings artful communication and storytelling into everything he does.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://thewronski.com/&quot;&gt;The Wronski&lt;/a&gt;&lt;/p&gt;&lt;/voices&gt;&lt;twitter who=&quot;LibyaLiberty&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/LibyaLiberty/status/1247561924621012992&quot;&gt;I was talking about something with my daughter who’s in high school, and she shared some ideas that she said she “saw in a documentary recently. well, it was more of a tik tok.” a. documentary.&lt;/a&gt;&lt;/p&gt;&lt;/twitter&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[The First Reflection Issue]]></title><description><![CDATA[Hi. As always, please subscribe to and share Diverge Weekly if you haven’t and send me a note if you have questions or feedback!  fdsdfsdf…]]></description><link>https://divergeweekly.com/template/</link><guid isPermaLink="false">https://divergeweekly.com/template/</guid><pubDate>Wed, 08 Apr 2020 09:00:00 GMT</pubDate><content:encoded>&lt;div&gt;&lt;main credit=&quot;&quot; quote=&quot;&quot;&gt;&lt;img src=&quot;img/&quot;&gt;&lt;p&gt;Hi.&lt;/p&gt;&lt;p&gt;As always, &lt;a href=&quot;https://divergeweekly.com&quot;&gt;please subscribe to and share Diverge Weekly&lt;/a&gt; if you haven’t and &lt;a href=&quot;mailto:alb@andrewlb.com&quot;&gt;send me a note&lt;/a&gt; if you have questions or feedback!&lt;/p&gt;&lt;/main&gt;&lt;voices who=&quot; &quot; role=&quot; &quot; image=&quot;img/ &quot;&gt;&lt;img src=&quot;img/&quot; alt=&quot; &quot;&gt;&lt;p&gt;fdsdfsdf&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;/voices&gt;&lt;twitter who=&quot;&quot;&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;/twitter&gt;&lt;region&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;East Asia&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;South Asia&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;Americas&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;MENA&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;Africa&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;custom-block region&quot;&gt;&lt;div class=&quot;custom-block-heading&quot;&gt;Europe&lt;/div&gt;&lt;div class=&quot;custom-block-body&quot;&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/region&gt;&lt;security credit=&quot;&quot;&gt;&lt;img src=&quot;img/&quot; alt=&quot;Source: &quot;&gt;&lt;p&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;sdfsdf&lt;/p&gt;&lt;/security&gt;&lt;jobs&gt;&lt;p&gt;[[jobad | ]]
+|&lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+|Located in
+|
+|&lt;/p&gt;&lt;p&gt;[[jobad | ]]
+|&lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+|Located in
+|
+|&lt;/p&gt;&lt;/jobs&gt;&lt;sponsor image=&quot;https://www.knowsi.com/static/tier1.png&quot;&gt;&lt;h2&gt;Knowsi&lt;/h2&gt;&lt;p&gt;Knowsi manages consent for user research. Send and track participant consent with custom forms and GDPR-focused tools.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://knowsi.com&quot;&gt;Join Knowsi today for free!&lt;/a&gt;&lt;/p&gt;&lt;/sponsor&gt;&lt;image credit=&quot; &quot; link=&quot; &quot;&gt;&lt;img src=&quot;img/&quot; alt=&quot; &quot;&gt;&lt;p&gt;sdfsdf&lt;/p&gt;&lt;/image&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[The Cycles Issue]]></title><description><![CDATA[Hi. Design is a cyclical action. While individual artifacts are ejected from the process (like this newsletter and its upcoming visual…]]></description><link>https://divergeweekly.com/4/</link><guid isPermaLink="false">https://divergeweekly.com/4/</guid><pubDate>Wed, 01 Apr 2020 09:00:00 GMT</pubDate><content:encoded>&lt;div&gt;&lt;main credit=&quot;Ant Farm&quot; quote=&quot;Boyd closed the briefing by saying the message is that whoever can handle the quickest rate of change is the one who survives. — Robert Coram on John Boyd&quot;&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 468px;&quot;
     &gt;
