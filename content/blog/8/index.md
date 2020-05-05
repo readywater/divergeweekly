@@ -1,19 +1,20 @@
 ---
 title: The Just Tired Issue
 issue: 8
-date: "2020-04-30T09:00:00.000Z"
-description: ""
+date: "2020-04-29T09:00:00.000Z"
+description: "Everyone lately is sharing how incredibly tired they are. This issue talks about friction, eroding norms, and what we build in their place."
 category: issue
-published: false
+published: true
+image: img/kaws.png
 tags:
   - newsletter
   - "2020"
   - reflection
 ---
 
-<main credit="" quote="">
+<main credit="Acute Art x KAWS VR" quote="It takes a minute to have a crush on someone, an hour to like someone, and a day to love someone… but it takes a lifetime to forget someone. - Kahlil Gibran">
 
-![](img/)
+![Acute Art x KAWS VR](img/kaws.png)
 
 Hi all,
 
@@ -100,13 +101,15 @@ As always, [please subscribe to and share Diverge Weekly](https://divergeweekly.
 
 </main>
 
-<voices who=" " role=" " image="img/ ">
+<voices who="Stephanie Nguyen" role="Designer and Research Scientist, MIT Media Lab" image="img/19_Alum_StephanieNguyen_RC_37.jpg">
 
-![ ](img/)
+![Stephanie Thien Hang Nguyen](img/19_Alum_StephanieNguyen_RC_37.jpg)
 
-fdsdfsdf
+I worked with Stephanie at the US Digital Service back in 2016. She was an incredibly skilled and experienced designer then, but since then she joined the Harvard Kennedy School and got her Masters of Public Policy — joining the MIT Media Lab as a research scientist focused on data privacy.
 
-[ ]()
+Steph's work is worth exploring — she's proven to be both an incredible convener of talent while also a producer of insightful work herself. Give her portfolio a look and keep an eye open for her impact on the world of design and privacy.
+
+[Stephanie Nguyen](https://www.stephanienguyen.co/)
 
 </voices>
 
@@ -124,49 +127,49 @@ fdsdfsdf
 
 [[region | South Asia]]
 |[Inside the world's biggest lockdown](https://overcast.fm/+WEGkNqmuU)
-|Today Explained is a fantastic podcast, and this episode explores some of the stories and systems behind India's lockdown. The migration trigger is worth noting
+|Today Explained is a fantastic podcast, and this episode explores some of the stories and systems behind India's lockdown. The migration trigger is worth noting.
 
 [[region | Americas]]
-|[]()
-|
+|[Questions over Kim’s health highlight intelligence limits](https://apnews.com/6368f572177f6c546a7b709aa2ad205f)
+|The speculation in American intelligence circles on the current state of Kim Jong Un's health is significant, especially as diplomatic and military personnel prepare for a potentially seismic change in Korean/US relations.
 
 [[region | MENA]]
 |[How Jordan is flattening its COVID-19 curve](https://www.aljazeera.com/news/2020/04/jordan-flattening-covid-19-curve-200422112212466.html)
 |The bit at the end about the Stringency Index popped out as a fascinating point for design to inflect policy making and citizen uncertainty.
 
 [[region | Africa]]
-|[]()
-|
+|[Level 5 to 4: South Africa plans to reopen economy, in phases](https://www.aljazeera.com/ajimpact/level-5-4-south-africa-plans-reopen-economy-phases-200424160114471.html)
+|South Africa is implementing a slow re-opening as well, but people seem anxious. The reports near the end of the article of increased crime and overbearing policing is worrying.
 
 [[region | Europe]]
-|[]()
-|
+|[Italian PM Conte defends 'slowly-slowly' lifting of Italy's lockdown](https://www.aljazeera.com/news/2020/04/conte-defends-slowly-slowly-lifting-italy-lockdown-200428160319730.html)
+|Italy, the worst hit of the European countries, is starting to open things up. Like almost everything in this crisis, so much has to do with communication. Let's all watch this closely
 
 </region>
 
 <security credit="">
 
-![Source: ](img/)
+![Source: GUSTAVO FIGUEIREDO/RLJE FILMS](img/Cul-COLOROUTOFSPACE_9-1.jpg)
 
-[]()
+[Foreign Policy: The Next Pandemic Might Not Be Natural](https://foreignpolicy.com/2020/04/20/coronavirus-pandemic-bioterrorism-preparedness/)
 
-sdfsdf
+Max Brooks is a favourite author of mine. World War Z is a book I've re-read about 10 times as a kind of comfort food, and it's one of the best pieces of speculative fiction I've encountered. I regularly recommend it to students and colleagues alike. This article is a fantastic look by an expert at global security threat of bioterrorism, and how in some ways, our learning from the coronavirus pandemic may help ward off potentially greater threats down the road.
 
 </security>
 
 <jobs>
 
-[[jobad | ]]
-|[]()
-|Located in
+[[jobad | Innovation in the DRC]]
+|[Innovations Advisor, Ideas 42](https://ideas42.applytojob.com/apply/jqAGdysQBX/Innovations-Advisor)
+|Located in Kinshasa, Congo
 |
-|
+|This looks like an awesome two year contract position for a service design or design research focused individual. You'll need to be authorized to work in the DRC. It looks like a 1-2 year work visa can be applied for, so might be worth asking if the contract facilitates that process!
 
-[[jobad | ]]
-|[]()
-|Located in
+[[jobad | Humanitarian Comms]]
+|[Media and Comms Generalist, Australian Red Cross](https://probonoaustralia.com.au/jobs/2020/04/media-communications-generalist-aid-worker-2/)
+|Located in International
 |
-|
+|This is a comms generalist job that'd suit a comms, graphic, or service designer looking to get field experience. Though the job posting didn't state where you'd be deployed, it would be a field position and a great way to develop that experience.
 
 </jobs>
 

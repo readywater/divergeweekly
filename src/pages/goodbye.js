@@ -42,7 +42,7 @@ const Level = styled.div`
   }
 `
 
-class Sponsor extends React.Component {
+class Goodbye extends React.Component {
   render() {
     const { data } = this.props
     const title = data.site.siteMetadata.title
@@ -72,7 +72,7 @@ class Sponsor extends React.Component {
   }
 }
 
-export default Sponsor
+export default Goodbye
 
 export const pageQuery = graphql`
   query {
