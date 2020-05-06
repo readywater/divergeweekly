@@ -1,0 +1,210 @@
+Diverge Weekly
+[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEvElEQVQ4y12UaUxUVxiG52cba5PWrWl/Fdumi9rG+KeLjU0TBdQiqJUUTSEutVbFvRYN4oIQpUpABARFC4wiyCIwoqCMIkUxYiMVARlggNnvMMOs4DA8PTOIYE9ycu85c+fJ+57vO69sZGQE3/A9vb730SWSdxhlp5rMm/UcLlQQV1BBWtUdevQSY2PY62Xi/31TNnHhG1a85DY0EZmQyY/7k1mfdJYdWQX+uS01l8MpeSScktPw8Mkr4BdUZBNhHQ4HW9LlhP2exNGyauQtbRSreyjp6eVydzd3JdPod10ajqVf8k/P8LB/z+tTK54y7wuYSsAi4tPZfDKHErWaSqOBMo2Gkt5eyvr6KBDAe0YTE0eV8gH7E7MZcLlf2vZbto54iRbKjmXJaRyQuN7dxaaUvwjfl8zquFOsiUslMvEMcuX9cZueUWXnq5SsEEfTbrf7137ghYaHfps1mj5KVSrKVZ3MC93C5IBFTJsVwrTPQpgxJ5R3565g3c7jtOlN1On0VHepUEoGv6uTVxTjwOgTOSRerSGvo4u/NT08lrTMj9jDO5+HEfBVBO/NXSnAy5giwJNmBrIgKobc1nbu9KnRuCR6pF52JqShc9iQOR0uNh/NJP9pOzfU3aisBhzDFhZH7mWqgEyfE8as4I2sE5b/yC5g9qL1vPXxUs4rqrFhR3IYhaRBEs/kUf2gGVlzi4qjZwqpMxmQXEYcHguWITM/rI3h9YAgNu1LEqrVNFlNSM8tfLsymtfeD2TboRTcuJCcRpw4SC5WcLlciUyhbORKxW06XU66LFoGBMz6vJ+Fq3fxyYKf0dv0oh0cPDNrUZk1fCeAr88MInzzQRxeK47nZtocEnuLrpElr0AWL25BfG6p2LTQO6DHJmB2YXlhxC5mfR/lV61zm+m26jEK+DdhW5j0QTCrfotjQLgxOU3U6DTEll4nI68cWbKilg2iSlrPALZBCZNLWHNLhPgsCyU+a60WPRrxu37IwtfLt/ot/7r/TzzCsllYvmfWsye/jIulN5Fda2knPDaFTpsRu1DXP2j2A5dE7WWKKMo0UZQgYT8xp4CES+XMW7yRyR8Gc76kQlxSNyaHgSEBPph1kbuNoii9bhfhB1LJuH2PbqcZp6cfp7DsK8rU2aH+tpn+xXLe/jREVDyUNz9awpfLo9EJ+w7xrVWcucVtIjYpG7vDPdqHJypusebwaQbE4WvtBpqM4vBXbeeNgEBmCKhvTp+9zN+L84VlxaNHPLOb6BBFGhItk1lcQbq8cryxe9xuIg6lUXjjFrWSkZzmp6wWqhdExhD4SxyLNsQSFh1P9Ol8rnd0cEvbR5Fo7GJxz7PqHxC8PYFWc/8ocCxp6jVawnYf48DlSir1Ooq71RS0q8hv66BI1YVuaBClwcCFJ63kiUtwVaclre4+QVuPkNf4jz9pRrz/iy+1xcTaQ6lEHT+LvKkZq9dGvVFHlUidsfGv3UauiLXd54pYuiPRD/O8yMJXA9Y7Cu0TDZ4kVP4Uc4L4jFyyr1ZxsrKWhqYWau82ce6Sgq1HMtgl0qm+T/syWMdEvbQstkRIjr1Dp6WfC7UN7M4uJCbjItn5FeSV1FB3/zFOp3s8FCfAfM//APnl/KIJazX5AAAAAElFTkSuQmCC]Diverge
+Weekly [/static/92e293dfb4145571b6ac8bb1bbe6795e/b3a76/diverge.png] [https://divergeweekly.com/]EVERY WEDNESDAY, A LOOK AT DESIGN
+AND DESIGNERS THROUGH THE LENS OF GLOBAL AFFAIRS.
+ISSUE #9: THE DEPENDENCIES ISSUE
+Read in your browser [https://divergeweekly.com/issue/9/]Outside Tehran by A.Abbas [https://divergeweekly.com/static/10ac4d667647e6b19a26cd46eba9f453/1c72d/abbas.jpg]
+Image credit: A. AbbasHi all,
+
+First, thank you and welcome to all the new subscribers, and to Hillary Predko [http://hillarypredko.com/] for sharing Diverge in 
+The Prepared [https://theprepared.org/]. This is a weird newsletter that aspires to be about design and global affairs — but I
+take some latitudes.
+
+The pattern of my day-to-day life is mostly contingent. It rests on the physical infrastructure that makes urban living possible.
+It is attuned to the temporal and interpersonal nature of knowledge work. It is capillary to the logistics of on-demand
+consumerism and platform capitalism [https://amzn.to/3b5wjGt]. And it sets tempo to the increasingly stressed network of labour
+that empowers my own specialization.
+
+DSCF7681 [https://divergeweekly.com/static/76e9bf59452a745b2d01087c250863e1/1c72d/DSCF7681.jpg]Over the past months, those
+dependencies have started to show their cracks. I recently had my Gore Tex jacket fail, and so the weird properties of Gore Tex
+have been on my mind.
+
+As designed, the multiple layers of Gore Tex work together to keep you dry and climate controlled in some pretty grim conditions.
+It has the remarkable property of being both water proof and breathable — allowing moisture to pass away from your body while also
+preventing water from entering. Also durable, light, etc etc. It’s magic. Having been trapped for hours in a mid-May downpour
+while bike camping in Sweden, I love Gore Tex.
+
+But it’s also a fragile fabric. After only a few wears, the body’s oils and dirt will start to permeate the fabric, causing the
+laminate of different materials that provide for these unique properties to shear off — bubbling up and giving the garment an
+almost organic appearance [http://tectahoe.com/delamination/] as it delaminates. Repeated use and friction can cause the tape that
+prevents seams from leaking to peel away, while improper care will undermine the jacket’s first line of defence — a hydrophobic
+coating called Durable Water Repellant [https://en.wikipedia.org/wiki/Durable_water_repellent] — and cause the entire garment to
+soak through.
+
+Taken together, Gore Tex is a pretty complex material that relies on and leverages multiple systems to perform its function of
+keeping its wearer dry, INCLUDING the labour and consciousness of its wearer. Failing to wash the jacket, or to properly care for
+its DWR coating leads to a systemic failure and a wet inhabitant.
+
+DSCF7208 [https://divergeweekly.com/static/e1bd39ba714c2149886d61cdc3548aaa/1c72d/DSCF7208.jpg]The past few months have taught me
+about the fragility and interdependence of so many of our systems — especially those systems that underpin our own identities.
+Part of my identity is being a bit frenetic — constantly reading, writing, making, exploring. Not necessarily anything good, or
+particularly long lasting (my short-lived foray into woodworking being an example of this), but it’s part of who I am.
+
+However, the liberty to be that frenetic comes with an absurd web of dependencies. It’s facilitated by leisure time that comes
+from position, job expectations, and a certain earning power — itself constructed of a lucky mix of skills and interests within a
+market, and the cultural narratives around their value. It’s purchased with the labour of others: those who deliver groceries and
+meals when my wife and I are two exhausted to cook; the incredible childcare workers who care for and teach our son during our
+work day; the front-line retail and service workers whose work supports the enterprises who end up being my clients — this list
+can go for a while.
+
+When the coronavirus hit and things shut down, it was like that taped seam ripped or the DWR failed: the bubble built around me
+wetted through and suddenly the contingent identity was compromised. For me, the dependence on childcare and absolutely
+catastrophic impact of working full time while caring for a one-year-old was my untaped seam. The fatigue and stress undermined
+everything else. With daycares now open, I think about this weakness every single day.
+
+DSCF7929 [https://divergeweekly.com/static/bd2150150f50b5ee8627cfb7234fcbe4/1c72d/DSCF7929.jpg]In many ways though, I like having
+these dependencies. I love what I do (whatever it is that I do), and am massively grateful for the repeated opportunities to do it
+(whatever that might be). Having someone to thank, to be connected with, and to follow the trail of their experiences as well —
+these are wonderful things. As is having someone else think about where I get my water 99.9% of the time. Human and physical
+infrastructure facilitates that opportunity. But the current global crisis — in its utterly tragic and freakishly muted way — is
+surfacing the stories of where those dependencies suddenly end. When we played our catastrophe forecasting game
+[https://andrewlb.com/writing/anxietygame/] last month, it also gave my wife and I the chance to game out how that disappearance
+of resources and infrastructure might transform our own lives.
+
+So. I’m not quite sure what to do with this anxiety. But the thing that came to mind was perhaps how to be comfortable in
+dependency but resilient to insecurity. Kind of like a prepper with good healthcare — building resilience where it makes sense to
+build resilience, and reinforcing dependencies where it makes to reinforce those dependencies.
+
+Stockpiles that lend resilience might be an appropriate amount of food, a medical kit (and the knowledge to use it) for your
+family and your neighbour, some liquid assets wherever possible, and contractual relationships (rent, subscriptions, debts) within
+whatever means might be possible. Dependencies to cultivate might be a good relationship with a family doctor, friendships built
+on shared labour and goals, the maintenance of a shared building or public space, and healthy engagement in local political
+institutions.
+
+Of course, all of the above is itself contingent. A meaningful relationship with your doctor is unlikely to develop if a single
+medical professional is covering an impossibly large community. Contractual relationships like employment are difficult to
+navigate when power asymmetries undermine ones options [https://www.tbray.org/ongoing/When/202x/2020/04/29/Leaving-Amazon]. Liquid
+assets can scarcely be accumulated without a market that values your labour, or fails to compensate you fairly for it.
+
+DSCF7145 [https://divergeweekly.com/static/faeac7691ed1986424aa45004c79f6cb/1c72d/DSCF7145.jpg]A Gore Tex jacket properly cared
+for will last you a long time. But getting that jacket in the first place —with the protection it affords and the opportunity to
+care for it— is a lucky and privileged thing. I do think about the weakness that the coronavirus exposed daily, but I also think
+about the strengths and imbalance that it surfaced. After all, a failing motor that sputters to a halt still takes you a bit
+further down the road through simple momentum. And so I think we’ll see that the catastrophic failure of a business will still
+facilitate opportunities and networks that can cushion its beneficiaries from absolute destitution. Hopefully too, a tragically
+undermined social safety net in the US will still provide citizens a small economic buffer — even if it comes with the mad king’s
+signature [https://www.nytimes.com/2020/04/14/us/politics/stimulus-check-trump-signature.html]. If nothing else, this crisis has
+taught us that having access to and wearing the right protective gear saves lives.
+
+So I’ll continue to build dependencies even with their fragility: My life has been richer and stronger for it. But within that
+web, I’ll strive to at least see those dependencies for what they are [https://amzn.to/2LaUKYd], to adjust those relationships as
+they evolve, and to build in the redundancies that support my community, my family, and my ability to be who I am.
+
+As always, please subscribe to and share Diverge Weekly [https://divergeweekly.com] if you haven’t and send me a note
+[alb@andrewlb.com] if you have questions or feedback!
+
+See you next Wednesday,Andrew Lovett-Barron [https://divergeweekly.com/alb.png]Andrew Lovett-BarronThanks for following Diverge
+Weekly. 
+Please share us [https://divergeweekly.com?utm_campaign=share] with others who might be interested, or if you'd like to support
+us, please consider posting a job [https://divergeweekly.com/sponsor/job], or taking out a small ad
+[https://divergeweekly.com/sponsor/].“Staying alive is not enough to guarantee survival. Development is the best way to ensure
+survival.” - Liu Cixin, The Dark ForestDESIGN VOICES
+Stiven Kerestegian [https://divergeweekly.com/static/f1bd51ecfe9ce9dd7bf45c98f4427f49/1c72d/stiven.jpg]STIVEN KERESTEGIAN
+Head of Innovation, INGKA
+
+Stiven is a singular designer. With experience as an industrial designer with Microsoft (I watched him pick up a mouse once and
+say “Oh hey, I designed this.”), he moved through his own social enterprise into the world of co-creation: leading co-creation
+efforts at LEGO, heading up innovation at the Copenhagen Institute of Interaction Design, and now leading the Innovation and
+Co-Creation at INGKA/IKEA.
+
+The global lens that Stiven brings to his work empower him to work as a designer in unusual domains. Born in Chile, growing up in
+the US, moving to Patagonia for his social enterprise, then to rural Denmark to work with Lego, then Copenhagen for CIID, and
+Sweden for IKEA — he’s brought together a unique societal-level vision for design’s capacity to influence. With Co-Creation in
+particular, it’s a vision of how both design outcomes and a design mindset can spark a movement within a massive international
+organization.
+
+With everything else, Stiven also cofounded Chilote Shoes with his wife, Francisca Apparcel. Those shoes are pretty incredible and
+you should check them out.
+
+Visit Chilote Shoes [https://chiloteshoes.com/]
+
+AKA the excuse to wear Gore-Tex jackets and no pants you’ve all been waiting for!
+[https://twitter.com/erlsn/status/1252265535045349376?s=20]
+
+@Erlsn [https://twitter.com/Erlsn]HAPPENINGS
+South AsiaIndia to launch massive evacuation mission
+[https://www.aljazeera.com/news/2020/05/coronavirus-india-plans-evacuate-citizens-stranded-200505091631533.html]There’s a chilling
+push/pull on people’s lives described in this article. Large scale repatriation of foreign workers and those who have built a life
+as expatriates means looser ties and less capacity to recover global relations.
+
+AmericasCanada succeeded on coronavirus where America failed. Why?
+[https://www.vox.com/2020/5/4/21242750/coronavirus-covid-19-united-states-canada-trump-trudeau]Democratic institutions are
+critical infrastructure. In times of crisis, the collaboration between different levels of governance becomes a deciding factor in
+good or poor outcomes, and we’re seeing this play out between two neighbors.
+
+East AsiaThe Pandemic Is Cover for a Crackdown in Hong Kong
+[https://foreignpolicy.com/2020/04/22/hong-kong-protests-china-coronavirus-pandemic/]One more tragedy of this virus. Popular
+movements have the dependencies of density and sustained force. This virus has undercut both, and now we’re seeing active
+retribution while the world is distracted.
+
+MENAWhy Lebanon’s Protesters Are Back
+[https://foreignpolicy.com/2020/05/01/lebanon-protests-back-streets-economic-crisis-debt-default-lockdown/]Lebanon is always
+interesting. But after decades of corruption, foreign manipulation, bad luck, and war, the country is in a uniquely vulnerable
+position for the economic fallout of this virus. Perhaps the only way out: a fraught dependency on an IMF loan.
+
+AfricaCOVID-19 in Africa: “Know your Epidemic, Act on its Politics.”
+[https://blogs.lse.ac.uk/crp/2020/03/31/covid-19-in-africa-know-your-epidemic-act-on-its-politics/]This article takes a super
+interesting “meet the user where they are” mindset to global health policy, as well as approaching the politics of the pandemic as
+something with material properties.
+
+EuropeChallenges to U.S. Sanctions Against Iran During the Coronavirus Pandemic
+[https://www.lawfareblog.com/challenges-us-sanctions-against-iran-during-coronavirus-pandemic]Instex was recently used by France
+to avoid US sanctions on Iran. This is one of the better articles I’ve found describing what Instex is and how it works. Slightly
+arcane and super interesting for what it tells us about the need to REDUCE global dependence on the US.
+
+SECURITY BLANKET
+Source: Rahmat Gul/AP [https://divergeweekly.com/static/d27b2a1bddd9f4abd41c9dd5fd1385ff/fcda8/afghan-soldiers.png]Making Sure
+Peace Isn’t a Casualty of COVID-19 in Fragile States
+[https://www.worldpoliticsreview.com/articles/28734/making-sure-peace-isn-t-a-casualty-of-covid-19-in-fragile-states]
+
+This article is a great overview of where dependencies are suddenly failing, leaving weakened communities and threatening the
+central institutions of peace. From day-labourers cut out of vital work in Afghanistan to East Timor seeing its financial
+safety-net pulled out from under it — fragile and developing states around the world are seeing their citizens’ most fundamental
+expectations about government and their lives tested in ways that are unfair and could have been at least buffered. Not working
+for a day without any savings leave you hungry and weak, not working for a few days leave you desperate. A weakened community and
+a weakened state are unable to fill the gap, and we might see desperate people do desperate things.
+
+This article has a number of recommendations and principles about how the international community can help avoid the worst
+outcomes — with all sectors having a part to place from commercial services to religious communities to public sector entities.
+Dependencies often go both ways: debt holders don’t want to see countries bearing the debt default; nor do they want to see the
+humans who constitute those nations thrown into even greater chaos (one hopes, anyway). And so discussions of debt relief on the
+national scale could be a vital pressure valve for otherwise terribly leveraged developing economies.
+
+GLOBAL DESIGN JOBS
+Graphic Design with the UN Graphic Designer, UNDP Armenia [https://jobs.undp.org/cj_view_job.cfm?cur_job_id=91360]Located in Armenia
+
+An awesome role for a visual designer with a strong print background and some Armenian language skills. While initially a contract
+role, from what I’ve heard such roles at the UN are gateways into the organization. Apply by May 20th!
+
+AI & Design in CairoUX Design Team Lead, INTDV [https://apply.workable.com/intdv/j/1A6C7F2FB7/]Located in Cairo, Egypt
+
+This looks like it could be a fascinating job. Intdv is a KSA-based automation company, though this role is based in Egypt. It’s a
+little difficult to tell what it is they actually do, but seeing a company like this outside of silicon valley has me immediately
+curious for the perspective it might bring. Give it a look.
+
+We find a lot of our postings on the incredible Design Gigs for Good
+[https://groups.google.com/forum/#!forum/design-gigs-for-good] board. 
+Give it a look![https://www.knowsi.com/static/tier1.png]KNOWSI
+Knowsi manages consent for user research. Send and track participant consent with custom forms and GDPR-focused tools.
+
+Join Knowsi today for free! [https://knowsi.com]
+
+Abbas [https://divergeweekly.com/static/693640e17e14aae1e1af01e2274c131b/1c72d/abbas2.jpg]Abbas Attar was an incredible Iranian
+photojournalist who had worked with the Magnum photo cooperative since the 80s. He captured incredible images from around the
+world, including within his native Iran. The Photo at the top of the newsletter is also by him. He died last week in Paris
+[https://www.heraldscotland.com/opinion/16198357.obituary-abbas-world-renowned-photographer/].
+
+Please share Diverge weekly, either by forwarding this email or by sharing this link.https://divergeweekly.com/issue/9/
+[https://divergeweekly.com/issue/9/]Diverge Weekly is a newsletter exploring design in a global context, outside of the familiar western lens on design practice.
+Great services, purposeful architecture, incredible products, thoughtful interfaces: these emerge where person-centric and
+systems-oriented sensibility combine with a practice of making things tangible.
+
+Our goal: provide a gateway for designers to get involved in global design practice by curating jobs, stories, and context with a
+lens to being critical about where design can play a role. In particular, we hope to identify opportunities where design has NOT
+traditionally had a seat (defence, global development, diplomacy), and work with our audience to infiltrate and have a design-led
+impact. 
+
+Click here to unsubscribeSPONSOR AN ISSUE
+Sponsor an Issue [https://divergeweekly.com/sponsor/issue]Post a Job [https://divergeweekly.com/sponsor/job]Classified Ad
+[https://divergeweekly.com/sponsor/ad]Published by Andrew Lovett-Barron [https://andrewlb.com] at Stupid Systems LLC
+113 Cherry St #54268, Seattle, WA 98104, USA.
