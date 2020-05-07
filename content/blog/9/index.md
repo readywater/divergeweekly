@@ -1,7 +1,7 @@
 ---
 title: The Dependencies Issue
 issue: 9
-date: "2020-04-08T09:00:00.000Z"
+date: "2020-05-06T09:00:00.000Z"
 description: "My ability to be me in this world is entirely dependent on the labour and infrastructure of others. I explore this idea using Gore Tex."
 category: issue
 published: true
@@ -12,35 +12,36 @@ tags:
   - reflection
 ---
 
-<main credit="A. Abbas" quote="“Staying alive is not enough to guarantee survival. Development is the best way to ensure survival.” - Liu Cixin, The Dark Forest">
+<main credit="Outside Tehran by Abbas" quote="“Staying alive is not enough to guarantee survival. Development is the best way to ensure survival.” - Liu Cixin, The Dark Forest">
 
-![Outside Tehran by A.Abbas](img/abbas.jpg)
+![Outside Tehran by Abbas](img/abbas.jpg)
 
 Hi all,
 
-First, thank you and welcome to all the new subscribers, and to [Hillary Predko](http://hillarypredko.com/) for the sharing Diverge in [The Prepared](https://theprepared.org/). This is a weird newsletter that aspires to be about design and global affairs — but I take some latitudes.
+First, thank you and welcome to all the new subscribers, and to [Hillary Predko](http://hillarypredko.com/) for sharing Diverge in [The Prepared](https://theprepared.org/). This is a weird newsletter that aspires to be about design and global affairs — but I take some latitudes.
 
-The pattern of my day-to-day life is mostly contingent. It rests on the physical infrastructure that makes urban living possible. It is attuned to the temporal and interpersonal infrastructure of knowledge work. It is capillary to the logistical infrastructure of on-demand consumerism and platform capitalism. And it sets tempo to the increasingly stressed network of labour that empowers my own specialization.
+The pattern of my day-to-day life is mostly contingent. It rests on the physical infrastructure that makes urban living possible. It is attuned to the temporal and interpersonal nature of knowledge work. It is capillary to the logistics of on-demand consumerism and [platform capitalism](https://amzn.to/3b5wjGt). And it sets tempo to the increasingly stressed network of labour that empowers my own specialization.
 
 ![](img/DSCF7681.jpg)
-Over the past months, those contingencies have started to show their cracks. I recently had my Gore Tex jacket fail, and so the weird properties of Gore Tex have been on my mind.
+Over the past months, those dependencies have started to show their cracks. I recently had my Gore Tex jacket fail, and so the weird properties of Gore Tex have been on my mind.
 
 As designed, the multiple layers of Gore Tex work together to keep you dry and climate controlled in some pretty grim conditions. It has the remarkable property of being both water proof and breathable — allowing moisture to pass away from your body while also preventing water from entering. Also durable, light, etc etc. It’s magic. Having been trapped for hours in a mid-May downpour while bike camping in Sweden, I love Gore Tex.
 
-But it’s also a fragile fabric. After only a few wears, the body’s oils and dirt will start to permeate the fabric, causing the laminate of different materials that provide for these unique properties shear off — [bubbling up and giving the garment an almost organic appearance](http://tectahoe.com/delamination/) as it delaminates. Repeated use and friction can cause the tape that prevents seams from leaking to peal away, while improper care will undermine the jacket’s first line of defence — a hydrophobic coating called [Durable Water Repellant](https://en.wikipedia.org/wiki/Durable_water_repellent) — and cause the entire garment to soak through.
+But it’s also a fragile fabric. After only a few wears, the body’s oils and dirt will start to permeate the fabric, causing the laminate of different materials that provide for these unique properties to shear off — [bubbling up and giving the garment an almost organic appearance](http://tectahoe.com/delamination/) as it delaminates. Repeated use and friction can cause the tape that prevents seams from leaking to peel away, while improper care will undermine the jacket’s first line of defence — a hydrophobic coating called [Durable Water Repellant](https://en.wikipedia.org/wiki/Durable_water_repellent) — and cause the entire garment to soak through.
 
 Taken together, Gore Tex is a pretty complex material that relies on and leverages multiple systems to perform its function of keeping its wearer dry, INCLUDING the labour and consciousness of its wearer. Failing to wash the jacket, or to properly care for its DWR coating leads to a systemic failure and a wet inhabitant.
 
 ![](img/DSCF7208.jpg)
-The past few months have taught me about the fragility and interdependence of so many of our systems — especially those systems that underpin our own identities. Part of my identity is being a bit frenetic — constantly reading, writing, making, exploring. Not necessarily anything good, or particularly long lasting (my foray into woodworking being an example of this), but it’s part of who I am.
 
-However, the liberty to be that is an absurd web of dependencies. It’s facilitated by leisure time that comes from position, job expectations, and a certain earning power — itself constructed of a lucky mix of skills and interests within a market, and the cultural narratives around their value. It’s purchased with the labour of others: those who deliver groceries and meals when my wife and I are two exhausted to cook; the incredible childcare workers who care for and teach our son during our work day; the front-line retail and service workers whose work supports the enterprises who end up being my clients — this list can go for a while.
+The past few months have taught me about the fragility and interdependence of so many of our systems — especially those systems that underpin our own identities. Part of my identity is being a bit frenetic — constantly reading, writing, making, exploring. Not necessarily anything good, or particularly long lasting (my short-lived foray into woodworking being an example of this), but it’s part of who I am.
+
+However, the liberty to be that frenetic comes with an absurd web of dependencies. It’s facilitated by leisure time that comes from position, job expectations, and a certain earning power — itself constructed of a lucky mix of skills and interests within a market, and the cultural narratives around their value. It’s purchased with the labour of others: those who deliver groceries and meals when my wife and I are two exhausted to cook; the incredible childcare workers who care for and teach our son during our work day; the front-line retail and service workers whose work supports the enterprises who end up being my clients — this list can go for a while.
 
 When the coronavirus hit and things shut down, it was like that taped seam ripped or the DWR failed: the bubble built around me wetted through and suddenly the contingent identity was compromised. For me, the dependence on childcare and absolutely catastrophic impact of working full time while caring for a one-year-old was my untaped seam. The fatigue and stress undermined everything else. With daycares now open, I think about this weakness every single day.
 
 ![](img/DSCF7929.jpg)
 
-In many ways though, I like having these dependencies. I love what I do (whatever it is that I do), and am massively grateful for the repeated opportunities to do it (whatever that might be). Having someone to thank, to be connected with, and to follow the trail of their experiences as well — these are wonderful things. As is having someone else think about where I get my water 99.9% of the time. Human and physical infrastructure facilitates that opportunity. But the current global crisis — in its utterly tragic and freakishly muted way — is surfacing the stories of where those dependencies suddenly end. [When we played out catastrophe forecasting game](https://andrewlb.com/writing/anxietygame/) last month, it also gave my wife and I the chance to game out how that disappearance of resources and infrastructure might transform our own lives.
+In many ways though, I like having these dependencies. I love what I do (whatever it is that I do), and am massively grateful for the repeated opportunities to do it (whatever that might be). Having someone to thank, to be connected with, and to follow the trail of their experiences as well — these are wonderful things. As is having someone else think about where I get my water 99.9% of the time. Human and physical infrastructure facilitates that opportunity. But the current global crisis — in its utterly tragic and freakishly muted way — is surfacing the stories of where those dependencies suddenly end. [When we played our catastrophe forecasting game](https://andrewlb.com/writing/anxietygame/) last month, it also gave my wife and I the chance to game out how that disappearance of resources and infrastructure might transform our own lives.
 
 So. I’m not quite sure what to do with this anxiety. But the thing that came to mind was perhaps how to be comfortable in dependency but resilient to insecurity. Kind of like a prepper with good healthcare — building resilience where it makes sense to build resilience, and reinforcing dependencies where it makes to reinforce those dependencies.
 
@@ -49,21 +50,25 @@ Stockpiles that lend resilience might be an appropriate amount of food, a medica
 Of course, all of the above is itself contingent. A meaningful relationship with your doctor is unlikely to develop if a single medical professional is covering an impossibly large community. [Contractual relationships like employment are difficult to navigate when power asymmetries undermine ones options](https://www.tbray.org/ongoing/When/202x/2020/04/29/Leaving-Amazon). Liquid assets can scarcely be accumulated without a market that values your labour, or fails to compensate you fairly for it.
 
 ![](img/DSCF7145.jpg)
-A Gore Tex jacket properly cared for will last you a long time. But getting that jacket in the first place —with the protection it affords and the opportunity to care for it— is a lucky and privileged thing. I do think about the weakness that the coronavirus exposed daily, but I also think about the strengths and imbalance that it surfaced. A failing motor that sputters to a halt still takes you a bit further down the road. The catastrophic failure of a business still facilitated opportunities and networks that can cushion its beneficiaries from absolute destitution. A tragically undermined social safety net still provides citizens a small economic buffer — [even it it comes with the mad king’s signature](https://www.nytimes.com/2020/04/14/us/politics/stimulus-check-trump-signature.html). Wearing the right protective gear saves lives.
+A Gore Tex jacket properly cared for will last you a long time. But getting that jacket in the first place —with the protection it affords and the opportunity to care for it— is a lucky and privileged thing. I do think about the weakness that the coronavirus exposed daily, but I also think about the strengths and imbalance that it surfaced. After all, a failing motor that sputters to a halt still takes you a bit further down the road through simple momentum. And so I think we'll see that the catastrophic failure of a business will still facilitate opportunities and networks that can cushion its beneficiaries from absolute destitution. Hopefully too, a tragically undermined social safety net in the US will still provide citizens a small economic buffer — [even if it comes with the mad king’s signature](https://www.nytimes.com/2020/04/14/us/politics/stimulus-check-trump-signature.html). If nothing else, this crisis has taught us that having access to and wearing the right protective gear saves lives.
 
-So I’ll continue to build dependencies even with their fragility: My life has been richer and stronger for it. But within that web, I’ll strive to at least see those dependencies for what they are, to adjust those relationships as they evolve, and to build in the redundancies that keep my community, my family, and my ability to be who I am as supported as possible.
+So I’ll continue to build dependencies even with their fragility: My life has been richer and stronger for it. But within that web, I’ll strive to [at least see those dependencies for what they are](https://amzn.to/2LaUKYd), to adjust those relationships as they evolve, and to build in the redundancies that support my community, my family, and my ability to be who I am.
 
 As always, [please subscribe to and share Diverge Weekly](https://divergeweekly.com) if you haven’t and [send me a note](mailto:alb@andrewlb.com) if you have questions or feedback!
 
 </main>
 
-<voices who=" " role=" " image="img/ ">
+<voices who="Stiven Kerestegian" role="Head of Innovation, INGKA" image="img/stiven.jpg">
 
-![ ](img/)
+![Stiven Kerestegian](img/stiven.jpg)
 
-fdsdfsdf
+Stiven is a singular designer. With experience as an industrial designer with Microsoft (I watched him pick up a mouse once and say "Oh hey, I designed this."), he moved through his own social enterprise into the world of co-creation: leading co-creation efforts at LEGO, heading up innovation at the Copenhagen Institute of Interaction Design, and now leading the Innovation and Co-Creation at INGKA/IKEA.
 
-[ ]()
+The global lens that Stiven brings to his work empower him to work as a designer in unusual domains. Born in Chile, growing up in the US, moving to Patagonia for his social enterprise, then to rural Denmark to work with Lego, then Copenhagen for CIID, and Sweden for IKEA — he's brought together a unique societal-level vision for design's capacity to influence. With Co-Creation in particular, it's a vision of how both design outcomes and a design mindset can spark a movement within a massive international organization.
+
+With everything else, Stiven also cofounded Chilote Shoes with his wife, Francisca Apparcel. Those shoes are pretty incredible and you should check them out.
+
+[Visit Chilote Shoes](https://chiloteshoes.com/)
 
 </voices>
 
@@ -89,7 +94,7 @@ fdsdfsdf
 
 [[region | MENA]]
 |[Why Lebanon’s Protesters Are Back](https://foreignpolicy.com/2020/05/01/lebanon-protests-back-streets-economic-crisis-debt-default-lockdown/)
-|Lebanon is always interesting. But after decades of corruption, foreign manipulation, bad luck, and war, the country is in a uniquely vulnerable position for the economic fallout of this virus. Perhaps the only way out an fraught dependency of an IMF loan.
+|Lebanon is always interesting. But after decades of corruption, foreign manipulation, bad luck, and war, the country is in a uniquely vulnerable position for the economic fallout of this virus. Perhaps the only way out: a fraught dependency on an IMF loan.
 
 [[region | Africa]]
 |[COVID-19 in Africa: “Know your Epidemic, Act on its Politics.”](https://blogs.lse.ac.uk/crp/2020/03/31/covid-19-in-africa-know-your-epidemic-act-on-its-politics/)
