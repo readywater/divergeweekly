@@ -211,7 +211,7 @@ exports.onPostBuild = async () => {
 
       const $ = cheerio.load(html)
       $("script").remove() // remove scripts
-
+      $("noscript").remove() // remove scripts
       $("link").remove() // remove links
 
       $("img[src^='/']").prop("href", function(_idx, oldHref) {

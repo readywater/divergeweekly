@@ -13,6 +13,7 @@ import FeatureAd from "../components/blog/FeatureAd"
 import Jobs from "../components/blog/Jobs"
 import Security from "../components/blog/Security"
 import Voices from "../components/blog/Voices"
+import Reading from "../components/blog/Book"
 import Twitter from "../components/blog/Twitter"
 import ImageBlock from "../components/blog/Image"
 import Main from "../components/blog/Main"
@@ -25,6 +26,7 @@ const renderAst = new rehypeReact({
     sponsor: FeatureAd,
     security: Security,
     voices: Voices,
+    reading: Reading,
     main: Main,
     twitter: Twitter,
     imageblock: ImageBlock,
