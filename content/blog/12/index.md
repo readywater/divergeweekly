@@ -5,16 +5,16 @@ date: "2020-05-27T09:00:00.000Z"
 description: "Being a creator of things — software, products, services, policy, etc — means navigating a world of constraints.  There were two stories of constraints that I encountered in the past week which I wanted to share."
 category: issue
 published: true
-image: img/DSCF5894.jpg
+image: "./img/DSCF5894.jpg"
 tags:
   - newsletter
   - "2020"
   - reflection
 ---
 
-<main credit="" quote="">
+<main credit="Amira Al-Sharif" quote="We can neither confirm nor deny the existence of the information requested but, hypothetically, if such data were to exist, the subject matter would be classified, and could not be disclosed. - CIA Response to a FOIA request on the USNS Hughes Glomar Explorer">
 
-![](img/)
+![Amira Al-Sharif](img/Amira-Al-Sharif-6053-954x632.jpg)
 
 Hi all,
 
@@ -38,7 +38,7 @@ A favourite was the essay by Amira Al-Sharif, a Saudi photo journalist who grew 
 
 Amira and her fellow authors in Our Women on the Ground expressed and creates as fervently as they could — each encountering different and overlapping constraints in their individual countries, cultures, and communities. Lina Attalah, founder of [Mada Masr](https://madamasr.com/en), writes of her evolving relationship with her father, relative to her identity as a feminist, an activist, a journalist, and an entrepreneur in Egypt. That consideration helped her find a point of connection as well: wondering how the constrained expectations the state had imposed on her father trickled down to her experience with him, and the construction of her own identity.
 
-All of this to say that some strange, terrible, and wonderful things can emerge from constraints. People become who they become; designs resolve with the needs, resources, and context at hand; and sometimes a particular geopolitical strategic context begets some chart-topping power ballads. Thinking about the constraints from which something emerges IS ultimately the story of that particular something.
+All of this to say that some strange, terrible, and wonderful things can emerge from constraints. People become who they become; designs resolve with the needs, resources, and context at hand; and sometimes a particular geopolitical strategic context begets some chart-topping power ballads. Thinking about the constraints from which something or someone emerges IS ultimately the story.
 
 As always, [please subscribe to and share Diverge Weekly](https://divergeweekly.com) if you haven’t and [send me a note](mailto:alb@andrewlb.com) if you have questions or feedback!
 
@@ -54,13 +54,13 @@ Beyond that, he’s also an avid birder, maker of clothing and camping gear, and
 [Anglemap](https://www.anglemap.com/)
 
 He also recently created an application for walking in others footsteps. It’s pretty fascinating.
-[‎Peregrine Journey (IOS)](https://apps.apple.com/dk/app/peregrine-journey/id1430790121)
+[‎Peregrine Journey](https://apps.apple.com/dk/app/peregrine-journey/id1430790121)
 
 </voices>
 
 <twitter who="KarlreMarks">
 
-[If there's an article you want to read behind a paywall, you can print the tweets that quote from it and piece them together like a puzzle.]https://twitter.com/KarlreMarks/status/1264858292867784705)
+[If there's an article you want to read behind a paywall, you can print the tweets that quote from it and piece them together like a puzzle.](https://twitter.com/KarlreMarks/status/1264858292867784705)
 
 </twitter>
 
@@ -94,7 +94,7 @@ He also recently created an application for walking in others footsteps. It’s 
 
 <reading title="The Things They Carried" author="Tim O'Brien">
 
-![ ](img/thingstheycarried.jpg)
+![](img/thingstheycarried.jpg)
 I read this book for Veterans Day last year and was pretty struck by it. It’s a series of short stories that are partially real, partially fictionalized account of the author’s experience as a young officer in Vietnam. O’Brien quite brilliantly explores the balance between the real and the half remembered — the way that memory, distance, and shapes our emotional experience and identity afterwards. The eponymous chapter explores what each individual carried with them, and sets the tone for the detail and personality of the rest of the book. It’s really fantastic, sobering, and ultimately a pretty quick read that leaves you with a lot to consider.
 
 [The Things They Carried by Tim O’Brien](https://amzn.to/3gC8aLE)
@@ -103,7 +103,7 @@ I read this book for Veterans Day last year and was pretty struck by it. It’s 
 
 <security credit="Cpl. Donato Maffin">
 
-![Source: Cpl. Donato Maffin ](img/170122-M-VF398-401A.jpeg)
+![Source: Cpl. Donato Maffin](img/170122-M-VF398-401A.jpg)
 
 [Women in Combat: Five-Year Status Update | Center for a New American Security](https://www.cnas.org/publications/commentary/women-in-combat-five-year-status-update)
 Very American centric, but an interesting survey on the role of women in the combat arms of the US military. Structurally there remains a huge number of barriers, and the military does appear to be making steps towards opening up those roles.
@@ -140,10 +140,10 @@ Knowsi manages consent for user research. Send and track participant consent wit
 
 </sponsor>
 
-<image credit=" " link=" ">
+<image credit="Amira Al-Sharif" link=" ">
 
-![ ](img/)
+![ ](img/photo_by_amira_alsharif_6.jpg)
 
-sdfsdf
+[Amira Al-Sharif](https://icorn.org/article/danger-lurks-just-beyond-frame-photojournalist-amira-al-sharif-icorn-resident-paris) was born in Saudi Arabia and raised in Yemen. She has received project grants from AFAC, Magnum Foundation, and Prince Claus Foundation. As an educator, she is committed to educating Yemeni photographers, and runs workshops in documentary photography and photojournalism.
 
 </image>
