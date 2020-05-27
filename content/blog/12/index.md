@@ -58,9 +58,9 @@ He also recently created an application for walking in others footsteps. It’s 
 
 </voices>
 
-<twitter who="">
+<twitter who="KarlreMarks">
 
-[ ]()
+[If there's an article you want to read behind a paywall, you can print the tweets that quote from it and piece them together like a puzzle.]https://twitter.com/KarlreMarks/status/1264858292867784705)
 
 </twitter>
 
@@ -101,9 +101,9 @@ I read this book for Veterans Day last year and was pretty struck by it. It’s 
 
 </reading>
 
-<security credit="">
+<security credit="Cpl. Donato Maffin">
 
-![Source: ](img/)
+![Source: Cpl. Donato Maffin ](img/170122-M-VF398-401A.jpeg)
 
 [Women in Combat: Five-Year Status Update | Center for a New American Security](https://www.cnas.org/publications/commentary/women-in-combat-five-year-status-update)
 Very American centric, but an interesting survey on the role of women in the combat arms of the US military. Structurally there remains a huge number of barriers, and the military does appear to be making steps towards opening up those roles.
