@@ -1,0 +1,188 @@
+Diverge Weekly
+[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEvElEQVQ4y12UaUxUVxiG52cba5PWrWl/Fdumi9rG+KeLjU0TBdQiqJUUTSEutVbFvRYN4oIQpUpABARFC4wiyCIwoqCMIkUxYiMVARlggNnvMMOs4DA8PTOIYE9ycu85c+fJ+57vO69sZGQE3/A9vb730SWSdxhlp5rMm/UcLlQQV1BBWtUdevQSY2PY62Xi/31TNnHhG1a85DY0EZmQyY/7k1mfdJYdWQX+uS01l8MpeSScktPw8Mkr4BdUZBNhHQ4HW9LlhP2exNGyauQtbRSreyjp6eVydzd3JdPod10ajqVf8k/P8LB/z+tTK54y7wuYSsAi4tPZfDKHErWaSqOBMo2Gkt5eyvr6KBDAe0YTE0eV8gH7E7MZcLlf2vZbto54iRbKjmXJaRyQuN7dxaaUvwjfl8zquFOsiUslMvEMcuX9cZueUWXnq5SsEEfTbrf7137ghYaHfps1mj5KVSrKVZ3MC93C5IBFTJsVwrTPQpgxJ5R3565g3c7jtOlN1On0VHepUEoGv6uTVxTjwOgTOSRerSGvo4u/NT08lrTMj9jDO5+HEfBVBO/NXSnAy5giwJNmBrIgKobc1nbu9KnRuCR6pF52JqShc9iQOR0uNh/NJP9pOzfU3aisBhzDFhZH7mWqgEyfE8as4I2sE5b/yC5g9qL1vPXxUs4rqrFhR3IYhaRBEs/kUf2gGVlzi4qjZwqpMxmQXEYcHguWITM/rI3h9YAgNu1LEqrVNFlNSM8tfLsymtfeD2TboRTcuJCcRpw4SC5WcLlciUyhbORKxW06XU66LFoGBMz6vJ+Fq3fxyYKf0dv0oh0cPDNrUZk1fCeAr88MInzzQRxeK47nZtocEnuLrpElr0AWL25BfG6p2LTQO6DHJmB2YXlhxC5mfR/lV61zm+m26jEK+DdhW5j0QTCrfotjQLgxOU3U6DTEll4nI68cWbKilg2iSlrPALZBCZNLWHNLhPgsCyU+a60WPRrxu37IwtfLt/ot/7r/TzzCsllYvmfWsye/jIulN5Fda2knPDaFTpsRu1DXP2j2A5dE7WWKKMo0UZQgYT8xp4CES+XMW7yRyR8Gc76kQlxSNyaHgSEBPph1kbuNoii9bhfhB1LJuH2PbqcZp6cfp7DsK8rU2aH+tpn+xXLe/jREVDyUNz9awpfLo9EJ+w7xrVWcucVtIjYpG7vDPdqHJypusebwaQbE4WvtBpqM4vBXbeeNgEBmCKhvTp+9zN+L84VlxaNHPLOb6BBFGhItk1lcQbq8cryxe9xuIg6lUXjjFrWSkZzmp6wWqhdExhD4SxyLNsQSFh1P9Ol8rnd0cEvbR5Fo7GJxz7PqHxC8PYFWc/8ocCxp6jVawnYf48DlSir1Ooq71RS0q8hv66BI1YVuaBClwcCFJ63kiUtwVaclre4+QVuPkNf4jz9pRrz/iy+1xcTaQ6lEHT+LvKkZq9dGvVFHlUidsfGv3UauiLXd54pYuiPRD/O8yMJXA9Y7Cu0TDZ4kVP4Uc4L4jFyyr1ZxsrKWhqYWau82ce6Sgq1HMtgl0qm+T/syWMdEvbQstkRIjr1Dp6WfC7UN7M4uJCbjItn5FeSV1FB3/zFOp3s8FCfAfM//APnl/KIJazX5AAAAAElFTkSuQmCC]
+[https://divergeweekly.com/]EVERY WEDNESDAY, A LOOK AT DESIGN AND DESIGNERS THROUGH THE LENS OF GLOBAL AFFAIRS.
+ISSUE #12: THE CONSTRAINED ISSUE
+Read in your browser [https://divergeweekly.com/issue/12/]Amira Al-Sharif [https://divergeweekly.com/static/cffdd0319bca9a8791cec1a024419907/1c72d/Amira-Al-Sharif-6053-954x632.jpg]
+Image credit: Amira Al-SharifHi all,
+
+Being a creator of things — software, products, services, policy, etc — means navigating a world of constraints. There were two
+stories of constraints that I encountered in the past week which I wanted to share.
+
+DSCF5894 [https://divergeweekly.com/static/13f18fbefc1846bcddb5a94dc68ca337/1c72d/DSCF5894.jpg]The first is about constraints on a
+geopolitical scale. My friend Chris introduced me to a new podcast called Wind of Change
+[https://crooked.com/podcast-series/wind-of-change/], which explores the potential CIA sponsorship of a popular eighties power
+ballad pushing for European unification. Its an absolute trip (the type that starts with a reluctant listen followed by binging
+most of it), but it tells an interesting story of constraint.
+
+Given the competition between American and Soviet blocs during the Cold War, many different mechanisms for influence spun out for
+lack of the more direct military one. Instead of the two nuclear armed powers going toe-to-toe, competition occurred through proxy
+conflicts as with the Soviet engagement in Afghanistan vs. the CIA-backed Jihadis, and through foreign interventions in the
+domestic politics of polities across Africa, MENA, and LATAM. It also occurred through weaponized culture from posturing in chess
+and the olympics, smuggling banned literature [https://www.cia.gov/library/readingroom/collection/doctor-zhivago], and perhaps
+this particular power ballad. As justifiably divisive as the CIA can be, that such an innovation might have emerged from the
+constraints presented by the Cold War and the bureaucracy of the CIA is itself a fascinating mystery to explore.
+
+Constraints create context, and context begets emergence. The speculation about the CIA’s involvement in a heavy metal band has
+some credibility partially because these clandestine agencies were scrambling to find ways of exerting influence when the old
+methods were no longer tenable options. The whole violent history of humanity skidded to a stop in the twentieth century when the
+nuclear sword of Damocles was strung up, but as far as states were concerned, that looming threat didn’t stop them from attempting
+to exert power and influence. Just… without cutting the string.
+
+DSCF4660 [https://divergeweekly.com/static/248f3198acb4fde2fe9a0650bb966603/1c72d/DSCF4660.jpg]There are also those structural
+constraints which simply close options to individuals. As I mentioned last week, Our Women on the Ground [https://amzn.to/36y6yOr] 
+is a focused survey of those systematic constraints. A collection of essays by Arab female reporters, the book recounts many
+different experiences of becoming professional journalists in societal conditions that create incredible —sometimes violent—
+friction towards those identities.
+
+A favourite was the essay by Amira Al-Sharif, a Saudi photo journalist who grew up in Yemen. One of her stories recounts being
+stopped and detained because she wasn’t traveling with male relatives — and was forced to sign a statement acknowledging that
+doing so was considered “shameful” in the eyes of the state, or at least the eyes of that agent of the state. Because of her
+interwoven identities — as a someone who grew up in Yemen, as a woman, as a reporter, and as someone against whom an armed
+authority figure projected a paternalistic power structure — the scope of what and where she can report, and ultimately who she is
+able to be becomes inexorably constrained. And yet, reading her essay and her included photography, these constraints have also
+given her a lens and sensitivity that empowers her to tell stories and capture photos no one else could.
+
+DSCF5878 [https://divergeweekly.com/static/7f69f975450d1c31cf8eb1b372888af9/1c72d/DSCF5878.jpg]Amira and her fellow authors in Our
+Women on the Ground expressed and creates as fervently as they could — each encountering different and overlapping constraints in
+their individual countries, cultures, and communities. Lina Attalah, founder of Mada Masr [https://madamasr.com/en], writes of her
+evolving relationship with her father, relative to her identity as a feminist, an activist, a journalist, and an entrepreneur in
+Egypt. That consideration helped her find a point of connection as well: wondering how the constrained expectations the state had
+imposed on her father trickled down to her experience with him, and the construction of her own identity.
+
+All of this to say that some strange, terrible, and wonderful things can emerge from constraints. People become who they become;
+designs resolve with the needs, resources, and context at hand; and sometimes a particular geopolitical strategic context begets
+some chart-topping power ballads. Thinking about the constraints from which something or someone emerges IS ultimately the story.
+
+As always, please subscribe to and share Diverge Weekly [https://divergeweekly.com] if you haven’t and send me a note
+[alb@andrewlb.com] if you have questions or feedback!
+
+See you next Wednesday,Andrew Lovett-Barron [https://divergeweekly.com/alb.png]Andrew Lovett-BarronThanks for following Diverge
+Weekly. 
+Please share us [https://divergeweekly.com?utm_campaign=share] with others who might be interested, or if you'd like to support
+us, please consider posting a job [https://divergeweekly.com/sponsor/job], or taking out a small ad
+[https://divergeweekly.com/sponsor/].We can neither confirm nor deny the existence of the information requested but,
+hypothetically, if such data were to exist, the subject matter would be classified, and could not be disclosed. - CIA Response to
+a FOIA request on the USNS Hughes Glomar ExplorerDESIGN VOICES
+Simon Herzog [https://divergeweekly.com/static/d1029da95b911c1c367ca31b644943aa/1c72d/simonherzog.jpg]SIMON HERZOG
+CEO, Anglemap
+
+Some people are natural explorers. I met Simon through my work and teaching with the Copenhagen Institute of Interaction Design,
+and our topics of conversation ended up swinging around quite wildly. Simon’s background is a bit all over. He has a background in
+business and venture capital, has worked as a prison guard, has hiked all around the world, and currently runs professional
+facilitation and education programs globally. You’re as likely to run into him hiking the Pamirs as you are to see him teaching a
+workshop in Tokyo or running a research program in Mumbai.
+
+Beyond that, he’s also an avid birder, maker of clothing and camping gear, and the son of Werner Herzog and Christine Maria
+Ebenberger. He runs a design consultancy called Anglemap, which you should consider working with.Anglemap
+[https://www.anglemap.com/]
+
+He also recently created an application for walking in others footsteps. It’s pretty fascinating.‎Peregrine Journey
+[https://apps.apple.com/dk/app/peregrine-journey/id1430790121]
+
+If there’s an article you want to read behind a paywall, you can print the tweets that quote from it and piece them together like
+a puzzle. [https://twitter.com/KarlreMarks/status/1264858292867784705]
+
+@KarlreMarks [https://twitter.com/KarlreMarks]HAPPENINGS
+East AsiaWhy Japan Doesn’t Learn English
+[https://foreignpolicy.com/2020/05/26/japan-doesnt-want-to-become-another-casualty-of-english/]This was an interesting one, as
+ultimately it seems a service and instructional design challenge with massive societal effects. The way one studies for an exam is
+perhaps not how one studies for language proficiency, leaving many behind.
+
+South AsiaThe Philippines’ Pandemic Response: A Tragedy of Errors
+[https://thediplomat.com/2020/05/the-philippines-pandemic-response-a-tragedy-of-errors/]The trend of demagogic leaders failing to
+respond effectively to the coronavirus is another study in constraints. When so much is tied to personality and bluster,
+charisma-focused regimes seem to fail in putting science at the fore.
+
+AmericasHow Cubans Lost Faith in Revolution - The New York Times
+[https://www.nytimes.com/2020/05/23/opinion/sunday/how-cubans-lost-faith-in-revolution.html]The story of Caridad Limonta paints an
+interesting societal picture through an individual loss of faith in ideology and purpose.
+
+MENAEid al-Fitr in the time of coronavirus
+[https://www.aljazeera.com/indepth/inpictures/pictures-eid-al-fitr-time-coronavirus-200524085824395.html]Images of Eid
+celebrations around the world, and the many ways that people are finding ways of being emotionally and spiritually close, even
+when we have to be physically different.
+
+AfricaSouth African bans on tobacco, liquor amid virus stir debate [https://apnews.com/fd95500dce636f3bc1d60b0e0476eb0f]People will
+always find ways around prohibition: culturally and chemically. Taken from one angle, banning substances that objectively put you
+at greater risk to the virus makes a huge amount of sense, but from another, such a prohibition might actually encourage riskier
+behaviour as people seek our their substance of choice.
+
+EuropeThe Kingdom of Denmark: Battleground for Great Power Competition over Control of the Arctic Region
+[https://www.cgai.ca/the_kingdom_of_denmark_battleground_for_great_power_competition_over_control_of_the_arctic_region]I actually
+found this pretty interesting. CGAI is a hawk-ish for Canada defence think tank that puts out some decent work. This analysis
+raised some interesting points on the geopolitical position Denmark will find itself in balancing the US, Canada, and Russia for
+control of the Northwest passage.
+
+READING AROUND
+thingstheycarried [https://divergeweekly.com/static/4f637a1a4c4f5192d94ac07c1da78aca/7b996/thingstheycarried.jpg]THE THINGS THEY
+CARRIED
+Tim O'Brien
+
+The Things They Carried by Tim O’Brien [https://amzn.to/3gC8aLE]
+
+I read this book for Veterans Day last year and was pretty struck by it. It’s a series of short stories that are partially real,
+partially fictionalized account of the author’s experience as a young officer in Vietnam. O’Brien quite brilliantly explores the
+balance between the real and the half remembered — the way that memory, distance, and shapes our emotional experience and identity
+afterwards. The eponymous chapter explores what each individual carried with them, and sets the tone for the detail and
+personality of the rest of the book. It’s really fantastic, sobering, and ultimately a pretty quick read that leaves you with a
+lot to consider.
+
+SECURITY BLANKET
+Source: Cpl. Donato Maffin [https://divergeweekly.com/static/166bc0159951118ed29d124f3966a868/1c72d/push.jpg]Women in Combat:
+Five-Year Status Update | Center for a New American Security
+[https://www.cnas.org/publications/commentary/women-in-combat-five-year-status-update]Very American centric, but an interesting
+survey on the role of women in the combat arms of the US military. Structurally there remains a huge number of barriers, and the
+military does appear to be making steps towards opening up those roles.
+
+The section on the special forces community is significant. Women have always worked with special forces teams, but often as
+outsiders or support personnel. In the US military, JSOC has its own procurement and healthcare system that supports the increased
+risk its members face, and many of those support roles which can face the same risk don’t get the same level of care if they get
+hurt, or quality of equipment to prevent injury in the first place.
+
+So. This is worth keeping an eye on. Countries like Norway and Israel both include women in compulsory conscription, Russia has
+historically seen considerable female participation in combat roles, and Canada opened up all roles to women in the eighties with
+our charter of rights and freedoms.
+
+GLOBAL DESIGN JOBS
+Research Ops for the NHS User Researcher/Research Ops, National Health Service
+[https://www.atscloud.co.uk/nhsdigital/displayjob.aspx?jobid=1528]Located in the UK
+
+This is a fun and important role. It’s an opportunity to build out the research operations team at the National Health Service in
+the UK. Based in either Leeds or London, you’ll be part shaping an entire community of practice and the tools they use. (I suggest
+Knowsi, personally)
+
+Comms internship at WFP Communications Intern, World Food Program
+[https://career5.successfactors.eu/career?career%5fns=job%5flisting&company=C0000168410P&navBarLevel=JOB%5fSEARCH&rcm%5fsite%5flocale=en%5fGB&career_job_req_id=122319&selected_lang=en_GB&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&_s.crb=w50udRB9LA6ZAwuMWckgf39vUWY%3d]
+Located in Canada
+
+Great early career step, possibly for someone graduating with a comms or graphic design degree. While this won’t be a role where
+you develop your craft deeply, it’ll give you some early insight into how design and strategy work in the NGO world. As someone
+who did a policy internship before going into design, I can definitely recommend.
+
+We find a lot of our postings on the incredible Design Gigs for Good
+[https://groups.google.com/forum/#!forum/design-gigs-for-good] board. 
+Give it a look![https://www.knowsi.com/static/tier1.png]KNOWSI
+Knowsi manages consent for user research. Send and track participant consent with custom forms and GDPR-focused tools.
+
+Join Knowsi today for free! [https://knowsi.com]
+
+photo by amira alsharif 6 [https://divergeweekly.com/static/39c49e3af7056a1ff11240ca7370bce0/1c72d/photo_by_amira_alsharif_6.jpg]
+Amira Al-Sharif [https://icorn.org/article/danger-lurks-just-beyond-frame-photojournalist-amira-al-sharif-icorn-resident-paris] 
+was born in Saudi Arabia and raised in Yemen. She has received project grants from AFAC, Magnum Foundation, and Prince Claus
+Foundation. As an educator, she is committed to educating Yemeni photographers, and runs workshops in documentary photography and
+photojournalism.
+
+Please share Diverge weekly, either by forwarding this email or by sharing this link.https://divergeweekly.com/issue/12/
+[https://divergeweekly.com/issue/12/]Diverge Weekly is a newsletter exploring design in a global context, outside of the familiar western lens on design practice.
+Great services, purposeful architecture, incredible products, thoughtful interfaces: these emerge where person-centric and
+systems-oriented sensibility combine with a practice of making things tangible.
+
+Our goal: provide a gateway for designers to get involved in global design practice by curating jobs, stories, and context with a
+lens to being critical about where design can play a role. In particular, we hope to identify opportunities where design has NOT
+traditionally had a seat (defence, global development, diplomacy), and work with our audience to infiltrate and have a design-led
+impact. 
+
+Click here to unsubscribeSPONSOR AN ISSUE
+Sponsor an Issue [https://divergeweekly.com/sponsor/issue]Post a Job [https://divergeweekly.com/sponsor/job]Classified Ad
+[https://divergeweekly.com/sponsor/ad]Published by Andrew Lovett-Barron [https://andrewlb.com] at Stupid Systems LLC
+113 Cherry St #54268, Seattle, WA 98104, USA.
