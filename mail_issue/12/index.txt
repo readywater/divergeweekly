@@ -17,7 +17,7 @@ most of it), but it tells an interesting story of constraint.
 Given the competition between American and Soviet blocs during the Cold War, many different mechanisms for influence spun out for
 lack of the more direct military one. Instead of the two nuclear armed powers going toe-to-toe, competition occurred through proxy
 conflicts as with the Soviet engagement in Afghanistan vs. the CIA-backed Jihadis, and through foreign interventions in the
-domestic politics of polities across Africa, MENA, and LATAM. It also occurred through weaponized culture from posturing in chess
+domestic politics of polities across Africa, MENA, and LATAM. It also occurred through weaponized culture like posturing in chess
 and the olympics, smuggling banned literature [https://www.cia.gov/library/readingroom/collection/doctor-zhivago], and perhaps
 this particular power ballad. As justifiably divisive as the CIA can be, that such an innovation might have emerged from the
 constraints presented by the Cold War and the bureaucracy of the CIA is itself a fascinating mystery to explore.
@@ -43,7 +43,7 @@ able to be becomes inexorably constrained. And yet, reading her essay and her in
 given her a lens and sensitivity that empowers her to tell stories and capture photos no one else could.
 
 DSCF5878 [https://divergeweekly.com/static/7f69f975450d1c31cf8eb1b372888af9/1c72d/DSCF5878.jpg]Amira and her fellow authors in Our
-Women on the Ground expressed and creates as fervently as they could — each encountering different and overlapping constraints in
+Women on the Ground expressed and created as fervently as they could — each encountering different and overlapping constraints in
 their individual countries, cultures, and communities. Lina Attalah, founder of Mada Masr [https://madamasr.com/en], writes of her
 evolving relationship with her father, relative to her identity as a feminist, an activist, a journalist, and an entrepreneur in
 Egypt. That consideration helped her find a point of connection as well: wondering how the constrained expectations the state had
@@ -67,10 +67,10 @@ Simon Herzog [https://divergeweekly.com/static/d1029da95b911c1c367ca31b644943aa/
 CEO, Anglemap
 
 Some people are natural explorers. I met Simon through my work and teaching with the Copenhagen Institute of Interaction Design,
-and our topics of conversation ended up swinging around quite wildly. Simon’s background is a bit all over. He has a background in
-business and venture capital, has worked as a prison guard, has hiked all around the world, and currently runs professional
-facilitation and education programs globally. You’re as likely to run into him hiking the Pamirs as you are to see him teaching a
-workshop in Tokyo or running a research program in Mumbai.
+and our topics of conversation ended up swinging around quite wildly. He has a background in business and venture capital, has
+worked as a prison guard, has hiked all around the world, and currently runs professional facilitation and education programs
+internationally. You’re as likely to run into him hiking the Pamirs as you are to see him teaching a workshop in Tokyo or running
+a research program in Mumbai.
 
 Beyond that, he’s also an avid birder, maker of clothing and camping gear, and the son of Werner Herzog and Christine Maria
 Ebenberger. He runs a design consultancy called Anglemap, which you should consider working with.Anglemap
@@ -134,14 +134,15 @@ Five-Year Status Update | Center for a New American Security
 survey on the role of women in the combat arms of the US military. Structurally there remains a huge number of barriers, and the
 military does appear to be making steps towards opening up those roles.
 
-The section on the special forces community is significant. Women have always worked with special forces teams, but often as
-outsiders or support personnel. In the US military, JSOC has its own procurement and healthcare system that supports the increased
+The section on the special forces community is worth considering. Women have always worked with special forces teams, but often as
+outsiders or support personnel. In the US military, SOF has its own procurement and healthcare system that supports the increased
 risk its members face, and many of those support roles which can face the same risk don’t get the same level of care if they get
 hurt, or quality of equipment to prevent injury in the first place.
 
 So. This is worth keeping an eye on. Countries like Norway and Israel both include women in compulsory conscription, Russia has
 historically seen considerable female participation in combat roles, and Canada opened up all roles to women in the eighties with
-our charter of rights and freedoms.
+our charter of rights and freedoms. As the largest military in the world slowly catches up, it will be interesting to see how it
+navigates that evolution and how that trickles down into a society as a whole.
 
 GLOBAL DESIGN JOBS
 Research Ops for the NHS User Researcher/Research Ops, National Health Service
